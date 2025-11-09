@@ -1,0 +1,20 @@
+---
+title: "Understanding Climate Change"
+subtitle: "Part 2: The evidences for climate change"
+author: "Ankur Jamwal"
+date: "2023-12-22"
+categories: [climate change, Carbon Emissions, Climate Debate, IPCC, climate denial, climate skepticism, vostok, ice core]
+draft: TRUE
+format: html
+bibliography: references.bib
+---
+
+This blog is second in the two-part series on '*Understanding Climate Change'*. In the first part I wore the hat of a skeptic and presented data-based arguments against climate change. I think that one can only really being to understand an issue if they begin by being a skeptic. Thus, if you want a quick brush-up of facts in favour of climate change then continue to read; however, I recommend that you read the [first part](https://ankurjamwal.quarto.pub/posts/CC_real/CC_real.html) of the blog to really understand the premise of some of the arguments presented in the current blog.
+
+## What is Climate Change?
+
+In simpler terms, climate change refers to long-term (\> 30 years) shift in temperature and weather patterns. This could be due to natural or anthropogenic causes. The IPCC's definition is also similar; however, these definitions seem to create no distinction between natural and anthropogenic climate change, which leads to skepticism. However, the *Framework Convention on Climate Change (UNFCCC)*, in its Article 1, defines climate change as: 'a change of climate which is attributed directly or indirectly to human activity that alters the composition of the global atmosphere and which is in addition to natural climate variability observed over comparable time periods.' The UNFCCC thus makes a distinction between **climate change attributable to human activities** altering the atmospheric composition and **climate variability attributable to natural causes**.
+
+## First, a look at what has happened that makes us that the earth is heating up.
+
+talk of glacial mass loss, temperatuer anomaly, mean ocean level, ocean heat content, global precipitaion, carbondioxide

@@ -1,0 +1,635 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Blog: The Good Food</title>
+<link>https://ankurjamwal.quarto.pub/blog-the-good-food/</link>
+<atom:link href="https://ankurjamwal.quarto.pub/blog-the-good-food/index.xml" rel="self" type="application/rss+xml"/>
+<description>A discussion on climate change and our food systems</description>
+<generator>quarto-1.8.25</generator>
+<lastBuildDate>Fri, 12 May 2023 18:30:00 GMT</lastBuildDate>
+<item>
+  <title>Understanding Climate Change</title>
+  <dc:creator>Ankur Jamwal</dc:creator>
+  <link>https://ankurjamwal.quarto.pub/blog-the-good-food/posts/CC_real/CC_real.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+
+<blockquote class="blockquote">
+<p><strong>Last update: September 23, 2023</strong></p>
+<p>“Dishonesty inspires more euphemisms than copulation or defecation. This helps desensitize us to its implications. In the post-truth era we don’t just have truth and lies but a third category of ambiguous statements that are not exactly the truth but fall just short of a lie.&nbsp;<em>Enhanced truth</em>&nbsp;it might be called.&nbsp;<em>Neo-truth. Soft truth. Faux truth. Truth lite</em>.”</p>
+<p>… Ralph Keyes (The Post-Truth Era)</p>
+</blockquote>
+<section id="why-are-we-debating-climate-change" class="level1">
+<h1>Why are we debating climate change?</h1>
+<p>People love to debate on social media. I love debates. I love conspiracy theories too. Some of my favourite topics are <em>moon landing is a hoax</em>, <em>Earth is flat,</em> and <em>climate change is not real.</em></p>
+<p>I have no doubts about the spherical nature of Earth, and it would really break my heart if some day they could prove inconclusively that the moon landing of Neil Armstrong et al never happened. Nonetheless, it is fun to watch people get creative while they quibble over earth’s shape and moon landing. But, I do not think that these two topics have much impact on the society or how people live their daily lives. However, climate change is a serious issue, it affects our survival.</p>
+<p>If climate change is as big an issue as professed by most scientists, tackling it would require all our efforts and lots of money. In fact, our governments are already funding research and making policies to counter the purported ill effects of climate change.</p>
+<p>Conversely, if climate change is a mere hoax then spending billions of dollars (or any currency for that matter) of public funds on it would amount to nothing. Instead, this money could be used for other causes like public health, sanitation and education. For the sake of perspective, the Climate Policy Initiative estimates that USD 632 billion were spent in the fiscal year 2019-20 on various aspects related to climate change mitigation and adaptation. This is in contrast to USD 4.35 trillion annual financing required to meet the global climate objectives <span class="citation" data-cites="cpi2021">(CPI 2021)</span>.</p>
+</section>
+<section id="do-i-believe-in-climate-change" class="level1">
+<h1>Do I believe in climate change?</h1>
+<p>Let us find out at the end of the blog if I am a believer. Sometimes I do feel conflicted and hope that by the end of the blog I would have found enough empirical evidences to chose a side.</p>
+<section id="the-climate-change-denial" class="level3">
+<h3 class="anchored" data-anchor-id="the-climate-change-denial">The Climate Change Denial</h3>
+<p>Actually, almost nobody denies that climate is changing. Also, the so called <em>climate change deniers</em> call themselves <em>skeptics</em> and they accept that the climate on Earth is changing. But they contest the role of humans and accelerating nature of climate change. This could be due to economic interests (fossil fuel companies), political affiliations (especially in the US), or religious beliefs (beyond my understanding).</p>
+<p>Most of us have experienced that summers are getting really hot <a href="https://www.nytimes.com/2023/07/18/world/extreme-heat-wave-us-europe-asia.html" title="Global extreme heat">these days</a>. I read that it hasn’t rained in some parts of the world, or excessive rains have devastated <a href="https://www.tribuneindia.com/news/features/kullu-ravaged-525989">some regions</a>. Oh that <a href="https://www.nbcnews.com/news/world/libya-flood-explained-conflict-corruption-climate-change-derna-dams-rcna105219">flood in Libya</a>. Heat has destroyed standing crops. Some waterfalls near my home had dried up but then the rivulets have been wrecking havoc every monsoon due to cloudburts.</p>
+<p>Perhaps extra heat that we feel could be because of our poor choices of house construction and concretization of the cities and villages. Drying up of wells and rivers could be just because of deforestation or excess water extraction from the streams and water table to support increasing human population. We may complain of hot summers but we also read that some places are facing snow storms and prolonged cold waves. What are we to judge from these conflicting weather conditions?</p>
+<p>What about the extreme weather events like floods, heavy rainfalls, and cyclones? Well, weather has always been unpredictable. We, and our ancestors, have witnessed crazy downpours and floods multiple times. Humans have a habit of fixating over extreme events and find reasons beyond their control to curse. Most of the year the weather seems fine, except for a few days. Extreme weather events were always there. It is just that we read more about them these days from social media and then over think the calamities – sensationalism sells! Perhaps, things were always like this and we just created an excuse to hide the government’s incompetence.</p>
+<p>As mentioned in the Keyes’ quote at the start of this blog, we live in an era where the truth is hidden behind the arguments of pseudoscience. A confusion in the minds of the people living on our planet is dangerous as it could deviate their focus from issues that really matter and holding their governments accountable. So, make good use of your time, read on, and decide if you want to spend your future on denying or supporting climate change.</p>
+<p>First, arguments from the climate change deniers/skeptics.</p>
+</section>
+<section id="the-computer-models-to-ascertain-climate-change-are-faulty" class="level3">
+<h3 class="anchored">The computer models to ascertain climate change are faulty</h3>
+<p>The climate change projections depend on computer models because of two main reasons;</p>
+<ul>
+<li>We cannot conduct control experiments to evaluate the cumulative effects of environmental elements such as carbon dioxide, clouds, snow, glaciers on global temperature. There are just too many elements that contribute to the warming of earth and each of these elements is dynamic with varying effects. We need computer to do the calculation for us keeping in mind the effects of various variables and their dynamic nature.</li>
+<li>We do not have direct historic instrumental readings of temperature so we have to depend on proxies such as carbon isotopes, ice core elements, and reading tree rings (this is a lot more technical and definitely not similar to reading tea leaves).</li>
+</ul>
+<p>Computer models usually work on the principle of <em>garbage in, garbage out</em>. Thus, a computer’s estimate is just as reliable as the input data. Patrick Frank in his <a href="https://www.jstor.org/stable/43735017?seq=1#page_scan_tab_contents">paper</a> suggested that the thermometers that provided us with the readings during the reference period had some errors which were handled or processed incorrectly. Consequently, based on his calculations, the temperature anomaly during 1856 – 2004 period was 0.84 ℃ with an error of 0.98 ℃ (95 % confidence). From this, Patrick Frank concluded that we cannot claim that the earth has really warmed and even though there is an upward trend, it could be attributed only to random reasons with no reason for an alarm. Thus, it is obvious that when one enters the data that intrinsically has high variability, then the output would also have similar level of error – giving us poor confidence.</p>
+<p>You may refer to Patrick Franks <a href="https://www.jstor.org/stable/43735017?seq=1#page_scan_tab_contents">paper</a> to see the graphs and figures. I do not think I can show them here due to copyright issues. But please understand that the inferences in Patrick Frank’s paper are drawn from his own calculations, which may not be a standard in the scientific community.</p>
+<div class="callout callout-style-default callout-tip callout-titled" title="Reference period">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Reference period
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<section id="reference-period" class="level2 callout-body-container callout-body">
+<h2 class="anchored" data-anchor-id="reference-period">Reference period</h2>
+<p>IPCC and NASA compare the current global average temperature against the 1850 – 1900 period (aka the reference period or climate normal). This is the earliest period for which we have the direct measurements of sea and land surface temperature at a global scale. However, the Word Meteorological Organization (WMO) has recommended that the climate normal should be updated every decade. Thus, you may find that the WMO and the US National Oceanic and Atmospheric Administration (NOAA) use 1901 – 2000 as the climate normal or the reference period.</p>
+<p>I will stick to the IPCC’s definition for the most part of this blog, unless explicitly mentioned otherwise.</p>
+<p>Temperature anomaly would then refer to departure (negative or positive) from the reference period.</p>
+</section>
+</div>
+</div>
+</section>
+<section id="different-scientific-agencies-have-their-own-version-of-climate-change" class="level3">
+<h3 class="anchored" data-anchor-id="different-scientific-agencies-have-their-own-version-of-climate-change">Different scientific agencies have their own version of climate change</h3>
+<p>The entire argument about climate change pivots on one point – the current average temperature of earth is more than what it should be. But, how much <em>should be</em> the Earth’s temperature?</p>
+<p>John Tyndall, in 1859-60, showed in his newly invented spectrophotometer that carbon dioxide and water vapour can absorb a lot of heat. Although Eunice Foote, in 1856 had written for <a href="https://archive.org/details/mobot31753002152491/page/381/mode/2up?view=theater">The American Journal of Science</a>, that carbon dioxide can absorb heat. But Foote was a woman, so was not allowed to present her work in front of the <em>learned</em> scientific community. Nonetheless, based on Tyndall’s discovery, the Swedish scientist Svante Arrhenius predicted in 1896, for the first time, that carbon dioxide from burning fossil fuels would cause global warming. Arrhenius said that mere doubling of carbon dioxide in atmosphere could lead to 5 - 6 ℃ rise in global temperature. The scientists have ran those calculation again and again, and still swear by Arrhenius’ work to show that Industrial Revolution resulted in a sudden spike in global carbon dioxide which caused global warming and climate change. However, we do not have sufficient data from direct readings to prove it.</p>
+<p>To begin with, the Industrial Revolution is considered to have happened between 1760 and 1840, but we have global average temperature measurements from thermometers since 1850 only. The temperatures for the period before 1850 are calculated using computer models and proxies which have large error. This is really unfortunate because the modern mercury thermometer was already invented by Daniel Gabriel Fahrenheit in 1714. We were 136 years late to use thermometers for atmospheric readings at a global scale. Furthermore we have precise records of atmospheric carbon dioxide only since 1958, approximately 108 years after we began measuring surface temperature at the global scale!</p>
+<div class="callout callout-style-default callout-tip callout-titled" title="Global surface temperature">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Global surface temperature
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Global surface temperature is an average of land and sea surface temperatures.</p>
+<p>The land-surface temperatures are recorded as the heat of the air 2 m above the surface of the land. The sea-surface temperature refers to the temperature of the top few millimeters of sea water.</p>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-tip callout-titled" title="First carbon dioxide measurements">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>First carbon dioxide measurements
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-3" class="callout-3-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Charles David Keeling of the Scripps Institution of Oceanography began the first precise measurement of atmospheric carbon dioxide concentration in the year 1958 at the Mauna Loa base in Hawaii.</p>
+</div>
+</div>
+</div>
+<p>Not only did humans lack global readings before 1850, the measurements until early 1900 were still not really reliable. As can be imagined, it is difficult to establish permanent weather stations over oceans, especially over the shifting ice in the poles. Thus, some datasets do not account for the sea surface temperatures (eg. HadCRUT), while some use approximations through readings from the nearest weather stations (eg. NASA). Due to varied data collection, the estimate of Earth’s average surface temperature for the reference period (1850 – 1900) is inconsistent between different climate monitoring agencies (see Figure&nbsp;1 ). Since the baseline data differs from agency to agency, the estimate of global warming also differs. For example, the NASA’s GISTEMP record, which takes into account the Arctic temperature, shows more warming than the UK Met Office’s HadCRUT data. This is because polar regions have experienced more warming and any dataset that includes this warming will show higher average global temperature in comparison to the reference period.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div id="fig-agency" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-agency-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="https://ankurjamwal.quarto.pub/blog-the-good-food/posts/CC_real/CC_real_files/figure-html/fig-agency-1.png" class="img-fluid figure-img" width="672">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-agency-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: Different agencies might have their own estimates of temperature anomalies due to data acquisition or handling
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-tip callout-titled" title="Oldest temperature record">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Oldest temperature record
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-4" class="callout-4-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>The oldest direct instrumental measurement of atmospheric temperature exists for <a href="https://www.metoffice.gov.uk/hadobs/hadcet/">Central England temperature</a> (CET), which began measuring atmospheric temperature in 1659.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="the-computer-models-exaggerate-the-warming-effects-of-atmospheric-carbon-dioxide" class="level3">
+<h3 class="anchored" data-anchor-id="the-computer-models-exaggerate-the-warming-effects-of-atmospheric-carbon-dioxide">The computer models exaggerate the warming effects of atmospheric carbon dioxide</h3>
+<p>Just as different agencies have their own ways of measuring global average temperature, the climate model experiments run by various agencies also differ in their temperature projections. This is why IPCC came up with <em>Coupled Model Intercomparison Project</em> (CMIP). The CMIP allows various models to be analyzed and compared. In the 6<sup>th</sup> version of CMIP (CMIP6) the IPCC compared around 100 models and found that a lot of these models showed very high sensitivity to carbon dioxide. Which means that these models were showing very high warming (upto 5 °C) when atmospheric carbon dioxide was doubled. Moreover, when these models were used to backtrace Earth’s temperature, they failed miserably. This made IPCC to realise that just averaging the results of all the climate change models is not a good idea as this would over estimate the warming potential of carbon dioxide. Instead, the IPCC has now assigned weightage to each model – the more accurate the model, the higher its weightage. This would eliminate the overestimation bias in the IPCC’s predictions. Just excluding ‘too hot’ models could be done but then each model has some good thing to offer which cannot be neglected and should be used in the overall prediciton models <span class="citation" data-cites="hausfather2022a">(Hausfather et al. 2022)</span>.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://ankurjamwal.quarto.pub/blog-the-good-food/posts/CC_real/graphics/hot.png" class="img-fluid figure-img" style="width:50.0%"></p>
+<figcaption>Climate models are too sensitive</figcaption>
+</figure>
+</div>
+</section>
+<section id="carbon-dioxide-is-not-even-a-greenhouse-gas" class="level3">
+<h3 class="anchored" data-anchor-id="carbon-dioxide-is-not-even-a-greenhouse-gas">Carbon dioxide is not even a greenhouse gas</h3>
+<p>Some skeptics say that that carbon dioxide is not even a greenhouse gas. Skeptics cite the period between 1943 and 1975, when the global temperature decreased despite an increase in the atmospheric carbon dioxide.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div id="fig-period" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-period-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="https://ankurjamwal.quarto.pub/blog-the-good-food/posts/CC_real/CC_real_files/figure-html/fig-period-1.png" class="img-fluid figure-img" width="672">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-period-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2: The global carbon dioxide continued to soar between 1943 and 1975 but there was no change in global surface temperature during that period.
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>As can be seen from the Figure&nbsp;2, between 1943 and 1975, the carbon dioxide emissions increased by 12.01 billion tonnes. However, the mean temperature anomaly during the same period was -0.09 °C; <em>a fall in global temperature</em>!</p>
+</section>
+<section id="the-vostok-ice-core" class="level3">
+<h3 class="anchored" data-anchor-id="the-vostok-ice-core">The Vostok Ice core</h3>
+<p>If you are reading this blog then the chances are that you must have heard about the <em>Vostok Ice Cores</em>. For those who do not know what Vostok Ice Cores are, a collapsible call-out tip is here to help.</p>
+<div class="callout callout-style-default callout-tip callout-titled" title="The Vostok Ice Cores">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>The Vostok Ice Cores
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-5" class="callout-5-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Vostok sounds a very Russian name. Though it is a Russian name, the place Vostok we are talking about is not in Russia. Vostok refers to a place in Antarctica, 1,301 Km East to the Geographical South Pole. This place has a Russian Antarctica Research station with facilities to drill ice and extract cores. The Vostok station was established in December 1957 and the core drilling began in the year 1970s with French collaboration. Multiple cores reached a depth of 3,623 meters and has proven to be Pandora’s box of environmental conditions stretching 420,000 years</p>
+</div>
+</div>
+</div>
+<p>Scientists have studied the elements and gases trapped in the ice cores for ages and used it as proxies to determine Earth’s past. For example, air in ice bubbles was analyzed to determine the atmospheric gaseous concentration. Excess of deuterium (<sup>2</sup>H) to protium (<sup>1</sup>H), expressed as 𝛅D, is used to estimate paleo temperatures.</p>
+<p>The Vostok ice cores were supposed to put an end to the climate change and global warming debate but it gave a shot in the arm to the skeptics. If CO<sub>2</sub> were to be blamed for rising global temperatures, then the pattern of Earth’s temperature (or 𝛅D) should align with the pattern of CO<sub>2</sub>. Or, temperature should rise and fall after the rise and fall of CO<sub>2</sub>. However, at the beginning of the last ice age (114000 – 130000 years for present years) the 𝛅D began to fall without any change in CO<sub>2</sub> for almost 14000 years! Thereafter, the temperature (measured as 𝛅D) began to rise; however, CO<sub>2</sub> continued to fall. This gives a strong indication, almost proves that CO<sub>2</sub> has almost no role to play in Earth’s temperature Figure&nbsp;3.</p>
+<p>The period, 114000 – 130000 years is plotted separately with a linear regression line (in red) to demonstrate that there was a continuous decline in global surface temperature against an almost negligible decline in global CO<sub>2</sub> (see Figure&nbsp;4).</p>
+<div id="fig-vostok" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-vostok-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="https://ankurjamwal.quarto.pub/blog-the-good-food/posts/CC_real/graphics/VostokC_D.png" class="img-fluid quarto-figure quarto-figure-center figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-vostok-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;3: CO<sub>2</sub> and Deuterium excess measured from the Vostok Ice Cores. The figure shows that at the beginning of the last ice age, the temperature fell significantly but not the CO2 concentration (See the region highlighted in grey and marked with a magenta line.)
+</figcaption>
+</figure>
+</div>
+<div id="fig-vostok_z" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-vostok_z-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="https://ankurjamwal.quarto.pub/blog-the-good-food/posts/CC_real/graphics/vostok_zoom.png" class="img-fluid quarto-figure quarto-figure-center figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-vostok_z-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;4: The period 114000 – 130000 before present zoomed-in to show that global surface temperature continued to decline for thousands of years with almost no decline in global CO<sub>2</sub> level. A red linear regression line is drawn to better understand the trend of the datapoints available for the period.
+</figcaption>
+</figure>
+</div>
+<p>Also, upon closer examination of the entire Vostok Ice Core data (Figure&nbsp;3), you would find that in many cases it is the change in the temperature that leads the change in CO<sub>2</sub> trend. This could be interpreted as temperature being a driving force for the global CO<sub>2</sub> concentration.</p>
+</section>
+<section id="conclusion" class="level2">
+<h2 class="anchored" data-anchor-id="conclusion">Conclusion</h2>
+<p>The data, that the climate scientists use to prove climate change and global warming, itself sometimes shows that our Earth is warming up not because of anthropogenic CO<sub>2</sub>, but due to some other unknown reasons. It could be solar activity, cloud behaviour or just an unknown entity that we are chosing to ignore because of our obsession to shut the fossil fuel industry. Whether we like it or not, the fossil fuel industry is here to stay for some time because we still haven’t found proper alternatives for it. People are against wind energy because it kills birds. People do not want nuclear energy because we fear incidences like Chernobyl and Fukushima. Solar is just not dependable; especially during rainy days. Now is the time for new blog on why scientists think that anthropogenic climate change is real. I hope you enjoyed this blog. If yes then please share it with your friends and drop a comment below. I would love to hear from you. Just be nice though 😊.</p>
+
+
+
+</section>
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0">
+<div id="ref-cpi2021" class="csl-entry">
+CPI. 2021. <span>“Global Landscape of Climate Finance 2021.”</span> <a href="https://www.climatepolicyinitiative.org/wp-content/uploads/2021/10/Full-report-Global-Landscape-of-Climate-Finance-2021.pdf">https://www.climatepolicyinitiative.org/wp-content/uploads/2021/10/Full-report-Global-Landscape-of-Climate-Finance-2021.pdf</a>.
+</div>
+<div id="ref-hausfather2022a" class="csl-entry">
+Hausfather, Zeke, Kate Marvel, Gavin A. Schmidt, John W. Nielsen-Gammon, and Mark Zelinka. 2022. <span>“Climate Simulations: Recognize the <span>‘</span>Hot Model<span>’</span> Problem.”</span> <em>Nature</em> 605 (7908): 26–29. <a href="https://doi.org/10.1038/d41586-022-01192-2">https://doi.org/10.1038/d41586-022-01192-2</a>.
+</div>
+</div></section></div> ]]></description>
+  <category>climate change</category>
+  <category>Carbon Emissions</category>
+  <category>Climate Debate</category>
+  <category>IPCC</category>
+  <category>climate denial</category>
+  <category>climate skepticism</category>
+  <category>vostok</category>
+  <category>ice core</category>
+  <guid>https://ankurjamwal.quarto.pub/blog-the-good-food/posts/CC_real/CC_real.html</guid>
+  <pubDate>Fri, 12 May 2023 18:30:00 GMT</pubDate>
+</item>
+<item>
+  <title>Climate change has already started to challenge India’s wheat production</title>
+  <dc:creator>Ankur Jamwal</dc:creator>
+  <link>https://ankurjamwal.quarto.pub/blog-the-good-food/posts/wheat_heat/wheat_heat.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+
+<section id="background" class="level1">
+<h1>Background</h1>
+<p>Last update: May 04, 2023</p>
+<p>Let us begin by looking at the screenshots of two news headlines from the Reuters website. Pay attention to what the headlines have to say, and the dates when the news articles were published.</p>
+<div id="fig-headlines" class="quarto-layout-panel">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-headlines-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: center;">
+<p><img src="https://ankurjamwal.quarto.pub/blog-the-good-food/posts/wheat_heat/graphics/reuters_1.png" class="img-fluid figure-img"></p>
+</div>
+</div>
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: center;">
+<p><img src="https://ankurjamwal.quarto.pub/blog-the-good-food/posts/wheat_heat/graphics/reuters_2.png" class="img-fluid figure-img"></p>
+</div>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-headlines-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: Contrasting headlines on the same subject
+</figcaption>
+</figure>
+</div>
+<p>These both reports were written by the same reporter, in the same year, but only 16 days apart.</p>
+<p>It is a déjà-vu of the year 2022. I was working in an agricultural university and everyone, from scientists to the policy makers, were elated about the swaying bumper wheat crop in the fields. But, as they say, do not count your chicken before they hatch. In a matter of two weeks, the entire standing crop experienced unprecedented heat in the end of February and the crop, that should have turned golden-yellow in a few days, turned dark brown and died. In the same month Russia, the world’s largest wheat exporter and Ukraine, Europe’s bread basket entered war. Most nations were now staring at the impending wheat scarcity and entering agreements to trade wheat. <a href="https://www.thehindubusinessline.com/economy/agri-business/rejected-by-turkey-accepted-by-israel-an-indian-wheat-export-story/article65657877.ece#:~:text=Turkey%20had%20rejected%2056%2C877%20tonnes,conglomerate%20to%20a%20Dutch%20trader." title="Tukey rejects India's wheat">Some countries used wheat as a political tool</a>, perhaps oblivious of the severity of the situation. At least India understood that its own wheat stockpiles were could be affected due to crop damage and an export ban was implemented.</p>
+<p>The climate scientists and <a href="https://ankurjamwal.quarto.pub/posts/AR6/ar6.html">the IPCC had predicted</a> that winter crops like wheat would bear the brunt of climate-induced aberrations in weather. Perhaps, the year 2022 was an anomaly; after all, weather is unpredictable and you don’t see a major war every year. But, we will soon see that the signs of heat-stress-induced crop failure had started to appear in the year 2021, and it continues into the year 2023. Oh! Those weren’t even the years of El niño, which is forecast to begin in the north-hemispheric summer of 2023.</p>
+<p>Let’s dive into some data viz.</p>
+</section>
+<section id="wheat-and-food-security" class="level1">
+<h1>Wheat and food security</h1>
+<p>“Why wheat,” you may ask that. Simple answer to that question would be that wheat is a major global crop. For more details, continue reading…</p>
+<section id="wheat-is-a-major-global-crop---production-consumption-and-calories" class="level2">
+<h2 class="anchored" data-anchor-id="wheat-is-a-major-global-crop---production-consumption-and-calories">Wheat is a major global crop - production, consumption and calories</h2>
+<p>Considering the cultivable area, both corn and wheat stand neck-to-neck. In the year 2021, the corn (maize) was grown in 213,326,425 ha, whereas wheat was harvested from 213,529,260 ha. However, the global maize production in the same year was almost twice that of wheat (1,415,096,806 tonnes of corn <em>vs</em>. 749,000,362 tonnes of wheat). See Figure&nbsp;2 and Figure&nbsp;3. Interestingly though, despite more corn production, wheat contributes to approximately 20 % of global calorie consumption against only 10 % from corn. This is due to diversion of most corn harvest for non-human consumption, such as use in animal feed and to make bio fuel. In contrast, wheat is grown primarily for human consumption – approximately 2.5 billion people in 89 countries consume wheat as their staple. Thus, the importance of wheat in food and nutritional security cannot be ignored. This is also the reason why most countries maintain a buffer stock of wheat to feed their population in case of crop failures. India also maintains a <a href="https://dfpd.gov.in/foodgrain-stocking-norms.htm">buffer stockpile</a>.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div id="fig-area" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-area-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="https://ankurjamwal.quarto.pub/blog-the-good-food/posts/wheat_heat/wheat_heat_files/figure-html/fig-area-1.png" class="img-fluid figure-img" width="672">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-area-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2: Harvested area for major cereal crops globally
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<div id="fig-prod" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-prod-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="https://ankurjamwal.quarto.pub/blog-the-good-food/posts/wheat_heat/wheat_heat_files/figure-html/fig-prod-1.png" class="img-fluid figure-img" width="672">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-prod-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;3: Harvested quantity (in tonnes) for major cereal crops globally
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="how-is-indias-wheat-stockpile" class="level2">
+<h2 class="anchored" data-anchor-id="how-is-indias-wheat-stockpile">How is India’s wheat stockpile?</h2>
+<div class="cell">
+<div class="cell-output-display">
+<div id="fig-stockpile" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-stockpile-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="https://ankurjamwal.quarto.pub/blog-the-good-food/posts/wheat_heat/wheat_heat_files/figure-html/fig-stockpile-1.png" class="img-fluid figure-img" width="672">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-stockpile-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;4: Wheat stockpile (central pool) since 2002
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>As can be seen from Figure&nbsp;4, India’s wheat stockpile have been the lowest, and touched the minimum threshold, since the year 2016. Good news, the the threshold level is intact and the wheat procurement season is underway (as of May 01, 2023). Since wheat is a seasonal crop, cyclical depletion of the stockpiles during the <em>off-season</em> is normal. Also, the government of India had to use its stocks to provide free and cheap grains during the COVID-19 period as welfare measure. Selling off the stocks could have also happened to check the prices of wheat in the market.</p>
+<p>However, the bad news is that the stockpile replenishment in the year 2021-22 wasn’t good enough. In fact, it was lowest since the year 2007. Another year of poor wheat production can really stress the stocks.</p>
+<section id="indias-consumption-and-production-gap" class="level3">
+<h3 class="anchored" data-anchor-id="indias-consumption-and-production-gap">India’s Consumption and production gap</h3>
+<div class="cell">
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: A numeric `legend.position` argument in `theme()` was deprecated in ggplot2
+3.5.0.
+ℹ Please use the `legend.position.inside` argument of `theme()` instead.</code></pre>
+</div>
+<div class="cell-output-display">
+<div id="fig-consumption" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-consumption-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="https://ankurjamwal.quarto.pub/blog-the-good-food/posts/wheat_heat/wheat_heat_files/figure-html/fig-consumption-1.png" class="img-fluid figure-img" width="672">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-consumption-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;5: Export and consumption of wheat go neck-to-neck in India
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>India’s wheat production and consumption is mostly neck-to-neck (Figure&nbsp;5). Thus, absence of a healthy stockpile can be detrimental for the nation’s food security if crop failures become a regular feature. Not only will the availability of wheat become a problem, the scarcity of wheat may push the prices higher – resulting in wheat becoming out of reach for many. Perhaps, the export ban of Indian wheat will <a href="https://economictimes.indiatimes.com/news/economy/foreign-trade/wheat-export-ban-to-continue-for-now-piyush-goyal/articleshow/99462437.cms?from=mdr">continue</a> to increase the domestic availability and curb price rise. Inflation has definitely broken backs of many Indian households already.</p>
+</section>
+</section>
+</section>
+<section id="the-climate-change-angle" class="level1">
+<h1>The Climate Change angle</h1>
+<p>As we have seen that India’s wheat stockpiles have been dwindling since the year 2021 and it has reached precarious levels in the year 2023. As a consequence, India had to implement an export ban. The situation is also delicate because India consumes almost all its own wheat produce, and a significant decline in production could result in the demand exceeding the supply, causing market shortage and prices of the wheat to rise. No government would like to see a situation where a staple food item creates financial burden over its citizens. But then what is the root cause of the situation that India currently finds itself in? The reasons could be many, including emptying the stores for welfare measures. However, digging a bit deeper into the historical weather data will show that the weather pattern that favours food wheat yield has changed in the years when the wheat supply was stressed.</p>
+<p>You see, wheat is a rabi crop. Which means, it is sown in the winter months and harvested just before the peak summer hits the country. This season in wheat growing parts is usually accompanied by low to moderate temperatures, increasing daylight, and low rainfall. Consequently, wheat grows best in the temperature ranging from 18 - 24 ℃ (<span class="citation" data-cites="ottman2012">Ottman et al. (2012)</span> ). Temperature becomes a critical variable in the months of February and March when wheat plant begins to flowering (anthesis) and filling its grain size (milking). Temperatures above 30 ℃ (<em>terminal heat</em>) in the flowering and milking months can cause flower sterility and reduce grain size (<span class="citation" data-cites="dubey2020">Dubey et al. (2020)</span> ) (Figure&nbsp;6).</p>
+<div id="fig-climate_change" class="quarto-layout-panel">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-climate_change-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: center;">
+<p><img src="https://ankurjamwal.quarto.pub/blog-the-good-food/posts/wheat_heat/graphics/uttar_pradesh.jpg" class="img-fluid figure-img"></p>
+</div>
+</div>
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: center;">
+<p><img src="https://ankurjamwal.quarto.pub/blog-the-good-food/posts/wheat_heat/graphics/madhya_pradesh.jpg" class="img-fluid figure-img"></p>
+</div>
+</div>
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: center;">
+<p><img src="https://ankurjamwal.quarto.pub/blog-the-good-food/posts/wheat_heat/graphics/punjab.jpg" class="img-fluid figure-img"></p>
+</div>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-climate_change-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;6: Three top wheat producing Indian states (Uttar Pradesh, Madhya Pradesh, and Punjab) are experiencing terminal heat stress since the year 2021 that may compromise yield.
+</figcaption>
+</figure>
+</div>
+<p>Unfortunately, the number of days when the maximum temperature of the day exceeded 30 ℃ have been increasing lately Figure&nbsp;7 . Average number of days above 30 ℃ in the wheat producing districts of Uttar Pradesh were only 7 in the year 2020, but they increased to 31, 21, and 14 in the years 2021, 2022, and 2023, respectively. Similarly, the days when the wheat crop would have experienced terminal heat have also increased since the year 2020 in Madhya Pradesh, and Punjab.</p>
+<p>Such increase in daily temperatures could jeopardize India’s wheat yield and food security, as has been discussed in previous sections. It is necessary that concerted steps be taken to prioritize wheat production and maintaining of stock pile.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div id="fig-danger" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-danger-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="https://ankurjamwal.quarto.pub/blog-the-good-food/posts/wheat_heat/wheat_heat_files/figure-html/fig-danger-1.png" class="img-fluid figure-img" width="672">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-danger-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;7: Number of days when the day’s maximum temperature exceed 30 ℃
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<section id="heat-stress-management" class="level2">
+<h2 class="anchored" data-anchor-id="heat-stress-management">Heat stress management</h2>
+<p>It is essential that suitable agronomic management practices are followed to improve soil moisture. For example, water-efficient irrigation, zero-tillage and fertilization at milking stage. Early sowing may be practiced, if permitted by weather and harvest of preceding crop, to avoid terminal heat. It is essential that research is undertaken at war footings to identify heat-tolerant cultivars and techniques to mitigate biochemical stress due to heat.</p>
+<section id="disclaimer" class="level4">
+<h4 class="anchored" data-anchor-id="disclaimer">Disclaimer</h4>
+<p>The views are solely of the author. Even though the data source for some illustrations is FAOSTAT, there could be minor discrepancies from the FAO reports. Nonetheless, the overall trend of the data should not vary significantly.</p>
+</section>
+<section id="references" class="level3">
+
+
+
+
+</section>
+</section>
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0">
+<div id="ref-dubey2020" class="csl-entry">
+Dubey, Rachana, Himanshu Pathak, Bidisha Chakrabarti, Shivdhar Singh, Dipak Kumar Gupta, and R. C. Harit. 2020. <span>“Impact of Terminal Heat Stress on Wheat Yield in India and Options for Adaptation.”</span> <em>Agricultural Systems</em> 181 (May): 102826. <a href="https://doi.org/10.1016/j.agsy.2020.102826">https://doi.org/10.1016/j.agsy.2020.102826</a>.
+</div>
+<div id="ref-ottman2012" class="csl-entry">
+Ottman, M. J., B. A. Kimball, J. W. White, and G. W. Wall. 2012. <span>“Wheat Growth Response to Increased Temperature from Varied Planting Dates and Supplemental Infrared Heating.”</span> <em>Agronomy Journal</em> 104 (1): 7–16. <a href="https://doi.org/10.2134/agronj2011.0212">https://doi.org/10.2134/agronj2011.0212</a>.
+</div>
+</div></section></div> ]]></description>
+  <category>climate change</category>
+  <category>wheat</category>
+  <category>food</category>
+  <category>hunger</category>
+  <category>food security</category>
+  <category>heat wave</category>
+  <category>data viz</category>
+  <category>data visualization</category>
+  <category>India</category>
+  <guid>https://ankurjamwal.quarto.pub/blog-the-good-food/posts/wheat_heat/wheat_heat.html</guid>
+  <pubDate>Thu, 27 Apr 2023 18:30:00 GMT</pubDate>
+</item>
+<item>
+  <title>What the latest IPCC report (AR6) has to say about the effects of climate change on global food production?</title>
+  <dc:creator>Ankur Jamwal</dc:creator>
+  <link>https://ankurjamwal.quarto.pub/blog-the-good-food/posts/AR6/ar6.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+
+<section id="what-is-the-ipcc" class="level1">
+<h1>What is the IPCC?</h1>
+<p><strong>Last update: May 05, 2023</strong></p>
+<p>Let us begin with the basics. Though the Intergovernmental Panel on Climate Change (IPCC) has risen to prominence only recently, it was established in the year 1988 by the United Nations Environment Programme (UNEP) and the World Meteorological Organization (WMO). The idea behind creating IPCC was to have a body that would comprehensively review the existing information on climate change, consolidate it in a palatable form, and provide response strategies with respect to the social and economic impact of climate change.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>You may skip directly to the relevant section from the blog outline.</p>
+</div>
+</div>
+<p>Since its inception, the IPCC has released six assessment reports (AR). The first AR, in the year 1990, identified climate change as a global problem which required a concerted global action. The second AR was out in 1995 and provided important scientific inputs for the adoption of Kyoto Protocol in 1997. The third AR was released in 2001 with emphasis on need for <em>adaptation</em> to the climate change. Fourth AR was published in the year 2007 with focus on limiting the global warming to 2 ℃. The fifth AR was out in 2014 and provided scientific inputs for the Paris Agreement.</p>
+<p>Usually, each AR is accompanied by various summaries for policy makers, and sub-sections focused on various issues and subjects. In addition to the ARs, the IPCC also publishes special reports on various pressing issues related to the climate change. A complete list of the IPCC reports can be accessed <a href="https://www.ipcc.ch/reports/">here</a>.</p>
+<section id="nobel-peace-prize-ipccs-rise-to-prominence" class="level2">
+<h2 class="anchored" data-anchor-id="nobel-peace-prize-ipccs-rise-to-prominence">Nobel Peace Prize: IPCC’s rise to prominence</h2>
+<p>IPCC, for its significant contribution, was awarded the <a href="https://www.nobelprize.org/prizes/peace/2007/press-release/">Nobel Peace Prize</a> (together with Al Gore) in the year 2007 pushing this organization to prominence. The Nobel Prize committee agreed that climate change is a major global challenge and the IPCC had laid a great foundation for disseminating the information for greater good.</p>
+<p>A complete press release from the Norwegian Press Committee can be read <a href="https://www.nobelprize.org/prizes/peace/2007/press-release/" title="Press release">here</a>. But to summarize, the Committee agreed that:</p>
+<blockquote class="blockquote">
+<p>” … <em>climate change, if not mitigated, can result in mass human migration, loss of jobs, and conflicts due to dwindling resources. Thus, timely action on climate change by the governments can help prevent wars, conflicts and human suffering</em>.”</p>
+</blockquote>
+<p>A lot of organizations are engaged in myriad areas of research; however, I hope that the above quote gave you an idea why IPCC was awarded the <em>Nobel Peace Prize</em>.</p>
+</section>
+</section>
+<section id="ipcc-ar6-on-climate-change-and-food-security" class="level1">
+<h1>IPCC AR6 on Climate Change and Food Security</h1>
+<section id="observable-effects-due-to-hydrological-cycle-and-water-availability" class="level2">
+<h2 class="anchored" data-anchor-id="observable-effects-due-to-hydrological-cycle-and-water-availability">Observable effects due to hydrological cycle and water availability</h2>
+<section id="impacts-on-crop-productivity" class="level3">
+<h3 class="anchored" data-anchor-id="impacts-on-crop-productivity">Impacts on crop productivity</h3>
+<p>Human-induced climate change has significantly influenced the hydrological cycles and availability of freshwater for agriculture. The assessment report 5 (AR5) had concluded with <em>high confidence</em> that the climate change-induced drought had negative effect on the agricultural productivity. Even though the amount of wet-precipitation has increased in many regions, leading to flood and water logging, the evidence for correlation between floods and food production was limited.</p>
+<p>The authors of the AR6 highlight that 68 % of the irrigated croplands experienced scarcity of blue water (see the note for definition) at least one month per year, and 37 % of the irrigated croplands suffered from drought for at least 5 months per year. Most importantly, <em>agricultural water scarcity was experienced mostly in low-income countries</em>.</p>
+<div id="definitions_1" class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Definitions and explanations
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ul>
+<li><p>Green water: soil moisture used for agriculture and forestry</p></li>
+<li><p>Blue water: Irrigation water from lakes, rivers, reservoirs, and aquifers. Used for drinking purposes as well.</p></li>
+<li><p>Grey water: the water that was used and has some impurities. E.g. Household and industrial wastewater.</p></li>
+</ul>
+</div>
+</div>
+</div>
+<p>Drought is regarded as the major driver of yield reduction globally, especially in the arid and semi-arid regions. Drought and heat waves have reduced crop output in 75 % of the harvestable area. The AR6 cites a report suggesting 11.6%, 12.4%, and 9.2% reduction in global average yields of maize, soyabeans and wheat, respectively, due to the combined effect of heat and drought. In contrast, the temperature alone was a major driver of agricultural productivity loss in regions considered wet.</p>
+<p>In addition to the agricultural productivity, the livestock production has also been negatively affected by changing seasonality, increased frequency of drought, higher temperatures and vector-borne diseases. Furthermore, the climate change is also linked to poor productivity of forage crops and their reduced nutritive value.</p>
+<p>Climate change-induced increased severity of floods have also led to crop losses due to harvest failure and increased fungal infection. Waterlogging, surface flooding, soil erosion, and susceptibility to salinization are also some factors attributed by the AR6 to crop loss with negative consequences on food security.</p>
+<p>The report highlights that the anthropogenic climate change has increased the probability of extreme precipitation events in some countries. For example, the rainfall event in Bangladesh in March and April of 2017 destroyed 220,000 ha of paddy crop – leading to 30 % increase in the paddy prices at year-on-year basis. This would have put heavy financial burden on many families, considering rice as their staple food item.</p>
+<p>Similarly, the <a href="https://www.undp.org/pakistan/publications/pakistan-floods-2022-post-disaster-needs-assessment-pdna" title="UNDP assessment report">devastating flood in Pakistan</a> in August 2022 inundated one-third of the country, and affected 33 million people. Though beyond the scope of the AR6 report, the <a href="https://www.worldweatherattribution.org/wp-content/uploads/Pakistan-floods-scientific-report.pdf">World Weather Attribution Report</a> (WWA) assessed that the 5-day maximum rainfall, a measure of heavy precipitation, was around 75 % more intense than normal, and can be attributed directly to the climate warming by 1.2 ℃.</p>
+<p>As per the AR6, the subsistence farmers in drier regions are most vulnerable to the anthropogenic climate change-induced crop failures and food insecurity. However, the temperate regions, that were previously frigid, will benefit from more warmer days and see increased agricultural production. But this would also mean desertification and crop failures in the tropical and sub-tropical regions (see Figure&nbsp;1 ).</p>
+<div id="fig-1" class="preview-image quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="https://ankurjamwal.quarto.pub/blog-the-good-food/posts/AR6/CC_1.png" class="preview-image img-fluid quarto-figure quarto-figure-center figure-img" width="2418">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: Climate change may increase wet precipitation (rain) in previously frigid regions and benefit them through enabling agriculture. However, the regions in lower latitudes may experience desertification. Mid-latitudinal regions may experience increased incidents of heavy precipitation and damage standing crops.
+</figcaption>
+</figure>
+</div>
+<p>The AR6, for the first time, has expanded its scope beyond the staples like maize, wheat and rice. The report has identified some literature on the effects of climate change on vegetables, fruits, nuts and fibre; however, it also highlights that research on these crops is still not sufficient to link the effects due to climate change with confidence.</p>
+<p>Starchy tubers and roots, like tapioca and potato, are important staples in many parts of the world. Climate change has influenced the rate of tuber development and the impact is region specific. The tubers are particularly sensitive to drought and heat during early stages of development. Thus, unpredictable weather, heat stress or drought can negatively affect the tuber production of vulnerable regions.</p>
+<p>With regards to tree crops, the climate change has influenced the harvest stability, disease, and phenology (especially the winter chill requirement of trees like apple). Warmer temperatures may cause early emergence of flowers and result in mismatch with the precipitation pattern. Altered temperature regimes have affected apple acidity and its texture which can affects its shelf life and market price. The perennial crops are particularly vulnerable to the vagaries of climate change because the farmers have little scope to adjust their planting or cropping time and location.</p>
+<p>Though cotton is expected to grow well with increasing temperature, the proliferation of cotton bollworm pest has negatively affected the cotton output. This brings us to a section where AR6 decides to talk about agricultural pests.</p>
+</section>
+<section id="impacts-on-pests-diseases-and-weeds" class="level3">
+<h3 class="anchored" data-anchor-id="impacts-on-pests-diseases-and-weeds">Impacts on pests, diseases and weeds</h3>
+<p>There is dearth of high-quality historical and concurrent observation on pests and diseases; however, more frequent disease outbreaks and expansion of area under pests is reported due to climate change. A study was cited by AR6 that indicates poleward expansion of many diseases at the rate of 2.7 km/ yr (The radius of Earth is 6,371 Km. Do your math considering that the pests are already long way towards the poles).</p>
+<p>Increased carbon dioxide availability, efficient irrigation facilities, and enhanced precipitation may increase competitiveness of weeds and favour invasive species, especially the C3 species that constitute approximately 85% of plant species, most of which are weeds (see the box below). Furthermore, rising carbon dioxide and climate change is also expected to reduce herbicide efficiency. Thus, climate change is not only expected to affect weeds biologically, the management will also be affected.</p>
+<div id="definitions_2" class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Definition and explanations
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-3" class="callout-3-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ul>
+<li>C3 plants: majority of plants on Earth are C3 photosynthetic in which the first carbon compound produced contains three carbon atoms. Sparing the biochemical details, it is important to know that the key enzyme responsible to fix carbon dioxide can also use oxygen but the end result of this fixation is toxic in nature and the plant has to spend time and energy to fix this. Hence, more atmospheric CO2 will give advantage to the C3 weeds.</li>
+<li>Also, the C3 plants have to let their stomata (pores in leaves) open to let in carbon dioxide. In this process, the water vapour is also lost from the same pores. Thus, C3 crops are at disadvantage in drought and high temperatures.</li>
+</ul>
+</div>
+</div>
+</div>
+<p>Pests are mostly ectotherms, thus increasing temperature may favour detoxification of pesticides. Thus, more pesticides would be required to elicit same effect. Furthermore, increased precipitation will also wash off pesticides, further reducing the efficacy of pesticides on plants and more toxins in run off. India’s largest locust attack in 27 years is an example of increasing severity and territory expansion of pests.</p>
+<p>Higher tropospheric ozone has resulted in yield losses in 2010-2012 that averaged 12.4%, 7.1%, and 6.1% for soyabean, wheat, rice, and maize, respectively. Higher ozone exacerbates the effects of climate change because <a href="https://www.epa.gov/ozone-pollution-and-your-patients-health/what-ozone#:~:text=Stratospheric%20ozone%20is%20formed%20naturally,radiation%20reaching%20the%20Earth's%20surface.">higher temperature results in increased ozone production</a> and higher uptake by plants. India’s current yield loss of wheat and rice due to higher ozone is estimated as 36% and 20%, respectively.</p>
+<p>The AR6 presents yield constraint score (Figure 5.4 in the AR6) wherein the effect of 5 stressors (soil nutrients, pests and diseases, heat stress, aridity, and ozone) have been evaluated on soyabean and wheat productivity. It appears that the productivity will be challenged the most by pests and diseases, especially in India and African regions. Heat is the second most severe stress and is expected to affect most in Northern India, Pakistan, Kazakhstan, and the neighbouring countries.</p>
+</section>
+</section>
+<section id="vulnerability-indices-risk-scores-etc." class="level2">
+<h2 class="anchored" data-anchor-id="vulnerability-indices-risk-scores-etc.">Vulnerability indices (risk scores etc.)</h2>
+<p>On a larger scale, southern Africa, western and central Asia are more vulnerable to climatic hazards due to poor coping ability.</p>
+<p>The major crops have received considerable attention and stand better chance surviving climate change risks. However, reduced agrobiodiversity puts global food security at risk. Minor crops have largely remained ignored and may suffer from climate hazards as their improved varieties are usually not available. Furthermore, the crop-dependent vulnerability will have to be looked through the lens of gender and social inequities as some segments of our societies are far less equipped to bear the losses from lower crop productivity.</p>
+<section id="projected-impact-on-major-crops" class="level4">
+<h4 class="anchored" data-anchor-id="projected-impact-on-major-crops">Projected Impact on major crops</h4>
+<p>Analysis of over 100 research papers between 2014 and 2020 forecasts a negative effect on major crops in the following manner:</p>
+<ul>
+<li><p>-2.3 % for maize</p></li>
+<li><p>-3.3 % for soyabean</p></li>
+<li><p>-0.7 % for rice</p></li>
+<li><p>-1.3 % for wheat.</p></li>
+</ul>
+<p>However, these reports do not consider technological advances and adaptation measures.</p>
+<p>Rising temperatures reduces soil carbon and nitrogen, affecting productivity. Similarly, elevated CO2 reduces nutrients such as protein, iron and zinc.</p>
+<p>The report also spreads doom and gloom on the productivity of other crops such as fruits, vegetables, and tubers.</p>
+<p>Climate change will also reduce the species of pollinators, the pollinator activity, and flower receptiveness. As per an estimate, complete removal (not very realistic situation) can reduce global fruit supply by 23 % , vegetable by 16 %, nuts and seeds by 22 %, leading to global malnutrition. So save those honeybees, even if you hate that they sting.</p>
+<p>There is a rising concern on reducing bees population due to climate change, excessive use of neonictinoid pesticides and <a href="https://en.wikipedia.org/wiki/Varroa_destructor">varroa mites</a>. There are also concerns that the mismatch between flower emergence and pollinator life cycle due to climate change could also kill pollinator colonies.</p>
+</section>
+<section id="adaptation" class="level3">
+<h3 class="anchored" data-anchor-id="adaptation">Adaptation</h3>
+<p>Personally I believe that humans are resilient and they always come up with the right solutions when needed. For example, long ago it was predicted that considering the fuel efficiency of our early vehicles we would exhaust fossil fuels soon enough. However, we now have fuel efficient vehicles and I am planning to fill my scooter, that gives a mileage of 40 Km per litre in city, with petrol tomorrow.</p>
+<p>Similarly, the farmers are adapting. Possible adaptation strategies could range from field and farm-level technical interventions to livelihood diversification and income protection. For example, the AR6 reports that most farmers are preferring early varieties, or the varieties with shorter life span to mitigate climate risk. This an example of farm-level intervention. However, the existing studies deem the current farm and field-level interventions as inadequate. Despite our current and projected interventions, the costs required to adapt is going to rise from USD 63 billion at 1.5 ℃ to USD 80 billion at 2 ℃. and to USD 128 billion at 3 ℃. – an exponential rise. This will have a significant impact on our major crops. Therefore, current models are not suitable to design adaptation strategies. Instead, an enhancement in models that take into account productivity, sustainability, GHG emissions along with variations at local-level and future climatic variability.</p>
+<p>The AR6 mentions at least 10 types of adaptation options of which shift in crop and water management appear most promising. Integrating agronomy and agroforestry, application of indigenous technical knowledge, and removing entry barriers for minor crops can also be good adaptations strategies for some cultivars.</p>
+<p>Furthermore, the AR6 mentions that it is not just the crop that needs interventions, but integration of social security is also required. For example, climate services, shifting subsidies towards minor crops (favouring diversification), public procurement of diverse food, insurance at cheaper rates, and insentivising diversification through efforts like agrotourism are prominently highlighted.</p>
+</section>
+<section id="climate-change-and-fisheries" class="level3">
+<h3 class="anchored" data-anchor-id="climate-change-and-fisheries">Climate Change and Fisheries</h3>
+<p>Fisheries and aquaculture often remains a least discussed topic when the effect of climate change on food security is brought up. This is despite the sector providing livelihoods to 10-12 % of world’s population. Globally, fish contributes to more than 20 % of animal protein intake for more than 3.3 billion people and in countries like Bangladesh, Indonesia and Sierra Leone fish can contribute to more than 50 % their average per capita intake of animal protein. Discussion on the importance of aquaculture and fisheries is beyond the scope of this particular article, and I would suggest the readers to quickly glance through the FAO’s annual publication titled State of World Fisheries and Aquaculture (SOFIA).</p>
+<p>The average ocean temperature has increased by 0.88 ℃ from 1850 – 1900 to 2011 – 2020. Marine heatwaves have intensified. For example the El Nino during 2013 – 2015 was immediately succeeded by a much stronger 2015 – 2016 heatwave, resulting in warmer than usual ocean temperature affecting fish migration, distribution of plankton and this availability of fish.</p>
+<p>The atmospheric CO2 dissolved in water to form carbonic acid. The surface open pH has reduced globally in the last 40 years at the rate of 0.003 – 0.026 per decade. To add to the insult, the oceanic dissolved oxygen between 0 – 1000 m depth has also decreased by 0.5 – 3.3 % between 1970 and 2010. Due to warmer surface temperature, a sharp and strong thermal gradient is also being created which affects the nutrient recycling in the ocean and hence, the availability of fish. Furthermore, the aquatic ecosystems around the globe are experiencing nutrient enrichment from human effluents which promotes weed proliferation and sedimentation and loss of wetland connectivity. Human civilizations have developed along the water bodies and any change in them will eventually force alterations in distribution of human population.</p>
+<p>The pelagic oceanic resources are over-fished and the global capture fishery has stagnated, albeit the harvest that is deemed sustainable has reduced by 4.1 % globally due to ocean warming in some regions. There are reports of changes in traditional fishing grounds due to altered physico-chemical parameters of oceanic waters.</p>
+<p>While fish is considered a healthy food, warming oceans, eutrophication, and algal blooms have resulted in increasing trends in seafood-related illnesses due to algal toxins, ciguatera and <em>Vibrio.</em> Some evidences also suggest that climate change cold also increase risks of bioaccumulation of chemicals of concern, such as mercury and other toxic trace elements.</p>
+<p>Freshwater ecosystems are more vulnerable as they have limited buffering capacity, and fish could have limited scope to escape the changing scenario. It is estimated that declines in dissolved oxygen in freshwater are 2.75 – 9.3 times greater than the oceans.</p>
+<p>It is projected that climate change will reduce global fisheries productivity, especially in tropical and subtropical regions. There is a projected decline in global animal biomass in oceans by 5 % under the RCP2.6 (RCP 2.6 envisions negative CO2 emissions and limiting of earth’s temperature rise to 2 ℃; something we are finding difficult to achieve). The animal biomass may decrease by 17 % under RCP 8.5 by 2100, with an average decline of 5 % for every 1 ℃ of warming. In contrast, the polar animal biomass may experience a 20 – 80 % by 2100 under RCP8.5. Stock-specific effects will be visible. New fishing regions may open up in enclosed seas like the Mediterranean and the Black Sea.</p>
+<p>Currently, the fishing in 54 % of international waters would go non-profitable without government subsidies. As per the projections (under RCP8.5) the maximum revenue potential from landed catches will decrease by 10.4% by 2050, in comparison to 2000. China and India will be most stressed due to climate change.</p>
+<section id="adaptation-to-climate-change-in-fisheries-sector" class="level4">
+<h4 class="anchored" data-anchor-id="adaptation-to-climate-change-in-fisheries-sector">Adaptation to climate change in fisheries sector</h4>
+<p>Reducing overfishing and unsustainable practice can reduce vulnerability of fish stocks to the climate change. Changing targeted species or even providing alternative employment to fishermen could help. Freshwater stocks will need to be more aggressively managed and freshwater bodies should be integrated with other sectors that require effective water management for public health.</p>
+</section>
+</section>
+<section id="climate-change-and-aquaculture" class="level3">
+<h3 class="anchored" data-anchor-id="climate-change-and-aquaculture">Climate Change and Aquaculture</h3>
+<p>The inland aquaculture in Southeast Asian countries is considered highly vulnerable due to climate change induces fluctuations in water resources, flooding, salinity ingress or unpredictable precipitation.</p>
+<p>Predicted sea-level rise will cause ingress of saline water into coastal freshwater ponds and aquaculture systems. The projections predict suitable habitat expansions and short-term growth benefits for fish until 2090, when most fish will reach their upper thermal tolerance range. Lack of freshwater and food safety concerns are the most prominent consequences of climate change as per the AR6.</p>
+<p>Marine aquaculture is predicted to be affeced most by acidification, eutrophication and harmful algal blooms. Lack of suitable protein replacement for fish meal and fish oil is expected to hamper growth of shrimp aquaculture. Overall, aquaculture production of shrimps and seaweeds is expected to decline.</p>
+<section id="adaptation-strategies-for-aquaculture" class="level4">
+<h4 class="anchored" data-anchor-id="adaptation-strategies-for-aquaculture">Adaptation strategies for aquaculture</h4>
+<p>Aquaculture itself is considered an adaptation strategy to reduce overfishing in oceans. However, climate stress is expected to bring troubles to the aquaculture sector that can be partly mitigated through effective funding and awareness. Land-based aquaculture industry will have to reduce its reliance on water usage and fish meal. This means, more capital requirement and energy demand.</p>
+<p>Women are an important part of the aquaculture and fishery supply chain yet they remain underpaid and overexploited. Their social wellbeing, in case their wages are affected by climate change, needs to be ensured. Early warning systems to prepare for floods etc. and integrating aquaculture with livestock may help mitigate some losses.</p>
+</section>
+</section>
+</section>
+<section id="conclusion" class="level2">
+<h2 class="anchored" data-anchor-id="conclusion">Conclusion</h2>
+<p>Overall, the picture isn’t bright. On a global scale, the climate change will have negative effects on all food production systems. However, the polar regions may benefit from warming though this benefit may not last longer!</p>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <category>climate change</category>
+  <category>IPCC</category>
+  <category>food</category>
+  <category>hunger</category>
+  <category>food security</category>
+  <guid>https://ankurjamwal.quarto.pub/blog-the-good-food/posts/AR6/ar6.html</guid>
+  <pubDate>Wed, 29 Mar 2023 18:30:00 GMT</pubDate>
+  <media:content url="https://ankurjamwal.quarto.pub/blog-the-good-food/posts/AR6/preview.png" medium="image" type="image/png" height="79" width="144"/>
+</item>
+</channel>
+</rss>

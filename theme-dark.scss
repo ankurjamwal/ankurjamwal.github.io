@@ -1,0 +1,21 @@
+/*-- scss:defaults --*/
+// Base document colours
+$body-bg: #181818;
+$link-color: #75AADB;
+$gray-100: #f8f9fa;
+$font-stack: Helvetica, sans-serif;
+$primary-color: #dee2e6;
+$heading-color: #F7DC6F;
+
+/*-- scss:rules --*/
+h1,
+h2,
+h3,
+h4{
+	color: $gray-100;
+}
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+}

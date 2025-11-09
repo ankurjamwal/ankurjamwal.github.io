@@ -1,21 +1,43 @@
 project:
-  type: website
+    type: website
 
 website:
-  title: "blog"
+  title: "Blog: The Good Food"
+  site-url: https://ankurjamwal.quarto.pub/
+  description: "Climate Change-Human-Food nexus"
+  open-graph:
+    image: images/odl_logo.png
+    title: "Blog: The Good Food"
+    description: "Climate Change-Human-Food nexus"
   navbar:
-    left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+    search: true
+    right:
+      - text: 'More'
+        menu:
+          - text: 'Blog'
+            href: index.qmd
+          - text: 'About the author'
+            href: about.qmd
+          - icon: rss
+            href: index.xml
 
+  google-analytics: "G-YEV355G40S"
+  page-footer:
+    left: "Copyright 2025, Ankur Jamwal"
+    right:
+      - icon: linkedin
+        href: https://www.linkedin.com/in/ankurjamwal
+      - icon: twitter
+        href: https://twitter.com/ankurjam
+      - icon: github
+    background: "#f8f9fa"
+  
 format:
   html:
     theme:
-      - cosmo
-      - brand
+      light: sandstone
+      dark: [solar, theme-dark.scss]
     css: styles.css
-    toc: true
 
 editor: visual
 

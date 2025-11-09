@@ -1,0 +1,320 @@
+---
+title: "Climate change has already started to challenge India's wheat production"
+date: "2023-04-28"
+date-modified: "2023-05-04"
+categories: [climate change, wheat, food, hunger, food security, heat wave, data viz, data visualization, India]
+bibliography: references.bib
+---
+
+```{r}
+#| include:  false
+#Reading packages ----
+library(lubridate)
+library(glue)
+library(tidyverse)
+library(janitor)
+library(ncdf4)
+library(data.table)
+library(ggrepel)
+library(ggtext)
+library(showtext)
+library(scales)
+library(RColorBrewer)
+library(patchwork)
+
+font_add_google('Roboto Mono', 'r_m')
+font_add_google('Noto Sans', 'noto')
+font_add_google('Bangers', 'Bangers')
+
+
+showtext_auto()
+
+getwd()
+
+```
+
+# Background
+
+Last update: May 04, 2023
+
+Let us begin by looking at the screenshots of two news headlines from the Reuters website. Pay attention to what the headlines have to say, and the dates when the news articles were published.
+
+::: {#fig-headlines layout-nrow="2"}
+![](.//graphics//reuters_1.png)
+
+![](.//graphics//reuters_2.png)
+
+Contrasting headlines on the same subject
+:::
+
+These both reports were written by the same reporter, in the same year, but only 16 days apart.
+
+It is a déjà-vu of the year 2022. I was working in an agricultural university and everyone, from scientists to the policy makers, were elated about the swaying bumper wheat crop in the fields. But, as they say, do not count your chicken before they hatch. In a matter of two weeks, the entire standing crop experienced unprecedented heat in the end of February and the crop, that should have turned golden-yellow in a few days, turned dark brown and died. In the same month Russia, the world's largest wheat exporter and Ukraine, Europe's bread basket entered war. Most nations were now staring at the impending wheat scarcity and entering agreements to trade wheat. [Some countries used wheat as a political tool](https://www.thehindubusinessline.com/economy/agri-business/rejected-by-turkey-accepted-by-israel-an-indian-wheat-export-story/article65657877.ece#:~:text=Turkey%20had%20rejected%2056%2C877%20tonnes,conglomerate%20to%20a%20Dutch%20trader. "Tukey rejects India's wheat"), perhaps oblivious of the severity of the situation. At least India understood that its own wheat stockpiles were could be affected due to crop damage and an export ban was implemented.
+
+The climate scientists and [the IPCC had predicted](https://ankurjamwal.quarto.pub/posts/AR6/ar6.html) that winter crops like wheat would bear the brunt of climate-induced aberrations in weather. Perhaps, the year 2022 was an anomaly; after all, weather is unpredictable and you don't see a major war every year. But, we will soon see that the signs of heat-stress-induced crop failure had started to appear in the year 2021, and it continues into the year 2023. Oh! Those weren't even the years of El niño, which is forecast to begin in the north-hemispheric summer of 2023.
+
+Let's dive into some data viz.
+
+# Wheat and food security
+
+"Why wheat," you may ask that. Simple answer to that question would be that wheat is a major global crop. For more details, continue reading...
+
+## Wheat is a major global crop - production, consumption and calories
+
+Considering the cultivable area, both corn and wheat stand neck-to-neck. In the year 2021, the corn (maize) was grown in 213,326,425 ha, whereas wheat was harvested from 213,529,260 ha. However, the global maize production in the same year was almost twice that of wheat (1,415,096,806 tonnes of corn *vs*. 749,000,362 tonnes of wheat). See @fig-area and @fig-prod. Interestingly though, despite more corn production, wheat contributes to approximately 20 % of global calorie consumption against only 10 % from corn. This is due to diversion of most corn harvest for non-human consumption, such as use in animal feed and to make bio fuel. In contrast, wheat is grown primarily for human consumption -- approximately 2.5 billion people in 89 countries consume wheat as their staple. Thus, the importance of wheat in food and nutritional security cannot be ignored. This is also the reason why most countries maintain a buffer stock of wheat to feed their population in case of crop failures. India also maintains a [buffer stockpile](https://dfpd.gov.in/foodgrain-stocking-norms.htm).
+
+```{r}
+#| include: false
+
+#area under production
+grain_area <- read_csv(".\\data\\fao_prod_data.csv") %>% 
+  clean_names() %>% filter(flag_description == "Official figure" & element == "Area harvested" & year %in% c(1991:2021)) %>% select(!c(year_code, item_code_cpc, flag, element_code, area_code_m49, domain, domain_code))
+
+crop_wise_area <- grain_area %>% group_by(item) %>% 
+  filter(year == 2021) %>% summarise(crop_area = sum(value)) %>% as_tibble()
+wheat_area <- crop_wise_area$crop_area[7]
+maize_area <- crop_wise_area$crop_area[2]
+
+# production
+grain_prod <- read_csv(".\\data\\fao_prod_data.csv") %>% 
+  clean_names() %>% filter(flag_description == "Official figure" & element == "Production" & year %in% c(1991:2021)) %>% select(!c(year_code, item_code_cpc, flag, element_code, area_code_m49, domain, domain_code))
+
+crop_wise_prod <- grain_prod %>% group_by(item) %>% 
+  filter(year == 2021) %>% summarise(crop_prod = sum(value)) %>% as_tibble()
+```
+
+```{r}
+#| warning: false
+#| echo: false
+#| label: fig-area
+#| fig-cap: "Harvested area for major cereal crops globally"
+
+crop_wise_area %>% ggplot(aes(x = reorder(item, -crop_area), y = crop_area)) +  geom_col(position = 'identity', (aes(fill = item))) + theme_classic() +
+  xlab("Crop") + ylab("Area (ha)") +
+  theme(axis.text = element_text(colour = "black", size = 25, face = "bold"),
+        axis.title = element_text(color = "sienna", size = 30, face = "bold"),
+        plot.title.position = "plot",
+        plot.caption.position = "plot",
+        plot.title = element_text(family = "Bangers", size = 30),
+        plot.caption = element_text(size = 15),
+        plot.subtitle = element_text(size = 30, family = "noto"),
+                                     legend.position = "none") +
+  scale_y_continuous(labels = label_comma()) +
+  coord_flip() + labs(caption = "DATA: FAOSTAT, 
+                      data processed taking official values for the year 2021
+                      Illustrations: Ankur Jamwal",
+                      title = "Area under cultivation for major grains (global)") +
+  scale_fill_brewer(palette = "Set2")
+
+```
+
+```{r}
+#| warning: false
+#| echo: false
+#| label: fig-prod
+#| fig-cap: "Harvested quantity (in tonnes) for major cereal crops globally"
+crop_wise_prod %>% ggplot(aes(x = reorder(item, -crop_prod), y = crop_prod)) +  geom_col(position = 'identity', aes(fill = item)) + theme_classic() +
+  xlab("Crop") + ylab("Production (t)") +
+  theme(axis.text = element_text(colour = "black", size = 25, face = "bold"),
+        axis.title = element_text(color = "sienna", size = 30, face = "bold"),
+        #plot.title = element_text(face = "bold", margin = margin(10, 0, 10, 0), size = 14),
+        plot.title.position = "plot",
+        plot.caption.position = "plot",
+        plot.title = element_text(family = "Bangers", size = 30),
+        plot.caption = element_text(size = 15),
+        plot.subtitle = element_text(size = 30, family = "noto"),
+        legend.position = "none") +
+  scale_y_continuous(labels = label_comma()) +
+  coord_flip() + labs(caption = "DATA: FAOSTAT, 
+                      data processed taking official values for the year 2021
+Illustrations: Ankur Jamwal",
+                      title = "Production of major grains (global)") +
+  scale_fill_brewer(palette = "Set2")
+
+
+```
+
+## How is India's wheat stockpile?
+
+```{r}
+#| include: false
+#| fig-cap: "Wheat stockpile (central pool) since 2002"
+#central pool quota
+date <- c("01-Apr-23", "01-July-23", "01-Oct-23", "01-Jan-23")
+
+threshold <- c(44.60+30, 245.80+30, 175.20+30, 56.1+30)
+
+buffer <- tibble(lubridate::dmy(date), threshold)
+
+
+stock_data <- read_csv(".\\data\\stockpile_monthly.csv") %>% remove_empty()
+
+stock_data$time <- dmy(stock_data$time)
+
+fig_stock <- stock_data %>% ggplot(aes(x = time, y = prod)) +
+  geom_point() + geom_line(aes(group = 0)) + theme_classic() +
+  xlab("Years") + ylab("Wheat stocks (in Lakh tonnes)") +
+  theme(axis.text = element_text(colour = "black", size = 25, face = "bold"),
+        axis.text.x = element_text(angle = 90),
+        axis.title = element_text(color = "sienna", size = 30, face = "bold"),
+        plot.title.position = "plot",
+        plot.caption.position = "plot",
+        plot.title = element_text(family = "Bangers", size = 30),
+        plot.caption = element_text(size = 15),
+        plot.subtitle = element_text(size = 30, family = "noto"),
+                                     legend.position = "none") +
+  scale_y_continuous(labels = label_comma()) +
+  labs(title = "Monthly stock of wheat from central pool of India", 
+        caption = "DATA: Ministry of Consumer Affairs, Food and Public Distribution, Govt of India; 
+                   data from 2003 to 2023;
+                   1 Lakh = 0.1 Million; Illustrations: Ankur Jamwal") +
+  scale_x_date(date_breaks = "6 month", date_labels = "%b %Y") +
+  geom_abline(slope = 0, intercept = 74.6, colour = "red", size = 1) +
+  annotate("text", label = "minimum stockpile threshold for the month of April", x = as_date("2014-08-01"), y = 70, size = 10, family = "r_m")
+
+```
+
+```{r}
+#| echo: false
+#| warning: false
+#| label: fig-stockpile
+#| fig-cap: "Wheat stockpile (central pool) since 2002"
+fig_stock
+```
+
+As can be seen from @fig-stockpile, India's wheat stockpile have been the lowest, and touched the minimum threshold, since the year 2016. Good news, the the threshold level is intact and the wheat procurement season is underway (as of May 01, 2023). Since wheat is a seasonal crop, cyclical depletion of the stockpiles during the *off-season* is normal. Also, the government of India had to use its stocks to provide free and cheap grains during the COVID-19 period as welfare measure. Selling off the stocks could have also happened to check the prices of wheat in the market.
+
+However, the bad news is that the stockpile replenishment in the year 2021-22 wasn't good enough. In fact, it was lowest since the year 2007. Another year of poor wheat production can really stress the stocks.
+
+### India's Consumption and production gap
+
+```{r}
+#| include: false
+
+export <- read_csv(".\\data\\consumption_export.csv") %>% pivot_longer(cols = c(production, consumption), names_to = "variable",                     values_to = "qtty")
+```
+
+```{r}
+#| echo: false
+#| label: fig-consumption
+#| fig-cap: "Export and consumption of wheat go neck-to-neck in India"
+
+ggplot(data = export) + geom_line(aes(x = year, y = qtty, 
+                                                colour = variable),
+                                  size = 0.7) +
+  theme_classic() + theme(axis.text = element_text(colour = "black", size = 25, face = "bold"),
+        axis.text.x = element_text(angle = 90),
+        axis.title = element_text(color = "sienna", size = 30, face = "bold"),
+        plot.title.position = "plot",
+        plot.caption.position = "plot",
+        plot.title = element_text(family = "Bangers", size = 30),
+        plot.caption = element_text(size = 15),
+        plot.subtitle = element_text(size = 30, family = "noto"),
+                                     legend.position = c(0.2, 0.7),
+        legend.title = element_blank(), 
+        legend.text = element_text(size = 20, family = "noto")) +
+  scale_color_brewer(palette = "Set2") +
+  labs(x = "Year",
+       y = "Quantity (1000 metric tonnes)",
+       title = "Consumption and production of wheat in India",
+        caption = "Data: Ministry of Consumer Affairs, Food and Public Distribution, Govt of India (production); USDA (consumption)
+        illustration by Ankur Jamwal")
+```
+
+India's wheat production and consumption is mostly neck-to-neck (@fig-consumption). Thus, absence of a healthy stockpile can be detrimental for the nation's food security if crop failures become a regular feature. Not only will the availability of wheat become a problem, the scarcity of wheat may push the prices higher -- resulting in wheat becoming out of reach for many. Perhaps, the export ban of Indian wheat will [continue](https://economictimes.indiatimes.com/news/economy/foreign-trade/wheat-export-ban-to-continue-for-now-piyush-goyal/articleshow/99462437.cms?from=mdr) to increase the domestic availability and curb price rise. Inflation has definitely broken backs of many Indian households already.
+
+# The Climate Change angle
+
+As we have seen that India's wheat stockpiles have been dwindling since the year 2021 and it has reached precarious levels in the year 2023. As a consequence, India had to implement an export ban. The situation is also delicate because India consumes almost all its own wheat produce, and a significant decline in production could result in the demand exceeding the supply, causing market shortage and prices of the wheat to rise. No government would like to see a situation where a staple food item creates financial burden over its citizens. But then what is the root cause of the situation that India currently finds itself in? The reasons could be many, including emptying the stores for welfare measures. However, digging a bit deeper into the historical weather data will show that the weather pattern that favours food wheat yield has changed in the years when the wheat supply was stressed.
+
+You see, wheat is a rabi crop. Which means, it is sown in the winter months and harvested just before the peak summer hits the country. This season in wheat growing parts is usually accompanied by low to moderate temperatures, increasing daylight, and low rainfall. Consequently, wheat grows best in the temperature ranging from 18 - 24 ℃ (@ottman2012 ). Temperature becomes a critical variable in the months of February and March when wheat plant begins to flowering (anthesis) and filling its grain size (milking). Temperatures above 30 ℃ (*terminal heat*) in the flowering and milking months can cause flower sterility and reduce grain size (@dubey2020 ) (@fig-climate_change).
+
+::: {#fig-climate_change layout-nrow="3"}
+![](.//graphics//uttar_pradesh.jpg)
+
+![](.//graphics//madhya_pradesh.jpg)
+
+![](.//graphics//punjab.jpg)
+
+Three top wheat producing Indian states (Uttar Pradesh, Madhya Pradesh, and Punjab) are experiencing terminal heat stress since the year 2021 that may compromise yield.
+:::
+
+Unfortunately, the number of days when the maximum temperature of the day exceeded 30 ℃ have been increasing lately @fig-danger . Average number of days above 30 ℃ in the wheat producing districts of Uttar Pradesh were only 7 in the year 2020, but they increased to 31, 21, and 14 in the years 2021, 2022, and 2023, respectively. Similarly, the days when the wheat crop would have experienced terminal heat have also increased since the year 2020 in Madhya Pradesh, and Punjab.
+
+Such increase in daily temperatures could jeopardize India's wheat yield and food security, as has been discussed in previous sections. It is necessary that concerted steps be taken to prioritize wheat production and maintaining of stock pile.
+
+```{r}
+#| include: false
+#| label: uttar_pradesh
+
+up_summary <- read_csv(".\\U_P.csv") %>% group_by(time_s) %>% mutate(mean_max = mean(c(MAX_br, MAX_et, MAX_me, MAX_sa, MAX_go)),
+                                      mean_min = mean(c(Min_br, Min_et, Min_me, Min_sa, Min_go))) %>% 
+  select(time_s, mean_max, mean_min)
+
+up_danger_days <- up_summary %>% filter(mean_max >= 30) %>% 
+  filter(lubridate::month(time_s) %in% c(2,3)) %>% mutate(year = year(time_s)) %>% 
+  group_by(year) %>% summarise(n = n())
+
+
+
+mp_summary <- read_csv(".\\M_P.csv") %>% group_by(time_s) %>% mutate(mean_max = mean(c(MAX_se, MAX_nar, MAX_rat)),
+                                                    mean_min = mean(c(Min_se, Min_nar, Min_rat))) %>% 
+                                      select(time_s, mean_max, mean_min)
+
+mp_danger_days <- mp_summary %>% filter(mean_max >= 30) %>% 
+  filter(lubridate::month(time_s) %in% c(2,3)) %>% mutate(year = year(time_s)) %>% 
+  group_by(year) %>% summarise(n = n())
+
+
+punjab_summary <- read_csv(".\\punjab.csv") %>% group_by(time_s) %>% mutate(mean_max = mean(c(MAX_ba, MAX_pat)),
+                                                    mean_min = mean(c(Min_ba, Min_pat))) %>% 
+  select(time_s, mean_max, mean_min)
+
+pb_danger_days <- punjab_summary %>% filter(mean_max >= 30) %>% 
+  filter(lubridate::month(time_s) %in% c(2,3)) %>% mutate(year = year(time_s)) %>% 
+  group_by(year) %>% summarise(n = n())
+
+year <- c(2020: 2023)
+n_up <- up_danger_days$n
+n_mp <- mp_danger_days$n
+n_pb <- c(0, pb_danger_days$n)
+
+danger_days_summary <- tibble(year, n_up, n_mp, n_pb) %>% 
+  pivot_longer(cols = c(n_up:n_pb), names_to = "states", values_to = "days")
+```
+
+```{r}
+#| echo: false
+#| warning: false
+#| label: fig-danger
+#| fig-cap: "Number of days when the day's maximum temperature exceed 30 ℃"
+ggplot(danger_days_summary) + geom_point(aes(x = year, y = days, colour = states), size = 5) + geom_line(aes(x = year, y = days, colour = states), show_guide = FALSE, linewidth = 1 ) + theme_classic() + theme(axis.text = element_text(colour = "black", size = 25, face = "bold"),
+        axis.text.x = element_text(angle = 90),
+        axis.title = element_text(color = "sienna", size = 30, face = "bold"),
+        plot.title.position = "plot",
+        plot.caption.position = "plot",
+        plot.title = element_text(family = "Bangers", size = 30),
+        plot.caption = element_text(size = 15),
+        plot.subtitle = element_text(size = 30, family = "noto"),
+                                     legend.position = c(0.2, 0.7),
+        legend.title = element_blank(), 
+        legend.text = element_text(size = 20, family = "noto"),
+        legend.background = element_blank()) +
+  scale_color_brewer(palette = "Set2") +
+  labs(x = "Year",
+       y = "Number of days",
+       title = "Terminal Heat Days",
+        caption = "illustration by Ankur Jamwal")  + scale_color_discrete(  labels = c("Madhya Pradesh", "Uttar Pradesh", "Punjab")
+  )
+
+```
+
+## Heat stress management
+
+It is essential that suitable agronomic management practices are followed to improve soil moisture. For example, water-efficient irrigation, zero-tillage and fertilization at milking stage. Early sowing may be practiced, if permitted by weather and harvest of preceding crop, to avoid terminal heat. It is essential that research is undertaken at war footings to identify heat-tolerant cultivars and techniques to mitigate biochemical stress due to heat.
+
+#### Disclaimer
+
+The views are solely of the author. Even though the data source for some illustrations is FAOSTAT, there could be minor discrepancies from the FAO reports. Nonetheless, the overall trend of the data should not vary significantly.
+
+### References
