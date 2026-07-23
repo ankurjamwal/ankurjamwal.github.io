@@ -1,5 +1,5 @@
 ---
-title: "Understanding Climate Change"
+title: "Understanding Skepticism Behind Climate Change"
 subtitle: "Part 1: The skepticism"
 author: "Ankur Jamwal"
 date: "2023-05-13"
@@ -120,7 +120,7 @@ Not only did humans lack global readings before 1850, the measurements until ear
 ```{r}
 #| include: false
 
-getwd()
+# getwd()
 t_nasa <- tibble(read_xlsx(".//data//temperature.xlsx", sheet = 1, skip = 1))
 t_nasa <- t_nasa |> rename('nasa_annual_av' = `J-D`) |> 
   select(Year, nasa_annual_av) |> filter(nasa_annual_av != "***")

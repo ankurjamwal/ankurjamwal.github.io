@@ -1,47 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://ankurjamwal.quarto.pub/blog-the-good-food/posts/wheat_heat/wheat_heat.html</loc>
-    <lastmod>2025-04-26T18:32:26.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ankurjamwal.quarto.pub/blog-the-good-food/index.html</loc>
-    <lastmod>2025-08-06T08:11:44.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ankurjamwal.quarto.pub/blog-the-good-food/about.html</loc>
-    <lastmod>2026-06-03T08:28:34.405Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ankurjamwal.quarto.pub/blog-the-good-food/posts/AR6/ar6.html</loc>
-    <lastmod>2025-04-26T18:32:25.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ankurjamwal.quarto.pub/blog-the-good-food/posts/CC_real/CC_real.html</loc>
-    <lastmod>2025-04-26T18:32:25.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ankurjamwal.quarto.pub/index.html</loc>
-    <lastmod>2026-07-23T02:34:01.574Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ankurjamwal.quarto.pub/about.html</loc>
-    <lastmod>2026-07-23T02:34:01.574Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ankurjamwal.quarto.pub/posts/wheat_heat/wheat_heat.html</loc>
+    <loc>https://ankurjamwal.quarto.pub/ankur/posts/wheat_heat/wheat_heat.html</loc>
     <lastmod>2026-07-23T06:29:48.211Z</lastmod>
   </url>
   <url>
-    <loc>https://ankurjamwal.quarto.pub/posts/CC_real/CC_real.html</loc>
-    <lastmod>2026-07-23T06:27:03.471Z</lastmod>
+    <loc>https://ankurjamwal.quarto.pub/ankur/posts/CC_real/CC_real.html</loc>
+    <lastmod>2026-07-23T08:19:03.626Z</lastmod>
   </url>
   <url>
-    <loc>https://ankurjamwal.quarto.pub/posts/AR6/ar6.html</loc>
+    <loc>https://ankurjamwal.quarto.pub/ankur/posts/AR6/ar6.html</loc>
     <lastmod>2026-07-23T06:27:38.683Z</lastmod>
   </url>
   <url>
-    <loc>https://ankurjamwal.quarto.pub/blog.html</loc>
+    <loc>https://ankurjamwal.quarto.pub/ankur/blog.html</loc>
     <lastmod>2026-07-23T07:43:57.904Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ankurjamwal.quarto.pub/ankur/index.html</loc>
+    <lastmod>2026-07-23T02:34:01.574Z</lastmod>
   </url>
 </urlset>
