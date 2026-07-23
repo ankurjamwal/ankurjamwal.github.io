@@ -2,7 +2,8 @@
 title: "What the latest IPCC report (AR6) has to say about the effects of climate change on global food production?"
 
 date: "2023-03-30"
-categories: [climate change, IPCC, food, hunger, food security]
+categories: [Climate Change, Food Security]
+description: "IPCC’s AR6 reveals how climate change threatens global food security."
 
 image: "preview.png"
 ---
@@ -44,11 +45,11 @@ The authors of the AR6 highlight that 68 % of the irrigated croplands experience
 ::: {#definitions_1 .callout-note collapse="true"}
 ## Definitions and explanations
 
--   Green water: soil moisture used for agriculture and forestry
+- Green water: soil moisture used for agriculture and forestry
 
--   Blue water: Irrigation water from lakes, rivers, reservoirs, and aquifers. Used for drinking purposes as well.
+- Blue water: Irrigation water from lakes, rivers, reservoirs, and aquifers. Used for drinking purposes as well.
 
--   Grey water: the water that was used and has some impurities. E.g. Household and industrial wastewater.
+- Grey water: the water that was used and has some impurities. E.g. Household and industrial wastewater.
 :::
 
 Drought is regarded as the major driver of yield reduction globally, especially in the arid and semi-arid regions. Drought and heat waves have reduced crop output in 75 % of the harvestable area. The AR6 cites a report suggesting 11.6%, 12.4%, and 9.2% reduction in global average yields of maize, soyabeans and wheat, respectively, due to the combined effect of heat and drought. In contrast, the temperature alone was a major driver of agricultural productivity loss in regions considered wet.
@@ -82,8 +83,8 @@ Increased carbon dioxide availability, efficient irrigation facilities, and enha
 ::: {#definitions_2 .callout-note collapse="true"}
 ## Definition and explanations
 
--   C3 plants: majority of plants on Earth are C3 photosynthetic in which the first carbon compound produced contains three carbon atoms. Sparing the biochemical details, it is important to know that the key enzyme responsible to fix carbon dioxide can also use oxygen but the end result of this fixation is toxic in nature and the plant has to spend time and energy to fix this. Hence, more atmospheric CO2 will give advantage to the C3 weeds.
--   Also, the C3 plants have to let their stomata (pores in leaves) open to let in carbon dioxide. In this process, the water vapour is also lost from the same pores. Thus, C3 crops are at disadvantage in drought and high temperatures.
+- C3 plants: majority of plants on Earth are C3 photosynthetic in which the first carbon compound produced contains three carbon atoms. Sparing the biochemical details, it is important to know that the key enzyme responsible to fix carbon dioxide can also use oxygen but the end result of this fixation is toxic in nature and the plant has to spend time and energy to fix this. Hence, more atmospheric CO2 will give advantage to the C3 weeds.
+- Also, the C3 plants have to let their stomata (pores in leaves) open to let in carbon dioxide. In this process, the water vapour is also lost from the same pores. Thus, C3 crops are at disadvantage in drought and high temperatures.
 :::
 
 Pests are mostly ectotherms, thus increasing temperature may favour detoxification of pesticides. Thus, more pesticides would be required to elicit same effect. Furthermore, increased precipitation will also wash off pesticides, further reducing the efficacy of pesticides on plants and more toxins in run off. India's largest locust attack in 27 years is an example of increasing severity and territory expansion of pests.
@@ -102,13 +103,13 @@ The major crops have received considerable attention and stand better chance sur
 
 Analysis of over 100 research papers between 2014 and 2020 forecasts a negative effect on major crops in the following manner:
 
--   -2.3 % for maize
+- -2.3 % for maize
 
--   -3.3 % for soyabean
+- -3.3 % for soyabean
 
--   -0.7 % for rice
+- -0.7 % for rice
 
--   -1.3 % for wheat.
+- -1.3 % for wheat.
 
 However, these reports do not consider technological advances and adaptation measures.
 

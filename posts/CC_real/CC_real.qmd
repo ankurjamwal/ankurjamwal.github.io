@@ -3,7 +3,8 @@ title: "Understanding Climate Change"
 subtitle: "Part 1: The skepticism"
 author: "Ankur Jamwal"
 date: "2023-05-13"
-categories: [climate change, Carbon Emissions, Climate Debate, IPCC, climate denial, climate skepticism, vostok, ice core]
+categories: [Climate Change]
+description: "Climate change: science, skepticism, and the fine line between fact and denial."
 draft: FALSE
 format: html
 bibliography: references.bib
@@ -79,8 +80,8 @@ First, arguments from the climate change deniers/skeptics.
 
 The climate change projections depend on computer models because of two main reasons;
 
--   We cannot conduct control experiments to evaluate the cumulative effects of environmental elements such as carbon dioxide, clouds, snow, glaciers on global temperature. There are just too many elements that contribute to the warming of earth and each of these elements is dynamic with varying effects. We need computer to do the calculation for us keeping in mind the effects of various variables and their dynamic nature.
--   We do not have direct historic instrumental readings of temperature so we have to depend on proxies such as carbon isotopes, ice core elements, and reading tree rings (this is a lot more technical and definitely not similar to reading tea leaves).
+- We cannot conduct control experiments to evaluate the cumulative effects of environmental elements such as carbon dioxide, clouds, snow, glaciers on global temperature. There are just too many elements that contribute to the warming of earth and each of these elements is dynamic with varying effects. We need computer to do the calculation for us keeping in mind the effects of various variables and their dynamic nature.
+- We do not have direct historic instrumental readings of temperature so we have to depend on proxies such as carbon isotopes, ice core elements, and reading tree rings (this is a lot more technical and definitely not similar to reading tea leaves).
 
 Computer models usually work on the principle of *garbage in, garbage out*. Thus, a computer's estimate is just as reliable as the input data. Patrick Frank in his [paper](https://www.jstor.org/stable/43735017?seq=1#page_scan_tab_contents) suggested that the thermometers that provided us with the readings during the reference period had some errors which were handled or processed incorrectly. Consequently, based on his calculations, the temperature anomaly during 1856 -- 2004 period was 0.84 ℃ with an error of 0.98 ℃ (95 % confidence). From this, Patrick Frank concluded that we cannot claim that the earth has really warmed and even though there is an upward trend, it could be attributed only to random reasons with no reason for an alarm. Thus, it is obvious that when one enters the data that intrinsically has high variability, then the output would also have similar level of error -- giving us poor confidence.
 

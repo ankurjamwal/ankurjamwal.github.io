@@ -1,10 +1,2 @@
-/* css styles */
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Pacifico&display=swap');
-
-<style>
-body {background-color: powderblue;}
-</style>
-
-
-
-
+/* Page-level overrides that don't fit in custom.scss/custom-dark.scss.
+   Left intentionally minimal — most styling now lives in the SCSS theme files. */

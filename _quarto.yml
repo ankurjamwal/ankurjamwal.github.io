@@ -1,43 +1,47 @@
 project:
-    type: website
+  type: website
 
 website:
-  title: "Blog: The Good Food"
+  title: "Ankur Jamwal"
   site-url: https://ankurjamwal.quarto.pub/
   description: "Climate Change-Human-Food nexus"
   open-graph:
     image: images/odl_logo.png
-    title: "Blog: The Good Food"
+    title: "Ankur Jamwal"
     description: "Climate Change-Human-Food nexus"
   navbar:
     search: true
-    right:
-      - text: 'More'
-        menu:
-          - text: 'Blog'
-            href: index.qmd
-          - text: 'About the author'
-            href: about.qmd
-          - icon: rss
-            href: index.xml
+    left: 
+      - text: 'Blog: Climate Change X Food Security'
+        href: blog.qmd
+
+        
+    right: 
+      - text: '---'
+      - text: 'Academic advising (APU students only)'
+        href: https://calendar.app.google/tjACKiReouT5s3MQ8
+      - text: 'Bengaluru Gone Thirsty'
+        href: https://ankurjamwal.quarto.pub/bengaluru/
+      - icon: rss
+        href: index.xml
+      - text: '---'
+      
 
   google-analytics: "G-YEV355G40S"
   page-footer:
-    left: "Copyright 2025, Ankur Jamwal"
+    left: "Copyright 2026, Ankur Jamwal"
     right:
       - icon: linkedin
         href: https://www.linkedin.com/in/ankurjamwal
-      - icon: twitter
-        href: https://twitter.com/ankurjam
-      - icon: github
-    background: "#f8f9fa"
-  
+
+
 format:
   html:
     theme:
-      light: sandstone
-      dark: [solar, theme-dark.scss]
-    css: styles.css
+      light: [flatly, custom.scss]
+      dark: [darkly, custom-dark.scss]
+    #css: styles.css
+    mainfont: "IBM Plex Sans"
+    monofont: "IBM Plex Mono"
 
 editor: visual
-

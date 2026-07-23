@@ -6,5 +6,13 @@
       "/posts/wheat_heat/wheat_heat.html",
       "/posts/AR6/ar6.html"
     ]
+  },
+  {
+    "listing": "/blog.html",
+    "items": [
+      "/posts/CC_real/CC_real.html",
+      "/posts/wheat_heat/wheat_heat.html",
+      "/posts/AR6/ar6.html"
+    ]
   }
 ]

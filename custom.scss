@@ -1,0 +1,314 @@
+/*-- scss:defaults --*/
+
+// Instrument panel palette
+$graphite:   #2B2F33;
+$panel-white:#F4F5F4;
+$teal:       #0F6E67;
+$amber:      #E8A33D;
+$grid-gray:  #C7CCC9;
+$body-text:  #0F172B;
+
+$font-sans: "IBM Plex Sans", sans-serif;
+$font-mono: "IBM Plex Mono", monospace;
+
+$primary:     $teal;
+$secondary:   $graphite;
+$body-bg:     $panel-white;
+$body-color:  $body-text;
+$link-color:  $teal;
+$link-hover-color: darken($teal, 10%);
+
+$font-family-sans-serif: $font-sans;
+$font-family-monospace:  $font-mono;
+$headings-font-family:   $font-sans;
+$headings-font-weight:   600;
+$headings-color:         $graphite;
+
+$navbar-bg: $graphite;
+$navbar-fg: $panel-white;
+
+$footer-bg: $graphite;
+$footer-fg: $panel-white;
+
+$code-bg:    #E7E9E8;
+$code-color: $teal;
+
+$border-color:       $grid-gray;
+$table-border-color: $grid-gray;
+
+/*-- scss:rules --*/
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap');
+
+// Signature element: climate warming-stripes band under headings
+// (decorative pattern inspired by the #ShowYourStripes visualization —
+// not tied to real temperature data)
+@mixin climate-stripe($height: 8px) {
+  background-image: linear-gradient(to right,
+    #08306b 0%, #08306b 8%, #2166ac 8%, #2166ac 16%,
+    #4393c3 16%, #4393c3 24%, #92c5de 24%, #92c5de 32%,
+    #d1e5f0 32%, #d1e5f0 40%, #f7f7f7 40%, #f7f7f7 48%,
+    #fddbc7 48%, #fddbc7 56%, #f4a582 56%, #f4a582 64%,
+    #d6604d 64%, #d6604d 72%, #b2182b 72%, #b2182b 80%,
+    #67001f 80%, #67001f 88%, #b2182b 88%, #b2182b 96%,
+    #d6604d 96%, #d6604d 100%);
+  background-position: bottom left;
+  background-size: 100% #{$height};
+  background-repeat: no-repeat;
+}
+
+h1 {
+  padding-bottom: 0.75rem;
+  @include climate-stripe(8px);
+}
+
+h2 {
+  padding-bottom: 0.5rem;
+  @include climate-stripe(5px);
+}
+
+// Standalone stripe div, e.g. <div class="climate-stripe"></div>
+.climate-stripe {
+  height: 6px;
+  width: 100%;
+  border-radius: 2px;
+  margin: 0.5rem 0 1.5rem;
+  @include climate-stripe(6px);
+  background-size: 100% 100%;
+}
+
+// Compact about-page hero: small photo beside bio, replaces the
+// default trestles about-template (fixed layout, couldn't be restyled)
+.about-hero {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin: 1.5rem 0;
+}
+.about-photo {
+  width: 110px;
+  height: 110px;
+  object-fit: cover;
+  border-radius: 8px;
+  flex-shrink: 0;
+}
+.about-hero-text {
+  flex: 1;
+  min-width: 240px;
+}
+.about-social {
+  margin-top: 8px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.about-social a {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  border: 1px solid $teal;
+  border-radius: 4px;
+  color: $teal;
+  font-size: 0.85rem;
+  text-decoration: none;
+}
+.about-social a:hover {
+  background: rgba($teal, 0.08);
+}
+
+// Stat cards — h-index, citations, paper count, years
+.stat-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 10px;
+  margin: 1.25rem 0 1.5rem;
+}
+.stat-card {
+  background: #fff;
+  border: 1px solid $grid-gray;
+  border-radius: 8px;
+  padding: 12px;
+  text-align: center;
+}
+.stat-value {
+  font-family: $font-mono;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: $teal;
+  display: block;
+}
+.stat-label {
+  font-size: 0.75rem;
+  color: lighten($graphite, 25%);
+}
+
+// Pull quote
+.pull-quote {
+  margin: 0 0 1.5rem;
+  padding: 0.9rem 1.1rem;
+  border-left: 3px solid $amber;
+  background: rgba($amber, 0.08);
+  font-style: italic;
+  color: $graphite;
+}
+
+// Experience timeline
+.timeline {
+  margin: 0.75rem 0 1.5rem;
+  padding-left: 1rem;
+  border-left: 2px solid $grid-gray;
+}
+.timeline-item {
+  position: relative;
+  padding-bottom: 1rem;
+}
+.timeline-item::before {
+  content: "";
+  position: absolute;
+  left: -1.3rem;
+  top: 0.3rem;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: $teal;
+}
+.timeline-date {
+  font-family: $font-mono;
+  font-size: 0.75rem;
+  color: $teal;
+  display: block;
+}
+.timeline-role {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: $graphite;
+}
+
+// Force heading color — a Bootstrap/Bootswatch CSS variable was
+// overriding $headings-color, leaving page titles invisible
+h1, h2, h3, h4, h5, h6,
+.quarto-title-banner h1,
+.quarto-title-banner .title,
+.quarto-title,
+.card-title, .listing-title {
+  color: $graphite !important;
+}
+
+.quarto-title-banner {
+  background-color: $panel-white;
+  border-bottom: 1px solid $grid-gray;
+}
+
+// One signal accent: amber on nav hover only
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+  color: $amber !important;
+}
+
+// Category tags read like data chips — both on a page's own title
+// and in a blog listing. !important because Quarto injects its own
+// listing stylesheet after the theme bundle, which otherwise wins.
+.quarto-title .quarto-categories .quarto-category,
+.quarto-listing .listing-category,
+.quarto-listing-category {
+  background-color: transparent !important;
+  border: 1px solid $teal !important;
+  color: $teal !important;
+  font-family: $font-mono;
+  font-size: 0.75em !important;
+  border-radius: 2px !important;
+}
+
+// Grid-type listing cards (index.qmd) — white card, bordered, gridded,
+// stretched to equal height, ordered: title, date, categories, reading-time
+.quarto-grid-item {
+  background: #fff;
+  border: 1px solid $grid-gray !important;
+  border-radius: 8px;
+  padding: 14px;
+  height: 100%;
+}
+.quarto-grid-item .card-body.post-contents {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.quarto-grid-item .listing-title {
+  order: 1;
+  font-family: $font-sans;
+  color: $graphite;
+}
+// The date is wrapped in .card-attribution, which Quarto's own listing
+// CSS pins with position:absolute (that's what caused the blank gap
+// and the date always floating to the top). Bring it into normal flow.
+.quarto-grid-item .card-attribution {
+  position: static !important;
+  order: 2;
+  font-family: $font-mono;
+  font-size: 0.75em;
+  color: $teal;
+  text-align: left !important;
+  margin: 4px 0 8px;
+}
+.quarto-grid-item .listing-categories {
+  order: 3;
+  margin-bottom: 8px;
+}
+.quarto-grid-item .listing-description {
+  order: 4;
+  font-size: 0.9em;
+  color: lighten($graphite, 20%);
+}
+.quarto-grid-item .listing-reading-time {
+  order: 5;
+  margin-top: auto;
+  padding-top: 10px;
+}
+.quarto-grid-item .metadata {
+  font-family: $font-mono;
+  font-size: 0.75em;
+  color: $teal;
+}
+
+// Data tables — including the live ORCID/htmlTable output on about.qmd —
+// get a gridded, monospace, lab-readout treatment
+table {
+  font-family: $font-mono;
+  font-size: 0.9em;
+  border-collapse: collapse;
+}
+table th {
+  background-color: $graphite;
+  color: $panel-white;
+  font-family: $font-sans;
+  font-weight: 600;
+}
+table td, table th {
+  border: 1px solid $grid-gray;
+  padding: 0.5rem 0.75rem;
+}
+tbody tr:hover {
+  background-color: rgba($teal, 0.08);
+}
+
+blockquote {
+  border-left: 3px solid $amber;
+  background-color: rgba($amber, 0.06);
+  padding: 0.5rem 1rem;
+}
+
+a {
+  text-underline-offset: 2px;
+}
+
+// Footer disclaimer block (footer.html)
+.instrument-footer-note {
+  font-size: 0.85em;
+  color: rgba($panel-white, 0.75);
+}
+.instrument-footer-note a {
+  color: $panel-white;
+  text-decoration: underline;
+}

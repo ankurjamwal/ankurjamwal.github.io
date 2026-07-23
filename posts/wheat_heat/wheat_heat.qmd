@@ -2,7 +2,7 @@
 title: "Climate change has already started to challenge India's wheat production"
 date: "2023-04-28"
 date-modified: "2023-05-04"
-categories: [climate change, wheat, food, hunger, food security, heat wave, data viz, data visualization, India]
+categories: [Climate Change, Food Security]
 bibliography: references.bib
 ---
 
@@ -35,7 +35,7 @@ getwd()
 
 # Background
 
-Last update: May 04, 2023
+**Last update: May 04, 2023**
 
 Let us begin by looking at the screenshots of two news headlines from the Reuters website. Pay attention to what the headlines have to say, and the dates when the news articles were published.
 
@@ -288,7 +288,7 @@ danger_days_summary <- tibble(year, n_up, n_mp, n_pb) %>%
 #| warning: false
 #| label: fig-danger
 #| fig-cap: "Number of days when the day's maximum temperature exceed 30 ℃"
-ggplot(danger_days_summary) + geom_point(aes(x = year, y = days, colour = states), size = 5) + geom_line(aes(x = year, y = days, colour = states), show_guide = FALSE, linewidth = 1 ) + theme_classic() + theme(axis.text = element_text(colour = "black", size = 25, face = "bold"),
+ggplot(danger_days_summary) + geom_point(aes(x = year, y = days, colour = states), size = 5) + geom_line(aes(x = year, y = days, colour = states), show.legend = FALSE, linewidth = 1 ) + theme_classic() + theme(axis.text = element_text(colour = "black", size = 25, face = "bold"),
         axis.text.x = element_text(angle = 90),
         axis.title = element_text(color = "sienna", size = 30, face = "bold"),
         plot.title.position = "plot",

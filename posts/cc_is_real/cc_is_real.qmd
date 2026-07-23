@@ -3,7 +3,7 @@ title: "Understanding Climate Change"
 subtitle: "Part 2: The evidences for climate change"
 author: "Ankur Jamwal"
 date: "2023-12-22"
-categories: [climate change, Carbon Emissions, Climate Debate, IPCC, climate denial, climate skepticism, vostok, ice core]
+categories: [climate change]
 draft: TRUE
 format: html
 bibliography: references.bib
