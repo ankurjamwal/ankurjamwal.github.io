@@ -6,7 +6,8 @@ $panel-white:#F4F5F4;
 $teal:       #0F6E67;
 $amber:      #E8A33D;
 $grid-gray:  #C7CCC9;
-$body-text:  #0F172B;
+$body-text:  #454B4F;   // smoke grey — darker for better contrast
+$quote-text: #A6472B;   // terracotta — complementary accent for quotes
 
 $font-sans: "IBM Plex Sans", sans-serif;
 $font-mono: "IBM Plex Mono", monospace;
@@ -38,7 +39,16 @@ $table-border-color: $grid-gray;
 
 /*-- scss:rules --*/
 
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&family=Cinzel:wght@400;500;600&display=swap');
+
+// Navbar tagline — wrap the text in _quarto.yml with
+// <span class="navbar-tagline">...</span> to target it precisely
+.navbar-tagline {
+  font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
 
 // Signature element: climate warming-stripes band under headings
 // (decorative pattern inspired by the #ShowYourStripes visualization —
@@ -151,7 +161,7 @@ h2 {
   border-left: 3px solid $amber;
   background: rgba($amber, 0.08);
   font-style: italic;
-  color: $graphite;
+  color: $quote-text;
 }
 
 // Experience timeline
@@ -239,18 +249,22 @@ h1, h2, h3, h4, h5, h6,
   order: 1;
   font-family: $font-sans;
   color: $graphite;
+  min-height: 4.8rem; // reserves ~3 lines so the date below lines up across cards
+  line-height: 1.3;
 }
 // The date is wrapped in .card-attribution, which Quarto's own listing
-// CSS pins with position:absolute (that's what caused the blank gap
-// and the date always floating to the top). Bring it into normal flow.
-.quarto-grid-item .card-attribution {
+// CSS pins with position:absolute and right-aligns via a sibling "end"
+// class (that's what caused the blank gap and the right-alignment).
+// Bring it into normal flow, left-aligned, with matching specificity.
+.quarto-grid-item .card-attribution,
+.quarto-grid-item .card-attribution.end {
   position: static !important;
   order: 2;
   font-family: $font-mono;
   font-size: 0.75em;
   color: $teal;
   text-align: left !important;
-  margin: 4px 0 8px;
+  margin: 0 0 8px;
 }
 .quarto-grid-item .listing-categories {
   order: 3;
@@ -297,18 +311,57 @@ blockquote {
   border-left: 3px solid $amber;
   background-color: rgba($amber, 0.06);
   padding: 0.5rem 1rem;
+  color: $quote-text;
 }
 
 a {
   text-underline-offset: 2px;
 }
 
-// Footer disclaimer block (footer.html)
+// Footer disclaimer block (footer.html) — renders on the light page
+// background, not the dark footer bar, so it needs dark text
 .instrument-footer-note {
   font-size: 0.85em;
-  color: rgba($panel-white, 0.75);
+  color: rgba($graphite, 0.75);
 }
 .instrument-footer-note a {
-  color: $panel-white;
+  color: $teal;
   text-decoration: underline;
+}
+
+// Small-screen fixes
+@media (max-width: 576px) {
+  // Wide monospace tables (e.g. the ORCID publications table) overflow
+  // a phone viewport otherwise — let them scroll horizontally instead
+  // of breaking the page layout
+  table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+
+  // Stack the about-page hero instead of side-by-side
+  .about-hero {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .about-photo {
+    width: 100px;
+    height: 100px;
+  }
+  .about-social {
+    justify-content: center;
+  }
+
+  // Two columns instead of four for stat cards
+  .stat-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  // Reduce reserved title height on grid cards — 3-line reservation
+  // eats too much of a narrow screen's vertical space
+  .quarto-grid-item .listing-title {
+    min-height: 0;
+  }
 }

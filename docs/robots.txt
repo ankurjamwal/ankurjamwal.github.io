@@ -1,1 +1,1 @@
-Sitemap: https://ankurjamwal.quarto.pub/sitemap.xml
+Sitemap: https://ankurjamwal.github.io/sitemap.xml

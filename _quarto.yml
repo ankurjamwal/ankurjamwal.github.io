@@ -1,7 +1,6 @@
 project:
   type: website
   output-dir: docs
-
 website:
   title: "Ankur Jamwal"
   site-url: https://ankurjamwal.github.io/
@@ -13,9 +12,8 @@ website:
   navbar:
     search: true
     left: 
-      - text: 'Blog: Climate Change X Food Security'
+      - text: '<span class="navbar-tagline">Blog: Climate Change X Food Security</span>'
         href: blog.qmd
-
         
     right: 
       - text: '---'
@@ -27,15 +25,12 @@ website:
         href: index.xml
       - text: '---'
       
-
   google-analytics: "G-YEV355G40S"
   page-footer:
     left: "Copyright 2026, Ankur Jamwal"
     right:
       - icon: linkedin
         href: https://www.linkedin.com/in/ankurjamwal
-
-
 format:
   html:
     theme:
@@ -44,5 +39,4 @@ format:
     #css: styles.css
     mainfont: "IBM Plex Sans"
     monofont: "IBM Plex Mono"
-
 editor: visual

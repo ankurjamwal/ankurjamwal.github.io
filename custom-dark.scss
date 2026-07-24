@@ -6,6 +6,7 @@ $teal:      #2FA79C;   // lifted for contrast on dark
 $amber:     #E8A33D;
 $grid-gray: #3A3F42;
 $ink-light: #E4E6E5;
+$quote-text: #E08B65;   // lightened terracotta, readable on dark bg
 
 $body-bg:    $slate;
 $body-color: $ink-light;
@@ -44,6 +45,13 @@ $table-border-color: $grid-gray;
   background-position: bottom left;
   background-size: 100% #{$height};
   background-repeat: no-repeat;
+}
+
+.navbar-tagline {
+  font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
 }
 
 h1 {
@@ -136,7 +144,7 @@ h2 {
   border-left: 3px solid $amber;
   background: rgba($amber, 0.1);
   font-style: italic;
-  color: $ink-light;
+  color: $quote-text;
 }
 
 .timeline {
@@ -214,15 +222,18 @@ h1, h2, h3, h4, h5, h6,
 .quarto-grid-item .listing-title {
   order: 1;
   color: $ink-light;
+  min-height: 4.8rem;
+  line-height: 1.3;
 }
-.quarto-grid-item .card-attribution {
+.quarto-grid-item .card-attribution,
+.quarto-grid-item .card-attribution.end {
   position: static !important;
   order: 2;
   font-family: "IBM Plex Mono", monospace;
   font-size: 0.75em;
   color: $teal;
   text-align: left !important;
-  margin: 4px 0 8px;
+  margin: 0 0 8px;
 }
 .quarto-grid-item .listing-categories {
   order: 3;
@@ -267,6 +278,7 @@ blockquote {
   border-left: 3px solid $amber;
   background-color: rgba($amber, 0.1);
   padding: 0.5rem 1rem;
+  color: $quote-text;
 }
 
 .instrument-footer-note {
@@ -276,4 +288,31 @@ blockquote {
 .instrument-footer-note a {
   color: $ink-light;
   text-decoration: underline;
+}
+
+// Small-screen fixes
+@media (max-width: 576px) {
+  table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+  .about-hero {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .about-photo {
+    width: 100px;
+    height: 100px;
+  }
+  .about-social {
+    justify-content: center;
+  }
+  .stat-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .quarto-grid-item .listing-title {
+    min-height: 0;
+  }
 }
