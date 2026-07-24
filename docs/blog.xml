@@ -6,15 +6,15 @@
       version="2.0">
 <channel>
 <title>Ankur Jamwal</title>
-<link>https://ankurjamwal.quarto.pub/ankur/blog.html</link>
-<atom:link href="https://ankurjamwal.quarto.pub/ankur/blog.xml" rel="self" type="application/rss+xml"/>
+<link>https://ankurjamwal.quarto.pub/blog.html</link>
+<atom:link href="https://ankurjamwal.quarto.pub/blog.xml" rel="self" type="application/rss+xml"/>
 <description>A discussion on climate change and our food systems</description>
 <generator>quarto-1.9.38</generator>
 <lastBuildDate>Fri, 12 May 2023 18:30:00 GMT</lastBuildDate>
 <item>
   <title>Understanding Skepticism Behind Climate Change</title>
   <dc:creator>Ankur Jamwal</dc:creator>
-  <link>https://ankurjamwal.quarto.pub/ankur/posts/CC_real/CC_real.html</link>
+  <link>https://ankurjamwal.quarto.pub/posts/CC_real/CC_real.html</link>
   <description><![CDATA[ 
 
 
@@ -119,7 +119,7 @@
 <div id="fig-agency" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-agency-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="https://ankurjamwal.quarto.pub/ankur/posts/CC_real/CC_real_files/figure-html/fig-agency-1.png" class="img-fluid figure-img" width="672">
+<img src="https://ankurjamwal.quarto.pub/posts/CC_real/CC_real_files/figure-html/fig-agency-1.png" class="img-fluid figure-img" width="672">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-agency-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;1: Different agencies might have their own estimates of temperature anomalies due to data acquisition or handling
@@ -150,7 +150,7 @@ Figure&nbsp;1: Different agencies might have their own estimates of temperature 
 <p>Just as different agencies have their own ways of measuring global average temperature, the climate model experiments run by various agencies also differ in their temperature projections. This is why IPCC came up with <em>Coupled Model Intercomparison Project</em> (CMIP). The CMIP allows various models to be analyzed and compared. In the 6<sup>th</sup> version of CMIP (CMIP6) the IPCC compared around 100 models and found that a lot of these models showed very high sensitivity to carbon dioxide. Which means that these models were showing very high warming (upto 5 °C) when atmospheric carbon dioxide was doubled. Moreover, when these models were used to backtrace Earth’s temperature, they failed miserably. This made IPCC to realise that just averaging the results of all the climate change models is not a good idea as this would over estimate the warming potential of carbon dioxide. Instead, the IPCC has now assigned weightage to each model – the more accurate the model, the higher its weightage. This would eliminate the overestimation bias in the IPCC’s predictions. Just excluding ‘too hot’ models could be done but then each model has some good thing to offer which cannot be neglected and should be used in the overall prediciton models <span class="citation" data-cites="hausfather2022a">(Hausfather et al. 2022)</span>.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://ankurjamwal.quarto.pub/ankur/posts/CC_real/graphics/hot.png" class="img-fluid figure-img" style="width:50.0%"></p>
+<p><img src="https://ankurjamwal.quarto.pub/posts/CC_real/graphics/hot.png" class="img-fluid figure-img" style="width:50.0%"></p>
 <figcaption>Climate models are too sensitive</figcaption>
 </figure>
 </div>
@@ -167,7 +167,7 @@ Figure&nbsp;1: Different agencies might have their own estimates of temperature 
 <div id="fig-period" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-period-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="https://ankurjamwal.quarto.pub/ankur/posts/CC_real/CC_real_files/figure-html/fig-period-1.png" class="img-fluid figure-img" width="672">
+<img src="https://ankurjamwal.quarto.pub/posts/CC_real/CC_real_files/figure-html/fig-period-1.png" class="img-fluid figure-img" width="672">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-period-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;2: The global carbon dioxide continued to soar between 1943 and 1975 but there was no change in global surface temperature during that period.
@@ -203,7 +203,7 @@ Figure&nbsp;2: The global carbon dioxide continued to soar between 1943 and 1975
 <div id="fig-vostok" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-vostok-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="https://ankurjamwal.quarto.pub/ankur/posts/CC_real/graphics/VostokC_D.png" class="img-fluid quarto-figure quarto-figure-center figure-img">
+<img src="https://ankurjamwal.quarto.pub/posts/CC_real/graphics/VostokC_D.png" class="img-fluid quarto-figure quarto-figure-center figure-img">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-vostok-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;3: CO<sub>2</sub> and Deuterium excess measured from the Vostok Ice Cores. The figure shows that at the beginning of the last ice age, the temperature fell significantly but not the CO2 concentration (See the region highlighted in grey and marked with a magenta line.)
@@ -213,7 +213,7 @@ Figure&nbsp;3: CO<sub>2</sub> and Deuterium excess measured from the Vostok Ice 
 <div id="fig-vostok_z" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-vostok_z-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="https://ankurjamwal.quarto.pub/ankur/posts/CC_real/graphics/vostok_zoom.png" class="img-fluid quarto-figure quarto-figure-center figure-img">
+<img src="https://ankurjamwal.quarto.pub/posts/CC_real/graphics/vostok_zoom.png" class="img-fluid quarto-figure quarto-figure-center figure-img">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-vostok_z-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;4: The period 114000 – 130000 before present zoomed-in to show that global surface temperature continued to decline for thousands of years with almost no decline in global CO<sub>2</sub> level. A red linear regression line is drawn to better understand the trend of the datapoints available for the period.
@@ -240,13 +240,13 @@ Hausfather, Zeke, Kate Marvel, Gavin A. Schmidt, John W. Nielsen-Gammon, and Mar
 </div>
 </div></section></div> ]]></description>
   <category>Climate Change</category>
-  <guid>https://ankurjamwal.quarto.pub/ankur/posts/CC_real/CC_real.html</guid>
+  <guid>https://ankurjamwal.quarto.pub/posts/CC_real/CC_real.html</guid>
   <pubDate>Fri, 12 May 2023 18:30:00 GMT</pubDate>
 </item>
 <item>
   <title>Climate change has already started to challenge India’s wheat production</title>
   <dc:creator>Ankur Jamwal</dc:creator>
-  <link>https://ankurjamwal.quarto.pub/ankur/posts/wheat_heat/wheat_heat.html</link>
+  <link>https://ankurjamwal.quarto.pub/posts/wheat_heat/wheat_heat.html</link>
   <description><![CDATA[ 
 
 
@@ -263,12 +263,12 @@ Hausfather, Zeke, Kate Marvel, Gavin A. Schmidt, John W. Nielsen-Gammon, and Mar
 <div aria-describedby="fig-headlines-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <div class="quarto-layout-row">
 <div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: center;">
-<p><img src="https://ankurjamwal.quarto.pub/ankur/posts/wheat_heat/graphics/reuters_1.png" class="img-fluid figure-img"></p>
+<p><img src="https://ankurjamwal.quarto.pub/posts/wheat_heat/graphics/reuters_1.png" class="img-fluid figure-img"></p>
 </div>
 </div>
 <div class="quarto-layout-row">
 <div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: center;">
-<p><img src="https://ankurjamwal.quarto.pub/ankur/posts/wheat_heat/graphics/reuters_2.png" class="img-fluid figure-img"></p>
+<p><img src="https://ankurjamwal.quarto.pub/posts/wheat_heat/graphics/reuters_2.png" class="img-fluid figure-img"></p>
 </div>
 </div>
 </div>
@@ -293,7 +293,7 @@ Figure&nbsp;1: Contrasting headlines on the same subject
 <div id="fig-area" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-area-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="https://ankurjamwal.quarto.pub/ankur/posts/wheat_heat/wheat_heat_files/figure-html/fig-area-1.png" class="img-fluid figure-img" width="672">
+<img src="https://ankurjamwal.quarto.pub/posts/wheat_heat/wheat_heat_files/figure-html/fig-area-1.png" class="img-fluid figure-img" width="672">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-area-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;2: Harvested area for major cereal crops globally
@@ -307,7 +307,7 @@ Figure&nbsp;2: Harvested area for major cereal crops globally
 <div id="fig-prod" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-prod-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="https://ankurjamwal.quarto.pub/ankur/posts/wheat_heat/wheat_heat_files/figure-html/fig-prod-1.png" class="img-fluid figure-img" width="672">
+<img src="https://ankurjamwal.quarto.pub/posts/wheat_heat/wheat_heat_files/figure-html/fig-prod-1.png" class="img-fluid figure-img" width="672">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-prod-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;3: Harvested quantity (in tonnes) for major cereal crops globally
@@ -324,7 +324,7 @@ Figure&nbsp;3: Harvested quantity (in tonnes) for major cereal crops globally
 <div id="fig-stockpile" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-stockpile-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="https://ankurjamwal.quarto.pub/ankur/posts/wheat_heat/wheat_heat_files/figure-html/fig-stockpile-1.png" class="img-fluid figure-img" width="672">
+<img src="https://ankurjamwal.quarto.pub/posts/wheat_heat/wheat_heat_files/figure-html/fig-stockpile-1.png" class="img-fluid figure-img" width="672">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-stockpile-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;4: Wheat stockpile (central pool) since 2002
@@ -342,7 +342,7 @@ Figure&nbsp;4: Wheat stockpile (central pool) since 2002
 <div id="fig-consumption" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-consumption-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="https://ankurjamwal.quarto.pub/ankur/posts/wheat_heat/wheat_heat_files/figure-html/fig-consumption-1.png" class="img-fluid figure-img" width="672">
+<img src="https://ankurjamwal.quarto.pub/posts/wheat_heat/wheat_heat_files/figure-html/fig-consumption-1.png" class="img-fluid figure-img" width="672">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-consumption-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;5: Export and consumption of wheat go neck-to-neck in India
@@ -364,17 +364,17 @@ Figure&nbsp;5: Export and consumption of wheat go neck-to-neck in India
 <div aria-describedby="fig-climate_change-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <div class="quarto-layout-row">
 <div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: center;">
-<p><img src="https://ankurjamwal.quarto.pub/ankur/posts/wheat_heat/graphics/uttar_pradesh.jpg" class="img-fluid figure-img"></p>
+<p><img src="https://ankurjamwal.quarto.pub/posts/wheat_heat/graphics/uttar_pradesh.jpg" class="img-fluid figure-img"></p>
 </div>
 </div>
 <div class="quarto-layout-row">
 <div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: center;">
-<p><img src="https://ankurjamwal.quarto.pub/ankur/posts/wheat_heat/graphics/madhya_pradesh.jpg" class="img-fluid figure-img"></p>
+<p><img src="https://ankurjamwal.quarto.pub/posts/wheat_heat/graphics/madhya_pradesh.jpg" class="img-fluid figure-img"></p>
 </div>
 </div>
 <div class="quarto-layout-row">
 <div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: center;">
-<p><img src="https://ankurjamwal.quarto.pub/ankur/posts/wheat_heat/graphics/punjab.jpg" class="img-fluid figure-img"></p>
+<p><img src="https://ankurjamwal.quarto.pub/posts/wheat_heat/graphics/punjab.jpg" class="img-fluid figure-img"></p>
 </div>
 </div>
 </div>
@@ -390,7 +390,7 @@ Figure&nbsp;6: Three top wheat producing Indian states (Uttar Pradesh, Madhya Pr
 <div id="fig-danger" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-danger-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="https://ankurjamwal.quarto.pub/ankur/posts/wheat_heat/wheat_heat_files/figure-html/fig-danger-1.png" class="img-fluid figure-img" width="672">
+<img src="https://ankurjamwal.quarto.pub/posts/wheat_heat/wheat_heat_files/figure-html/fig-danger-1.png" class="img-fluid figure-img" width="672">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-danger-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;7: Number of days when the day’s maximum temperature exceed 30 ℃
@@ -425,13 +425,13 @@ Ottman, M. J., B. A. Kimball, J. W. White, and G. W. Wall. 2012. <span>“Wheat 
 </div></section></div> ]]></description>
   <category>Climate Change</category>
   <category>Food Security</category>
-  <guid>https://ankurjamwal.quarto.pub/ankur/posts/wheat_heat/wheat_heat.html</guid>
+  <guid>https://ankurjamwal.quarto.pub/posts/wheat_heat/wheat_heat.html</guid>
   <pubDate>Thu, 27 Apr 2023 18:30:00 GMT</pubDate>
 </item>
 <item>
   <title>What the latest IPCC report (AR6) has to say about the effects of climate change on global food production?</title>
   <dc:creator>Ankur Jamwal</dc:creator>
-  <link>https://ankurjamwal.quarto.pub/ankur/posts/AR6/ar6.html</link>
+  <link>https://ankurjamwal.quarto.pub/posts/AR6/ar6.html</link>
   <description><![CDATA[ 
 
 
@@ -505,7 +505,7 @@ Tip
 <div id="fig-1" class="preview-image quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="https://ankurjamwal.quarto.pub/ankur/posts/AR6/CC_1.png" class="preview-image img-fluid quarto-figure quarto-figure-center figure-img" width="2418">
+<img src="https://ankurjamwal.quarto.pub/posts/AR6/CC_1.png" class="preview-image img-fluid quarto-figure quarto-figure-center figure-img" width="2418">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;1: Climate change may increase wet precipitation (rain) in previously frigid regions and benefit them through enabling agriculture. However, the regions in lower latitudes may experience desertification. Mid-latitudinal regions may experience increased incidents of heavy precipitation and damage standing crops.
@@ -609,9 +609,9 @@ Figure&nbsp;1: Climate change may increase wet precipitation (rain) in previousl
  ]]></description>
   <category>Climate Change</category>
   <category>Food Security</category>
-  <guid>https://ankurjamwal.quarto.pub/ankur/posts/AR6/ar6.html</guid>
+  <guid>https://ankurjamwal.quarto.pub/posts/AR6/ar6.html</guid>
   <pubDate>Wed, 29 Mar 2023 18:30:00 GMT</pubDate>
-  <media:content url="https://ankurjamwal.quarto.pub/ankur/posts/AR6/preview.png" medium="image" type="image/png" height="79" width="144"/>
+  <media:content url="https://ankurjamwal.quarto.pub/posts/AR6/preview.png" medium="image" type="image/png" height="79" width="144"/>
 </item>
 </channel>
 </rss>

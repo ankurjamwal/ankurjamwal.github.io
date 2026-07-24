@@ -8,3 +8,10 @@
 /.quarto/
 
 **/*.quarto_ipynb
+
+.Rproj.user/
+.Rhistory
+.RData
+.quarto/
+_site/
+github_token.txt
