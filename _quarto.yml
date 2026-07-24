@@ -4,7 +4,7 @@ project:
 
 website:
   title: "Ankur Jamwal"
-  site-url: https://ankurjamwal.quarto.pub/
+  site-url: https://ankurjamwal.github.io/
   description: "Climate Change-Human-Food nexus"
   open-graph:
     image: images/odl_logo.png
