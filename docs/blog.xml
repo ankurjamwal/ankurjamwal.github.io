@@ -10,7 +10,299 @@
 <atom:link href="https://ankurjamwal.github.io/blog.xml" rel="self" type="application/rss+xml"/>
 <description>A discussion on climate change and our food systems</description>
 <generator>quarto-1.9.38</generator>
-<lastBuildDate>Fri, 12 May 2023 18:30:00 GMT</lastBuildDate>
+<lastBuildDate>Fri, 07 Aug 2026 18:30:00 GMT</lastBuildDate>
+<item>
+  <title>Did India fill its petrol tank with food?</title>
+  <dc:creator>Ankur Jamwal</dc:creator>
+  <link>https://ankurjamwal.github.io/posts/ethanol/ethanol_blog_draft.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+
+<section id="background" class="level1">
+<h1>Background</h1>
+<p>I am a student of agricultural sciences and my fraternity had always dreamed of developing a plant-based fossil-fuel alternative — bio-fuels. In theory, the plants contributing to bio-fuel have to meet some criteria: they should not be derived from crops meant for human or animal consumption, ideally should be a by-product with little to no food value, the plants should not encroach upon cultivable fertile land, and plants should not have heavy water requirement. In summary, the bio-fuel production should not impact food security and strain freshwater sources.</p>
+<p>In early 2000s India began experimenting with <a href="https://en.wikipedia.org/wiki/Jatropha_biodiesel_in_India#" title="Wikipedia page"><em>Jatropha curcas</em> seed oil to produce biodiesel</a>. Jatropha isn’t consumed by humans and can grow in slightly arid and harsh conditions. It seemed to meet the basic requirements; however, the project failed. More about it towards the end of the blog. Let us jump straight to ethanol first.</p>
+<p>Recently ethanol is in news for replacing 20% petrol in our fuel tanks (E20). In 2025, two documents of the Government of India described the same ethanol policy.</p>
+<p>The first, <a href="https://www.pib.gov.in/PressReleasePage.aspx?PRID=2155558&amp;reg=48&amp;lang=2">a press release</a> from the Ministry of Petroleum and Natural Gas, announced that India had achieved 20 % ethanol blending in petrol — five years ahead of schedule — and tallied the winnings: lakhs of crores in foreign exchange saved, lakhs of crores paid to farmers, crores of tonnes of carbon dioxide avoided. A policy triumph.</p>
+<p>The second, NITIAayog’s <a href="https://www.indiabudget.gov.in/economicsurvey/doc/eschapter/echap06.pdf">the Economic Survey 2025-26</a>, described “an emerging tension between Aatmanirbharta in energy and Aatmanirbharta in food,” warned that farmers were abandoning pulses and oilseeds for maize, and called the trend an early warning signal.</p>
+<p>Both are true. This post is an attempt to hold them together.</p>
+<p>I want to be clear at the outset about what this is not. It is not an argument that ethanol blending was a mistake. India imports about 85 to 88 % of its crude oil, and a country in that position is entitled to try almost anything. Nor is it a repetition of the viral claim that a litre of ethanol costs ten thousand litres of water — a number that is true for one feedstock and badly misleading for the others, as we will see.</p>
+<p>It is an attempt to do the accounting properly. Every litre of ethanol in an Indian petrol tank came from somewhere: from cane, from maize, from rice out of the Food Corporation of India’s godowns. This blog dwells on the question of what our food system can and cannot absorb. E20 is a very large withdrawal from that system, and it deserves a balance sheet rather than a press release. Though this blog doesn’t guarantee to be a detailed balance sheet, it is an attempt to clear some haze and contribute to the sane discussion over the topic.</p>
+<p>Let’s dive into some data.</p>
+</section>
+<section id="what-india-actually-achieved" class="level1">
+<h1>What India actually achieved</h1>
+<p>The scale of the india’s ethanol blending ramp-up is genuinely remarkable, and it would be dishonest to open with the negative criticisms.</p>
+<div id="fig-blending" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-blending-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="cell">
+<div class="cell-output-display">
+<div id="fig-blending" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-subfloat-fig figure">
+<div aria-describedby="fig-blending-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="https://ankurjamwal.github.io/posts/ethanol/ethanol_blog_draft_files/figure-html/fig-blending-1.png" class="img-fluid figure-img" data-ref-parent="fig-blending" width="672">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-subfloat-caption quarto-subfloat-fig" id="fig-blending-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+(a) Ethanol Blending in Indian petrol, 2013-14 to 2024-25
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig quarto-uncaptioned" id="fig-blending-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1
+</figcaption>
+</figure>
+</div>
+<p>Blending rose from 1.53 % in 2013-14 to roughly 19 to 20 % by the 2024-25 ethanol supply year (Figure&nbsp;1). Volumes supplied to oil marketing companies went from 38 crore litres to somewhere between 900 and 1,016 crore litres over the same period — a factor of about twenty-five (Figure&nbsp;2) . Very few Indian industrial programmes have scaled like that. Since April 2026, E20 is the base grade: essentially all petrol sold in the country carries 20 % ethanol at a minimum octane rating of 95.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div id="fig-ethanol" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-ethanol-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="https://ankurjamwal.github.io/posts/ethanol/ethanol_blog_draft_files/figure-html/fig-ethanol-1.png" class="img-fluid figure-img" width="672">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-ethanol-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2: Ethanol Volume (in crore litres) used in blending of petrol, 2013-14 to 2024-25
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>The official ledger, as of the <a href="https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/jul/doc202675912001.pdf">most recent government factsheets</a>, reads roughly as follows. About ₹1.90 lakh crore in foreign exchange saved between 2014-15 and May 2026, by substituting some 310 lakh metric tonnes of imported crude. Over ₹1.6 lakh crore paid to farmers. Somewhere between 790 and 930 lakh metric tonnes of carbon dioxide avoided. Sugar mills, chronically unable to pay cane arrears, got a second revenue stream. Distilleries created rural jobs in Uttar Pradesh, Maharashtra and Bihar Figure&nbsp;3.</p>
+<div id="fig-ledge" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-ledge-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="https://ankurjamwal.github.io/posts/ethanol/ethanol_ledger.svg" class="img-fluid quarto-figure quarto-figure-center figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-ledge-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;3: Government’s data to justify E20
+</figcaption>
+</figure>
+</div>
+<p>These are real achievements and I do not want to explain them away. But each of the three big claims — forex, carbon, and the implicit claim that this was all costless to the food system — is smaller or more complicated than it first appears.</p>
+</section>
+<section id="claim-one-the-import-bill" class="level1">
+<h1>Claim one: the import bill</h1>
+<p>Here is the first thing that gets lost. Ethanol displaces petrol. India’s oil consumption is dominated by diesel.</p>
+<p>NITI Aayog’s own 2021 roadmap put the annual saving from a fully successful E20 programme at about four billion US dollars. Based on multiple PIB reports, and replies in Lok Sabha the cumulative savings from ethanol blending can be pegged at ₹1.98 lakh crores. For ESY 2023-24 (Nov 2023–Oct 2024), the government reported a single-year forex saving of ₹28,400 crore, per Minister of State Suresh Gopi’s written reply in the Rajya Sabha. Considering ₹ 83 per USD in ESY 2023-24, the savings amount to approx US$ 3.4 billion. As per the latest data and an exchange rate of about ₹ 90, the savings are approx US$ 6-7 billion – much above NITI aayog’s estimates. But that is just because of depreciating Indian rupee.</p>
+<p>In terms of ethanol volume, NITI aayog’s report predicted a demand of ~1,350 crore litres of ethanol per year for blending. In contrast, the demand current has surpassed 1,400 crore litres.</p>
+<p>So, if one were to just to look into petrol (gasolene), enforcement of ethanol blending seems profitable for India. However, <a href="https://www.financialexpress.com/policy/economy-crude-oil-imports-bill-up-2-7-to-137-billion-in-fy25-3814138/">India’s oil import bill</a> in FY 2024-25 was roughly US$137 billion.</p>
+<p>Thus, India saves a meager 5.11 %</p>
+<div id="fig-offset" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-offset-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<p>Annual forex saving from E20 against India’s total oil import bill</p>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig quarto-uncaptioned" id="fig-offset-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;4
+</figcaption>
+</figure>
+</div>
+<p>Four billion against one hundred and thirty-seven is about three per cent. That is not nothing — three per cent of an import bill that size is real money, and it is money that does not leave the country. But it is a very long way from the energy independence the programme is often described as delivering. If the objective is to stop being at the mercy of the crude market, E20 moves the needle by roughly the width of a month’s price volatility.</p>
+<p>There is a sharper version of this problem. As sugarcane and rice surpluses tightened, the government raised the administered price for maize-based ethanol to pull maize into distilleries. It worked. It also helped push India from being a maize exporter to a <strong>net importer of maize in 2024</strong>, with exports collapsing from about 1.9 million tonnes a year to around 0.5 million. Analysts at the Observer Research Foundation have called this a self-goal, and the phrase is hard to argue with: a programme justified by import substitution has generated a new import dependency, and by nudging farmers away from oilseeds it risks deepening an old one. India already imports well over half its edible oil.</p>
+</section>
+<section id="claim-two-the-carbon" class="level1">
+<h1>Claim two: the carbon</h1>
+<p>This is where I expected, before doing the reading, to find the strongest case for the programme. The picture is more equivocal.</p>
+<p>Lifecycle or “well-to-wheel” analyses generally put grain and sugar ethanol at 30 to 50 per cent lower greenhouse gas emissions than petrol. Argonne National Laboratory’s much-cited figure for US corn ethanol is around 40 per cent. So the direction of the effect is not in doubt.</p>
+<p>Three things shrink it in the Indian case.</p>
+<p><strong>First, the distillery’s own energy.</strong> Estimates for India put ethanol’s carbon intensity at roughly 50 gCO₂e per megajoule where the distillery runs on biomass, and around 70 where it runs on coal. A great many Indian distilleries run on coal. A programme whose climate benefit is advertised as a headline is quietly being delivered at the bottom of its own range.</p>
+<div id="fig-ghg" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-ghg-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<p>Carbon intensity of petrol against coal-fired and biomass-fired ethanol pathways</p>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig quarto-uncaptioned" id="fig-ghg-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;5
+</figcaption>
+</figure>
+</div>
+<p><strong>Second, land-use change.</strong> The carbon accounting above generally excludes what happens when cane or maize expands onto land that was previously storing carbon. If the crop displaces forest, grassland or fallow, the soil and biomass carbon released can take years or decades to repay. Indian lifecycle studies that include land-use change are scarce, which is itself worth saying out loud: we are running a national fuel programme on emissions estimates that omit one of the largest terms.</p>
+<p><strong>Third, and least intuitively, blending dilutes the benefit.</strong> Pure ethanol can save up to about 87 per cent of emissions per megajoule against petrol. A 20 per cent blend cannot save 20 per cent of that, because the other 80 per cent of the tank is still petrol and because ethanol carries about 30 per cent less energy per litre — so you burn slightly more of it. The net saving on the blend is real but modest.</p>
+<p>Set against a claimed 790 to 930 lakh tonnes of carbon dioxide avoided, the honest statement is: some meaningful fraction of that, depending on how the distillery is powered and where the crop was grown, neither of which the headline figure discloses.</p>
+</section>
+<section id="claim-three-the-water" class="level1">
+<h1>Claim three: the water</h1>
+<p>This is the argument that has travelled furthest on social media, usually in its least defensible form. Let me try to separate the signal.</p>
+<p>The viral claim is that a litre of ethanol takes ten thousand litres of water. That figure is <strong>approximately right for rice</strong> and <strong>wrong for sugarcane</strong>, which supplies most of India’s ethanol. Rice is the outlier for a specific and unglamorous reason: conversion efficiency. A tonne of rice yields only around 450 litres of ethanol, so rice’s already large field water requirement gets divided by a small number.</p>
+<div id="fig-water" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-water-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<p>Water footprint per litre of ethanol by feedstock. Estimates vary widely by method and irrigation regime; the bars should be read as a range, not a measurement.</p>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig quarto-uncaptioned" id="fig-water-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;6
+</figcaption>
+</figure>
+</div>
+<p>For sugarcane the credible range runs from about 1,634 litres per litre under drip irrigation to roughly 3,000, depending on whose method you accept. NITI Aayog’s roadmap uses 2,860. An industry-backed ISMA-ICAR study published in 2026 argues for the lower end and makes a fair point that deserves acknowledgement: measured per unit of biomass output, cane is not obviously the villain it is made out to be. Maize sits somewhere between 4,500 and 5,600.</p>
+<p>Three caveats keep this from being a clean win for either side.</p>
+<p><strong>Allocation matters.</strong> Ethanol made from molasses shares cane’s water footprint with sugar. Ethanol made from direct cane juice carries the whole burden. Studies that do not say which route they are costing are not saying very much.</p>
+<p><strong>Green water is not blue water.</strong> A footprint that is mostly rainfall is a different proposition from one that is mostly pumped groundwater. The headline litres-per-litre number collapses this distinction, and it is the distinction that matters.</p>
+<p><strong>Above all, geography matters more than the ratio.</strong> India’s ethanol capacity — of the order of 1,700 to 1,800 crore litres — is concentrated in Maharashtra, Uttar Pradesh and Karnataka for cane, and draws on paddy from Punjab and Haryana. The Central Ground Water Board’s 2025 assessment classifies a great many blocks in exactly these states as over-exploited or critical. Distilleries are sited near feedstock for obvious logistical reasons, which means the industrial water demand lands on top of the agricultural water demand in the same aquifer. A litre of ethanol at 2,000 litres of water in a rainfed basin and a litre at 2,000 litres in an over-exploited block in Marathwada are not the same litre.</p>
+<p>There is also a downstream problem that rarely makes the debate. Distilleries generate vinasse, or spent wash — a high-BOD effluent that contaminates surface and groundwater where treatment is inadequate. The water cost of ethanol is not only water withdrawn. It is also water spoiled.</p>
+</section>
+<section id="claim-four-unstated-that-none-of-this-came-out-of-the-food-system" class="level1">
+<h1>Claim four, unstated: that none of this came out of the food system</h1>
+<p>Here is where this blog’s usual concerns bite hardest.</p>
+<p>The programme’s defenders have a genuinely good answer to the food-versus-fuel charge, and it is worth stating in its strongest form before taking it apart. Ethanol, they say, is made from molasses — the residue left after sugar has been extracted. It is made from <em>surplus</em> rice that the FCI cannot otherwise move. It is made from maize that farmers were happy to be paid more for. Nobody’s meal was taken.</p>
+<p>That answer was largely true in 2015. It is much less true at E20, and the reason is arithmetic.</p>
+<section id="a-ladder-not-a-binary" class="level2">
+<h2 class="anchored" data-anchor-id="a-ladder-not-a-binary">A ladder, not a binary</h2>
+<p>Feedstocks are not equally food-competitive. They sit on a gradient:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Feedstock</th>
+<th>Competition with food</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>C-heavy molasses</td>
+<td>Genuine byproduct — close to zero</td>
+</tr>
+<tr class="even">
+<td>B-heavy molasses</td>
+<td>Sugar forgone at the margin</td>
+</tr>
+<tr class="odd">
+<td>Direct cane juice</td>
+<td>Full diversion of a food crop</td>
+</tr>
+<tr class="even">
+<td>Maize</td>
+<td>Direct competition with feed and food</td>
+</tr>
+<tr class="odd">
+<td>FCI rice</td>
+<td>A human staple, taken from buffer stock</td>
+</tr>
+</tbody>
+</table>
+<p>E20 required on the order of 1,000 crore litres of ethanol a year. Molasses alone could never supply that. So the programme climbed the ladder — not out of ideology, but because volume forced it. Each rung was a rational response to a shortfall on the rung below. The result is a feedstock mix that now draws directly on human food, and that will draw more of it at E25 and E30.</p>
+<div id="fig-feedstock" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-feedstock-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<p>Planned feedstock split for E20 demand: roughly 54 per cent from sugarcane derivatives, 46 per cent from grains</p>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig quarto-uncaptioned" id="fig-feedstock-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;7
+</figcaption>
+</figure>
+</div>
+</section>
+<section id="what-a-litre-of-ethanol-costs-in-calories" class="level2">
+<h2 class="anchored" data-anchor-id="what-a-litre-of-ethanol-costs-in-calories">What a litre of ethanol costs, in calories</h2>
+<p>NITI Aayog’s own conversion factors let us do this directly. One litre of ethanol requires about 2.3 kg of rice, or about 2.6 kg of maize.</p>
+<p>At roughly 3,450 kcal per kg for milled rice and 3,650 for maize, and taking 2,200 kcal as a reference adult’s daily requirement:</p>
+<ul>
+<li>One litre of ethanol from rice embodies about <strong>7,900 kcal — around 3.6 adult-days of food</strong>.</li>
+<li>One litre from maize embodies about <strong>9,500 kcal — around 4.3 adult-days</strong>.</li>
+</ul>
+<p>Scale that up. The government allocated 52 lakh metric tonnes of surplus FCI rice for ethanol across the 2024-25 and 2025-26 supply years. That is 5.2 million tonnes of milled rice, carrying roughly 1.79 × 10¹³ kilocalories — enough, on paper, to meet the annual calorie requirement of about <strong>22 million people</strong>. It yields somewhere around 226 crore litres of ethanol.</p>
+<p>Two honest qualifications, because this number is easy to misuse.</p>
+<p>The first is that a meaningful share of the grain comes back. Distillers’ dried grains with solubles, or DDGS, is a protein-rich co-product — around 28 to 30 per cent protein from maize, about 45 per cent from rice — that returns to the animal feed chain at ₹16,000 to ₹19,000 a tonne against ₹31,000-odd for soy de-oiled cake. Netting a rough one-third mass recovery, the figure falls to something like 15 million person-years. Any analysis that ignores DDGS is overstating the loss.</p>
+<p>The second is more important. <strong>This is opportunity cost, not hunger caused.</strong> That rice was genuinely beyond what the public distribution system was lifting. No one was denied a ration so that a car could run. Presenting it otherwise would be dishonest.</p>
+<p>But then we should ask what “surplus” is actually measuring.</p>
+</section>
+<section id="the-word-surplus-is-doing-a-great-deal-of-work" class="level2">
+<h2 class="anchored" data-anchor-id="the-word-surplus-is-doing-a-great-deal-of-work">The word “surplus” is doing a great deal of work</h2>
+<p>India’s rice surplus is not a gift of nature. It is manufactured — by minimum support prices, assured procurement, and near-free electricity for tubewells in Punjab and Haryana. It is, quite precisely, a surplus produced by mining groundwater that the region cannot spare. The readers of this blog will remember what that looks like from the other end.</p>
+<p>Routing that surplus into fuel does something subtle and, I think, genuinely harmful. It converts an embarrassing overproduction problem into a celebrated energy achievement. It gives the distortion a purpose. Where the accumulation of unwanted rice was once an argument for crop diversification in the north-west, it is now feedstock security for a national fuel programme — and a constituency has grown up around keeping it.</p>
+<p>The surplus is not evidence that the water was available to spare. It is evidence that we priced the water at zero.</p>
+</section>
+<section id="maize-the-sharper-case" class="level2">
+<h2 class="anchored" data-anchor-id="maize-the-sharper-case">Maize: the sharper case</h2>
+<p>Rice at least has a surplus story. Maize does not.</p>
+<p>Maize going into ethanol rose from roughly 1 million tonnes in 2022 to about 6 million in 2024, and was projected near 11 million by the end of 2025. Ethanol now takes something like a third of India’s maize crop. Poultry takes about 60 per cent. The two are bidding against each other, and the price shows it: maize moved from ₹14,000-15,000 a tonne to ₹24,000-25,000 in roughly four years.</p>
+<div id="fig-maize" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-maize-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<p>Maize diverted to ethanol against maize prices. India became a net importer in 2024.</p>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig quarto-uncaptioned" id="fig-maize-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;8
+</figcaption>
+</figure>
+</div>
+<p>This is not absorbing a glut. This is manufacturing demand for a crop that was already fully spoken for, and then importing the difference.</p>
+<p>And the loss does not show up as missing calories. It shows up as <strong>dearer eggs, chicken and milk</strong> — which in a country with a protein-quality problem rather than a calorie problem is arguably the worse outcome. Small poultry producers, squeezed between feed costs they cannot control and egg prices set by the market, absorb it first. Their customers absorb it next. The people who eat two eggs a week because that is what they can afford are the last link in a chain that starts at a petrol pump.</p>
+</section>
+<section id="the-deepest-cut-pulses-and-oilseeds" class="level2">
+<h2 class="anchored" data-anchor-id="the-deepest-cut-pulses-and-oilseeds">The deepest cut: pulses and oilseeds</h2>
+<p>The Economic Survey’s warning was not really about maize. It was about what maize displaces.</p>
+<p>Between FY22 and FY25, the administered price of maize-based ethanol rose at a compound annual rate of 11.7 per cent — considerably faster than ethanol from rice or molasses. That is a deliberate price signal, and farmers responded to it rationally by moving area into maize.</p>
+<p>They moved it out of pulses and oilseeds.</p>
+<p>Those are precisely the two crops India can least afford to lose. Pulses are the backbone of vegetarian protein for most of the country. Edible oil is already an import dependency of well over half of consumption, and one of the most reliable sources of food-price inflation we have. A policy that pulls land away from both, in order to make a fuel that offsets three per cent of the oil bill, is not obviously a good trade — and it is a trade being made one farmer’s sowing decision at a time, invisibly, with no mechanism to reverse it.</p>
+</section>
+</section>
+<section id="an-older-lesson-whatever-happened-to-jatropha" class="level1">
+<h1>An older lesson: whatever happened to Jatropha?</h1>
+<p>Readers with longer memories will recall that this is India’s second national biofuel push, and that the first one had exactly the opposite design.</p>
+<p>From 2003, the Planning Commission targeted 20 per cent biodiesel blending by 2011-12 using <em>Jatropha curcas</em>, to be grown on 11.2 to 13.4 million hectares of “wasteland.” The entire premise was that it would never compete with food: a hardy, non-edible shrub on land nobody was farming.</p>
+<p>It failed almost completely. By 2008 barely 700,000 hectares had been planted, yields came in at 1 to 2 tonnes a hectare against projections of 5 to 6, and the mission was effectively abandoned that August. A second attempt through the National Biodiesel Mission of 2009 — targeting 20 per cent by 2017, with procurement from 2014 and pilots from 2015 — ran aground on a simple shortage of seed. Biodiesel blending in India today sits well under one per cent.</p>
+<p>Why it failed is the interesting part, and there are three reasons, all of which should sound familiar.</p>
+<p>The wasteland premise was wrong: Jatropha <em>survives</em> on marginal land but does not <em>yield</em> there. Getting commercial yields required irrigation and fertiliser — which is to say, the good land the scheme existed to avoid. Deployment ran far ahead of the agronomy, with plantations going in on undomesticated germplasm and no breeding programme behind them. And smallholders carried the risk through a three-to-five year gestation, only to find no buyer at the end; large tracts allocated to companies that never followed through generated land-grab concerns that helped bury the mission quietly.</p>
+<p>Now set the two programmes side by side.</p>
+<p><strong>Jatropha failed because it refused to compete with food, land and water. Ethanol succeeded because it did.</strong> It piggybacked on cane that was already grown, mills that already existed, distilleries that were already built, and a farm constituency already organised to lobby for it. That is the whole explanation for the difference in outcomes.</p>
+<p>Which leads to the uncomfortable conclusion of this post. The food, water and land costs documented above are not an unfortunate side-effect of India’s ethanol success. They are the mechanism of it. The programme worked <em>because</em> it drew on the food system. That is what made it fast.</p>
+</section>
+<section id="what-follows-from-this" class="level1">
+<h1>What follows from this</h1>
+<p>None of this argues for reversing E20. The capacity is built, the vehicles are certified, the supply chains exist, and there is a real if modest forex and carbon benefit. Unwinding it would waste more than it saved.</p>
+<p>It does argue for a much more careful E25 and E30. Some things that would help:</p>
+<p><strong>Publish the full public cost.</strong> As CEEW has pointed out, what oil marketing companies pay for ethanol is not what the programme costs. Add interest subvention, guaranteed pricing, GST concessions and the implicit subsidy in cheap FCI grain, and the number is considerably larger. It should be published annually. We cannot evaluate a trade-off we have not costed.</p>
+<p><strong>Price feedstocks by water and food risk, not just by volume.</strong> Right now the administered price structure rewards whatever closes the supply gap. It should discriminate against grain from over-exploited blocks and in favour of C-heavy molasses, cane from assured-rainfall regions, and genuinely surplus stock.</p>
+<p><strong>Audit water at the block level, not the national level.</strong> A national litres-per-litre figure is close to meaningless. Overlay distillery capacity on the Central Ground Water Board’s assessment and license accordingly. A distillery in an over-exploited block should have to justify itself.</p>
+<p><strong>Move on 2G ethanol seriously.</strong> Cellulosic ethanol from crop residue — paddy straw above all — is the one pathway that improves food security, air quality and emissions simultaneously. It has been five years of pilots and viability gap funding. It needs to become the default rather than the demonstration.</p>
+<p><strong>Plan capacity against declining petrol demand.</strong> CEEW’s warning here is sharp: as electric vehicles take share, petrol demand will peak and fall. Capacity built today for E30 may end up as stranded assets that nonetheless keep a permanent claim on grain and groundwater — a food security cost with no remaining energy security benefit.</p>
+<p><strong>Set a floor the programme cannot cross.</strong> No FCI grain to ethanol below a defined buffer threshold. Readers of the wheat post will know how quickly a comfortable stockpile becomes an uncomfortable one after two bad seasons.</p>
+<p>India was right to want to burn less imported crude. The question was never whether to do it, but what to burn instead — and we have answered that question, twice now, by looking at what was easiest to reach rather than what we could most afford to lose. Jatropha was hard and failed. Ethanol was easy and worked. Neither outcome tells us it was the right thing to grow.</p>
+<hr>
+<section id="a-note-on-the-numbers" class="level4">
+<h4 class="anchored" data-anchor-id="a-note-on-the-numbers">A note on the numbers</h4>
+<p>Government cumulative figures for forex savings, farmer payments and carbon avoided are revised with almost every press release; where I have quoted them I have tried to indicate the vintage. Water and lifecycle emissions figures are strongly method-dependent, and I have given ranges rather than point estimates wherever the literature does not agree. The calorie calculations are my own, using NITI Aayog’s conversion factors and standard composition tables; they are illustrative of opportunity cost and should not be read as a claim about observed hunger. Corrections are welcome.</p>
+</section>
+<section id="references" class="level2">
+<h2 class="anchored" data-anchor-id="references">References</h2>
+<p>Central Ground Water Board. 2025. <em>Dynamic Ground Water Resources of India.</em></p>
+<p>Council on Energy, Environment and Water (CEEW). 2026. <em>After E20: India’s Ethanol Blending Programme Next Phase.</em></p>
+<p>Down To Earth. 2025. “Lost in maize.” June 16-30 print edition.</p>
+<p>Down To Earth. 2026. “Fuel over food? Economic Survey 2026 flags early warning signs of ethanol reshaping crop priorities.”</p>
+<p>Gerbens-Leenes, P.W., and A.Y. Hoekstra. <em>The Water Footprint of Sweeteners and Bio-ethanol.</em> Value of Water Research Report Series No.&nbsp;38, UNESCO-IHE.</p>
+<p>Government of India. 2026. <em>Economic Survey 2025-26.</em></p>
+<p>Indian Sugar and Bio-energy Manufacturers Association (ISMA) and ICAR. 2026. <em>Water use efficiency in sugarcane and competing crops.</em></p>
+<p>NITI Aayog and Ministry of Petroleum and Natural Gas. 2021. <em>Roadmap for Ethanol Blending in India 2020-25.</em> New Delhi.</p>
+<p>Observer Research Foundation. “Ethanol blended petrol for energy security: India’s self-goal?”</p>
+<p>Press Information Bureau, Ministry of Petroleum and Natural Gas. 2025-2026. Ethanol Blended Petrol Programme factsheets.</p>
+<p>Saini, S., P. Khatri, and S. Hussain. <em>Ethanol Blending of Petrol in India.</em> Arcus Policy Research.</p>
+<p>USDA Foreign Agricultural Service. 2025. <em>Grain and Feed Annual: India.</em> GAIN Report IN2025-0023.</p>
+<p>Wang, M., et al.&nbsp;Argonne National Laboratory GREET model — lifecycle analysis of ethanol pathways.</p>
+<p><em>[Add DOIs for the peer-reviewed sources — the ScienceDirect papers on Jatropha policy (Energy Policy, 2011 and 2012) and the 2020 Environmental Research Letters paper on the water-food-energy nexus in the Indian sugar industry are worth citing directly.]</em></p>
+<div class="cell">
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "C:/R projects/blog/posts/ethanol"</code></pre>
+</div>
+</div>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <category>ethanol</category>
+  <category>food security</category>
+  <guid>https://ankurjamwal.github.io/posts/ethanol/ethanol_blog_draft.html</guid>
+  <pubDate>Fri, 07 Aug 2026 18:30:00 GMT</pubDate>
+</item>
 <item>
   <title>Understanding Skepticism Behind Climate Change</title>
   <dc:creator>Ankur Jamwal</dc:creator>

@@ -6,7 +6,7 @@ date: today
 categories:
   - ethanol
   - food security
-draft: TRUE
+#draft: TRUE
 format:
   html:
     toc: true
@@ -27,53 +27,195 @@ library(tidyverse)
 
 # Background
 
-In 2025, two documents of the Government of India described the same policy.
+I am a student of agricultural sciences and my fraternity had always dreamed of developing a plant-based fossil-fuel alternative — bio-fuels. In theory, the plants contributing to bio-fuel have to meet some criteria: they should not be derived from crops meant for human or animal consumption, ideally should be a by-product with little to no food value, the plants should not encroach upon cultivable fertile land, and plants should not have heavy water requirement. In summary, the bio-fuel production should not impact food security and strain freshwater sources.
 
-The first, a press release from the Ministry of Petroleum and Natural Gas, announced that India had achieved 20 per cent ethanol blending in petrol — five years ahead of schedule — and tallied the winnings: lakhs of crores in foreign exchange saved, lakhs of crores paid to farmers, crores of tonnes of carbon dioxide avoided. It was, by any reading, a policy triumph.
+In early 2000s India began experimenting with [*Jatropha curcas* seed oil to produce biodiesel](https://en.wikipedia.org/wiki/Jatropha_biodiesel_in_India# "Wikipedia page"). Jatropha isn't consumed by humans and can grow in slightly arid and harsh conditions. It seemed to meet the basic requirements; however, the project failed. More about it towards the end of the blog. Let us jump straight to ethanol first.
 
-The second, the Economic Survey 2025-26, described "an emerging tension between Aatmanirbharta in energy and Aatmanirbharta in food," warned that farmers were abandoning pulses and oilseeds for maize, and called the trend an early warning signal.
+Recently ethanol is in news for replacing 20% petrol in our fuel tanks (E20). In 2025, two documents of the Government of India described the same ethanol policy.
+
+The first, [a press release](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2155558&reg=48&lang=2) from the Ministry of Petroleum and Natural Gas, announced that India had achieved 20 % ethanol blending in petrol — five years ahead of schedule — and tallied the winnings: lakhs of crores in foreign exchange saved, lakhs of crores paid to farmers, crores of tonnes of carbon dioxide avoided. A policy triumph.
+
+The second, NITIAayog's [the Economic Survey 2025-26](https://www.indiabudget.gov.in/economicsurvey/doc/eschapter/echap06.pdf), described "an emerging tension between Aatmanirbharta in energy and Aatmanirbharta in food," warned that farmers were abandoning pulses and oilseeds for maize, and called the trend an early warning signal.
 
 Both are true. This post is an attempt to hold them together.
 
-I want to be clear at the outset about what this is not. It is not an argument that ethanol blending was a mistake. India imports something like 85 to 88 per cent of its crude oil, and a country in that position is entitled to try almost anything. Nor is it a repetition of the viral claim that a litre of ethanol costs ten thousand litres of water — a number that is true for one feedstock and badly misleading for the others, as we will see.
+I want to be clear at the outset about what this is not. It is not an argument that ethanol blending was a mistake. India imports about 85 to 88 % of its crude oil, and a country in that position is entitled to try almost anything. Nor is it a repetition of the viral claim that a litre of ethanol costs ten thousand litres of water — a number that is true for one feedstock and badly misleading for the others, as we will see.
 
-It is an attempt to do the accounting properly. Every litre of ethanol in an Indian petrol tank came from somewhere: from cane, from maize, from rice out of the Food Corporation of India's godowns. This blog has spent its life on the question of what our food system can and cannot absorb. E20 is a very large withdrawal from that system, and it deserves a balance sheet rather than a press release.
+It is an attempt to do the accounting properly. Every litre of ethanol in an Indian petrol tank came from somewhere: from cane, from maize, from rice out of the Food Corporation of India's godowns. This blog dwells on the question of what our food system can and cannot absorb. E20 is a very large withdrawal from that system, and it deserves a balance sheet rather than a press release. Though this blog doesn't guarantee to be a detailed balance sheet, it is an attempt to clear some haze and contribute to the sane discussion over the topic.
 
 Let's dive into some data.
 
 # What India actually achieved
 
-The scale of the ramp-up is genuinely remarkable, and it would be dishonest to open with the criticisms.
+The scale of the india's ethanol blending ramp-up is genuinely remarkable, and it would be dishonest to open with the negative criticisms.
 
-::: {#fig-blending}
-```{r fig-blending}
-# read_csv("data/ethanol_blending_trajectory.csv") |>
-#   ggplot(aes(esy_year, blending_percent, group = 1)) +
-#   geom_line() + geom_point() +
-#   labs(x = "Ethanol Supply Year", y = "Blending (%)")
+```{r}
+#| label: blending_pct
+#| include: false
+
+library(tidyverse)
+library(ggtext)
+library(showtext)
+
+
+
+# Import fonts
+# First argument = google name, 
+# Secont name = font name in R
+font_add_google('Roboto Mono', 'r_m')
+font_add_google('Noto Sans', 'noto')
+font_add_google('Bangers', 'Bangers')
+
+showtext_auto()
+
+source("C:\\R projects\\blog\\custom_theme.R")
+
+theme_set(theme_custom_styled())
+
+blending_pct <- tribble(
+  ~yr,       ~blending_pct, ~qty_crore_l, ~comment,
+  "2013-14",          1.53,         38.0, "Baseline",
+  "2014-15",          2.33,         67.4, NA,
+  "2015-16",          3.51,        111.4, NA,
+  "2016-17",          2.07,         66.5, "Drought hits cane; blending falls",
+  "2017-18",          4.22,        150.5, NA,
+  "2018-19",          5.00,        188.6, NA,
+  "2019-20",          5.00,        173.0, NA,
+  "2020-21",          8.17,        332.0, NA,
+  "2021-22",         10.02,        408.0, "10% milestone",
+  "2022-23",         12.06,        502.0, NA,
+  "2023-24",         14.60,        707.4, NA,
+  "2024-25",         19.24,        904.0, "E20 procurement year",
+  "2025-26",         20.00,       1200.0, "E20 achieved March 2025"
+)
 ```
 
-Ethanol blending in Indian petrol, 2013-14 to 2024-25
+::: {#fig-blending}
+```{r}
+#| label: fig-blending
+#| echo: false
+#| message: false
+#| warning: false
+#| fig-cap: "Ethanol Blending in Indian petrol, 2013-14 to 2024-25"
+ggplot(blending_pct, aes(x = yr, y = blending_pct, group = 1)) +
+  geom_hline(yintercept = 20, linetype = "dashed",
+             colour = "grey60", linewidth = 0.4) +
+  geom_line(colour = "#2c7a4b", linewidth = 0.9) +
+  geom_point(colour = "#2c7a4b", size = 2.4) +
+  scale_y_continuous(labels = scales::label_percent(scale = 1),
+                     limits = c(0, 22),
+                     breaks = seq(0, 20, 5)) +
+  labs(
+    title = "India reached E20 five years ahead of target",
+    subtitle = "Ethanol blending in petrol, by ethanol supply year (Nov-Oct)",
+    x = NULL, y = "Blending rate",
+    caption = "Source: PIB / MoP&NG; NITI Aayog"
+  )  + 
+  annotate(geom = "text", label = "Monsoon Failure", x = '2015-16',
+           y = 6, colour = 'maroon',
+           family = 'r_m', size = 8) +
+  annotate(geom = "curve", x = '2015-16', y = 5, xend = '2016-17', yend = 2.1,
+           colour = "maroon", curvature = -0.3, linewidth = 0.8, arrow = arrow(length = unit(0.03, "npc"))) +
+  annotate(geom = "text", label = "10% Milestone", x = '2018-19', y = 10, size = 8, colour = 'maroon') +
+  annotate(geom = "curve", x = '2019-20', y =10, xend = '2021-22', yend = 10.1,
+           colour = "maroon", curvature = -0.3, linewidth = 0.8, arrow = arrow(length = unit(0.03, "npc"))) +
+  annotate(geom = "text", label = "E20 Milestone", x = '2024-25', y = 21, size = 8, colour = 'maroon') +
+  # annotate(geom = "curve", x = '2019-20', y =9, xend = '2021-22', yend = 10.1,
+  #          colour = "maroon", curvature = -0.3, linewidth = 0.8, arrow = arrow(length = unit(0.03, "npc"))) +
+  theme(axis.text.x = element_text(angle = 90))
+```
 :::
 
-Blending rose from 1.53 per cent in 2013-14 to roughly 19 to 20 per cent by the 2024-25 ethanol supply year. Volumes supplied to oil marketing companies went from 38 crore litres to somewhere between 900 and 1,016 crore litres over the same period — a factor of about twenty-five. Very few Indian industrial programmes have scaled like that. Since April 2026, E20 is the base grade: essentially all petrol sold in the country carries 20 per cent ethanol at a minimum octane rating of 95.
+Blending rose from 1.53 % in 2013-14 to roughly 19 to 20 % by the 2024-25 ethanol supply year (@fig-blending). Volumes supplied to oil marketing companies went from 38 crore litres to somewhere between 900 and 1,016 crore litres over the same period — a factor of about twenty-five (@fig-ethanol) . Very few Indian industrial programmes have scaled like that. Since April 2026, E20 is the base grade: essentially all petrol sold in the country carries 20 % ethanol at a minimum octane rating of 95.
 
-The official ledger, as of the most recent government factsheets, reads roughly as follows. About ₹1.90 lakh crore in foreign exchange saved between 2014-15 and mid-2026, by substituting some 310 lakh metric tonnes of imported crude. Over ₹1.6 lakh crore paid to farmers. Somewhere between 790 and 930 lakh metric tonnes of carbon dioxide avoided. Sugar mills, chronically unable to pay cane arrears, got a second revenue stream. Distilleries created rural jobs in Uttar Pradesh, Maharashtra and Bihar.
+```{r}
+#| label: ethanol_volume
+#| include: false
+
+
+ethanol_data <- tribble(
+  ~ESY,       ~Volume_crore_litres, ~Blending_percent,
+  "2012-13",  15.40,                0.67,
+  "2013-14",  38.00,                1.50,
+  "2014-15",  66.50,                1.14,
+  "2015-16", 111.40,                3.51,
+  "2016-17",  66.00,                2.07,
+  "2017-18", 150.00,                4.22,
+  "2018-19", 188.50,                5.00,
+  "2019-20", 190.00,                5.00,
+  "2020-21", 302.40,                8.10,
+  "2021-22", 408.09,               10.02,
+  "2022-23", 506.40,               12.06,
+  "2023-24", 672.58,               14.60,
+  "2024-25", 904.85,               19.17,
+  "2025-26",1048.10,               20.00
+)
+
+```
+
+```{r}
+#| label: fig-ethanol
+#| echo: false
+#| message: false
+#| error: false
+#| warning: false
+#| fig-cap: Ethanol Volume (in crore litres) used in blending of petrol, 2013-14 to 2024-25
+
+ggplot(ethanol_data, aes(x = ESY, y = Volume_crore_litres, group = 1)) +
+geom_col()+
+  scale_y_continuous(limits = c(0, 1060),
+                     breaks = seq(0, 1060, 100)) +
+  labs(
+    title = "Ethanol Volume increased about 25% in just 13 years",
+    x = NULL, y = "Volume (crore litres)",
+    caption = "Source: PIB / MoP&NG"
+  )  + 
+  # annotate(geom = "text", label = "Monsoon Failure", x = '2015-16',
+  #          y = 6, colour = 'maroon',
+  #          family = 'r_m', size = 8) +
+  # annotate(geom = "curve", x = '2015-16', y = 5, xend = '2016-17', yend = 2.1,
+  #          colour = "maroon", curvature = -0.3, linewidth = 0.8, arrow = arrow(length = unit(0.03, "npc"))) +
+  # annotate(geom = "text", label = "10% Milestone", x = '2018-19', y = 10, size = 8, colour = 'maroon') +
+  # annotate(geom = "curve", x = '2019-20', y =10, xend = '2021-22', yend = 10.1,
+  #          colour = "maroon", curvature = -0.3, linewidth = 0.8, arrow = arrow(length = unit(0.03, "npc"))) +
+  # annotate(geom = "text", label = "E20 Milestone", x = '2024-25', y = 21, size = 8, colour = 'maroon') +
+  # annotate(geom = "curve", x = '2019-20', y =9, xend = '2021-22', yend = 10.1,
+  #          colour = "maroon", curvature = -0.3, linewidth = 0.8, arrow = arrow(length = unit(0.03, "npc"))) +
+  theme(axis.text.x = element_text(angle = 90))
+```
+
+The official ledger, as of the [most recent government factsheets](https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/jul/doc202675912001.pdf), reads roughly as follows. About ₹1.90 lakh crore in foreign exchange saved between 2014-15 and May 2026, by substituting some 310 lakh metric tonnes of imported crude. Over ₹1.6 lakh crore paid to farmers. Somewhere between 790 and 930 lakh metric tonnes of carbon dioxide avoided. Sugar mills, chronically unable to pay cane arrears, got a second revenue stream. Distilleries created rural jobs in Uttar Pradesh, Maharashtra and Bihar @fig-ledge.
+
+![Government's data to justify E20](ethanol_ledger.svg){#fig-ledge fig-align="center"}
 
 These are real achievements and I do not want to explain them away. But each of the three big claims — forex, carbon, and the implicit claim that this was all costless to the food system — is smaller or more complicated than it first appears.
 
 # Claim one: the import bill
 
-Here is the first thing that gets lost. Ethanol displaces **petrol**. India's oil consumption is dominated by **diesel**.
+Critics often dismiss petrol blending because diesel dominates India’s transport sector. However, analyzing the hard data reveals a different reality.
 
-NITI Aayog's own 2021 roadmap put the annual saving from a fully successful E20 programme at about four billion US dollars. India's oil import bill in FY 2024-25 was roughly 137 billion dollars.
+NITI Aayog's 2021 roadmap put the annual saving from a fully successful E20 programme at about US\$ 4 billion. Based on multiple PIB reports, and replies in Lok Sabha the cumulative savings from ethanol blending can be pegged at ₹1.98 lakh crores. For ESY 2023-24 (Nov 2023–Oct 2024), the government reported a single-year forex saving of ₹28,400 crore, per Minister of State Suresh Gopi's written reply in the Rajya Sabha. Considering ₹ 83 per USD in ESY 2023-24, the savings amount to approx US\$ 3.4 billion. As per the latest data and an exchange rate of about ₹ 90, the savings are approx US\$ 6-7 billion – much above NITI aayog's estimates.
+
+So, with blending ethanol India prevented about US\$ 7 billion from flowing out of the country. Since [India's oil import bill](https://www.financialexpress.com/policy/economy-crude-oil-imports-bill-up-2-7-to-137-billion-in-fy25-3814138/) in FY 2024-25 was roughly US\$137 billion, the saving may just appear `r round((7/137)*100, 2)` % of the total crude oil import bill. However, this amount is massive for India. This amount matches individual annual allocations for various programs like Jal Jeevan Mission, PM Upskilling and Employability scheme, central government's annual share for all ongoing metro rail projects in tier-1 and tier-2 cities, or to complete about 5000 km of world class 4-lane national highways.
 
 ::: {#fig-offset}
 ```{r fig-offset}
-# read_csv("data/import_offset_scale.csv") |>
-#   ggplot(aes(reorder(item, value_usd_billion), value_usd_billion)) +
-#   geom_col() + coord_flip() +
-#   labs(x = NULL, y = "US$ billion")
+#| eval: false
+#| include: false
+library(ggsketch)
+library(tidyverse)
+
+import_offest <- tribble(~item,    ~amount,
+                         "Import", 137,
+                         "Saved", 7)
+
+ggplot(data = import_offest, aes(x = "Total", y = amount, fill = item)) +
+  ggsketch::geom_sketch_col(position = "stack",
+                            fill_style = "watercolor",
+                            width = 0.25) + coord_flip() +
+  theme_void()
+
+  
 ```
 
 Annual forex saving from E20 against India's total oil import bill
@@ -95,6 +237,8 @@ Three things shrink it in the Indian case.
 
 ::: {#fig-ghg}
 ```{r fig-ghg}
+#| eval: false
+#| include: false
 # read_csv("data/ethanol_ghg_intensity.csv") |>
 #   ggplot(aes(fuel_pathway)) +
 #   geom_linerange(aes(ymin = gco2e_per_mj_low, ymax = gco2e_per_mj_high), linewidth = 4) +
@@ -118,6 +262,8 @@ The viral claim is that a litre of ethanol takes ten thousand litres of water. T
 
 ::: {#fig-water}
 ```{r fig-water}
+#| eval: false
+#| include: false
 # read_csv("data/ethanol_water_footprint.csv") |>
 #   ggplot(aes(reorder(paste(feedstock, method), litres_water_per_litre_ethanol),
 #              litres_water_per_litre_ethanol, fill = feedstock)) +
@@ -164,6 +310,8 @@ E20 required on the order of 1,000 crore litres of ethanol a year. Molasses alon
 
 ::: {#fig-feedstock}
 ```{r fig-feedstock}
+#| eval: false
+#| include: false
 # read_csv("data/feedstock_share_e20.csv") |>
 #   ggplot(aes(x = "", y = share_percent_of_e20_demand, fill = feedstock_group)) +
 #   geom_col(width = 1) + coord_polar("y") + theme_void()
@@ -207,6 +355,8 @@ Maize going into ethanol rose from roughly 1 million tonnes in 2022 to about 6 m
 
 ::: {#fig-maize}
 ```{r fig-maize}
+#| eval: false
+#| include: false
 # read_csv("data/maize_ethanol_story.csv") |>
 #   ggplot(aes(year)) +
 #   geom_col(aes(y = maize_to_ethanol_mt)) +
@@ -306,10 +456,6 @@ Wang, M., et al. Argonne National Laboratory GREET model — lifecycle analysis 
 
 *\[Add DOIs for the peer-reviewed sources — the ScienceDirect papers on Jatropha policy (Energy Policy, 2011 and 2012) and the 2020 Environmental Research Letters paper on the water-food-energy nexus in the Indian sugar industry are worth citing directly.\]*
 
-------------------------------------------------------------------------
-
-### Disclaimer
-
-The views expressed in this blog are personal and not my employer's.
-
-This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.
+```{r}
+getwd()
+```

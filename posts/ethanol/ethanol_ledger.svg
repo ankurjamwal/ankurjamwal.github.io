@@ -1,0 +1,86 @@
+<svg viewBox="0 0 960 640" xmlns="http://www.w3.org/2000/svg" font-family="'Helvetica Neue', Arial, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#faf8f1"/>
+      <stop offset="1" stop-color="#f3efe3"/>
+    </linearGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="3" stdDeviation="6" flood-color="#1b4332" flood-opacity="0.10"/>
+    </filter>
+  </defs>
+
+  <!-- canvas -->
+  <rect x="0" y="0" width="960" height="640" rx="18" fill="url(#bg)"/>
+
+  <!-- header -->
+  <rect x="40" y="40" width="52" height="6" rx="3" fill="#c48a1a"/>
+  <text x="40" y="86" font-size="15" letter-spacing="3" fill="#7a8471" font-weight="700">THE OFFICIAL LEDGER</text>
+  <text x="40" y="128" font-size="34" fill="#1b4332" font-weight="800">India's Ethanol Blended Petrol Programme</text>
+  <text x="40" y="160" font-size="18" fill="#5c6657" font-weight="400">What the government says it delivered, ESY 2014-15 to May 2026</text>
+
+  <!-- ================= CARD 1 : FOREX ================= -->
+  <g filter="url(#soft)">
+    <rect x="40" y="200" width="425" height="180" rx="14" fill="#ffffff"/>
+  </g>
+  <rect x="40" y="200" width="8" height="180" rx="4" fill="#1b5e3f"/>
+  <!-- rupee-coins icon -->
+  <g transform="translate(78,236)" fill="none" stroke="#1b5e3f" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round">
+    <ellipse cx="24" cy="14" rx="22" ry="9"/>
+    <path d="M2 14 v22 c0 5 10 9 22 9 s22 -4 22 -9 v-22"/>
+    <path d="M2 25 c0 5 10 9 22 9 s22 -4 22 -9"/>
+  </g>
+  <text x="150" y="258" font-size="44" fill="#1b4332" font-weight="800">&#8377;1.90+<tspan font-size="24" font-weight="700"> lakh cr</tspan></text>
+  <text x="150" y="292" font-size="18" fill="#3d4a3c" font-weight="600">Saved in foreign exchange</text>
+  <text x="150" y="316" font-size="14.5" fill="#7a8471">by cutting crude oil imports</text>
+
+  <!-- ================= CARD 2 : CRUDE ================= -->
+  <g filter="url(#soft)">
+    <rect x="495" y="200" width="425" height="180" rx="14" fill="#ffffff"/>
+  </g>
+  <rect x="495" y="200" width="8" height="180" rx="4" fill="#7a5230"/>
+  <!-- oil droplet/barrel icon -->
+  <g transform="translate(533,232)" fill="none" stroke="#7a5230" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M24 2 C10 22 4 32 4 42 a20 20 0 0 0 40 0 C44 32 38 22 24 2 Z"/>
+    <path d="M16 40 a8 8 0 0 0 8 8"/>
+  </g>
+  <text x="605" y="258" font-size="44" fill="#1b4332" font-weight="800">310+<tspan font-size="24" font-weight="700"> lakh MT</tspan></text>
+  <text x="605" y="292" font-size="18" fill="#3d4a3c" font-weight="600">Crude oil substituted</text>
+  <text x="605" y="316" font-size="14.5" fill="#7a8471">imported barrels displaced</text>
+
+  <!-- ================= CARD 3 : CO2 ================= -->
+  <g filter="url(#soft)">
+    <rect x="40" y="400" width="425" height="180" rx="14" fill="#ffffff"/>
+  </g>
+  <rect x="40" y="400" width="8" height="180" rx="4" fill="#2c7a4b"/>
+  <!-- leaf-in-cloud icon -->
+  <g transform="translate(78,432)" fill="none" stroke="#2c7a4b" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M12 40 a11 11 0 0 1 1 -21 a15 15 0 0 1 28 4 a9 9 0 0 1 -2 17 Z"/>
+    <path d="M24 44 C24 32 30 26 42 25 C42 37 36 44 24 44 Z" fill="#2c7a4b" fill-opacity="0.15"/>
+  </g>
+  <text x="150" y="458" font-size="44" fill="#1b4332" font-weight="800">~930<tspan font-size="24" font-weight="700"> lakh MT</tspan></text>
+  <text x="150" y="492" font-size="18" fill="#3d4a3c" font-weight="600">CO&#8322; emissions cut</text>
+  <text x="150" y="516" font-size="14.5" fill="#b5852a">government's own estimate &#8225;</text>
+
+  <!-- ================= CARD 4 : FARMERS ================= -->
+  <g filter="url(#soft)">
+    <rect x="495" y="400" width="425" height="180" rx="14" fill="#ffffff"/>
+  </g>
+  <rect x="495" y="400" width="8" height="180" rx="4" fill="#c48a1a"/>
+  <!-- wheat icon -->
+  <g transform="translate(540,430)" fill="none" stroke="#c48a1a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M18 48 V16"/>
+    <path d="M18 16 c-6 -6 -6 -12 0 -18 c6 6 6 12 0 18 Z" fill="#c48a1a" fill-opacity="0.15"/>
+    <path d="M18 24 c-8 -3 -12 -8 -11 -16 c8 2 12 8 11 16 Z" fill="#c48a1a" fill-opacity="0.12"/>
+    <path d="M18 24 c8 -3 12 -8 11 -16 c-8 2 -12 8 -11 16 Z" fill="#c48a1a" fill-opacity="0.12"/>
+    <path d="M18 34 c-8 -3 -12 -8 -11 -16 c8 2 12 8 11 16 Z" fill="#c48a1a" fill-opacity="0.12"/>
+    <path d="M18 34 c8 -3 12 -8 11 -16 c-8 2 -12 8 -11 16 Z" fill="#c48a1a" fill-opacity="0.12"/>
+  </g>
+  <text x="605" y="458" font-size="44" fill="#1b4332" font-weight="800">&#8377;1.60+<tspan font-size="24" font-weight="700"> lakh cr</tspan></text>
+  <text x="605" y="492" font-size="18" fill="#3d4a3c" font-weight="600">Additional farmer earnings</text>
+  <text x="605" y="516" font-size="14.5" fill="#7a8471">paid for cane, maize &amp; rice</text>
+
+  <!-- footer -->
+  <line x1="40" y1="606" x2="920" y2="606" stroke="#d8d2c0" stroke-width="1"/>
+  <text x="40" y="628" font-size="13" fill="#8a9280">Source: PIB / Ministry of Petroleum &amp; Natural Gas factsheet, 5 July 2026.</text>
+  <text x="920" y="628" font-size="12.5" fill="#b5852a" text-anchor="end">&#8225; CO&#8322; figure has ranged 698&#8211;930 lakh MT across 2025&#8211;26 releases.</text>
+</svg>

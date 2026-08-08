@@ -115,12 +115,16 @@ citations <- as.numeric(gsub(",", "", citation))
 <img src="profile.jpg" alt="Ankur Jamwal" class="about-photo"/>
 
 :::: about-hero-text
-<p>I am an assistant professor of environmental pollution and toxicology at the <a href="https://azimpremjiuniversity.edu.in/programmes/bsc-in-environmental-science-and-sustainability">Azim Premji University, Bengaluru - India</a>. I teach courses related to environmental pollution, environmental microbiology, biotechnology and public health.</p>
+<p><strong>Environmental Toxicologist &amp; Exposure Assessment Specialist</strong></p>
 
-<p>My research revolves around environment-and-public health nexus. I am passionate about creating awareness on environmental issues through data-backed arguments, and this blog is a part of that effort.</p>
+<p>I help governments, universities, and NGOs turn environmental exposure data — arsenic in drinking water, contaminants in food systems, climate-linked health risks — into evidence that shapes policy and protects public health. I also run hands-on R and data-analytics workshops for teams and institutions with no prior coding experience.</p>
+
+<p>Currently Assistant Professor at <a href="https://azimpremjiuniversity.edu.in/programmes/bsc-in-environmental-science-and-sustainability">Azim Premji University, Bengaluru - India</a>, leading a government-funded study on arsenic exposure in Bihar and a satellite-based regenerative agriculture assessment with ISRO. Research experience spans the University of Saskatchewan, Advanced Photon Source (Chicago), and Canadian Light Source.</p>
+
+<p><a href="https://www.linkedin.com/in/ankurjamwal/"><strong>Message me on LinkedIn about consultancy, training, or collaboration →</strong></a></p>
 
 ::: about-social
-<a href="https://twitter.com/ankurjam"><i class="bi bi-twitter"></i> Twitter</a> <a href="https://www.linkedin.com/in/ankurjamwal/"><i class="bi bi-linkedin"></i> LinkedIn</a> <a href="https://www.instagram.com/jamwalankur/"><i class="bi bi-instagram"></i> Instagram</a>
+<a href="https://www.linkedin.com/in/ankurjamwal/"><i class="bi bi-linkedin"></i> LinkedIn</a> <a href="https://scholar.google.com/citations?user=ttKftqkAAAAJ&hl=en"><i class="bi bi-mortarboard"></i> Google Scholar</a> <a href="https://www.researchgate.net/profile/Ankur-Jamwal-2"><i class="bi bi-journal-text"></i> ResearchGate</a> <a href="https://twitter.com/ankurjam"><i class="bi bi-twitter"></i> Twitter</a> <a href="https://www.instagram.com/jamwalankur/"><i class="bi bi-instagram"></i> Instagram</a>
 :::
 ::::
 :::::
@@ -142,6 +146,15 @@ citations <- as.numeric(gsub(",", "", citation))
 [10+]{.stat-value}[Years research]{.stat-label}
 :::
 :::::::
+
+## Work With Me
+
+I partner with organizations on:
+
+- **Exposure & risk assessment** — designing and running studies on environmental contaminants (heavy metals, pesticides, emerging pollutants) and their human/ecological health impact
+- **One Health & climate-health advisory** — consulting on the intersection of climate change, food systems, and public health for NGOs, funders, and government bodies
+- **R & data analytics training** — custom workshops in environmental/agricultural statistics for teams and institutions with no prior R experience
+- **Scientific writing & review** — grant writing support, peer review, and technical report authorship
 
 ## Education
 
@@ -167,29 +180,26 @@ BFSc (Bachelor of Fisheries Science) \| Kerala Agricultural University, Thrissur
 :::
 ::::::
 
+## Featured Work
+
+**Arsenic Exposure Assessment, Buxar, Bihar** — *Principal Investigator, Azim Premji University Research Centre*
+Assessing dietary arsenic exposure in a vulnerable population to inform local public health response.
+
+**Regenerative Agriculture Impact Assessment (NISAR + ML)** — *Co-Principal Investigator, funded by ISRO*
+Using satellite data and machine learning to measure the on-ground impact of regenerative farming practices.
+
+**Arkavathy River Basin Water Quality Assessment** — *Consultancy, Paani Earth Foundation, Bengaluru*
+Sediment and water quality evaluation for one of Bengaluru's key river basins.
+
+**Environmental Impact of Intensive Aquaculture** — *Ongoing research*
+Assessing the environmental footprint of intensive aquaculture practices.
+
 ### Selected Awards and Honours
 
-- 2013 -- ICAR International Fellow 2013
-
-- 2013 -- Awarded Senior Research Fellowship by Indian Council of Agricultural Research (ICAR) for pursuing Ph.D. programme in India -- Declined the offer.
-
-- 2012 -- Awarded ICAR International fellowship by Ministry of Agriculture, Govt. of India for doctoral degree programme.
-
-- 2012 -- Awarded MEXT Japanese government scholarship for doctoral degree programme to study effect of climate change on fish reproduction -- Declined the offer.
-
-- 2012 -- Gold medalist in the master's degree programme.
-
-- 2012 -- Awarded best M.F.Sc. graduate researcher at the Central Institute of Fisheries Education, Mumbai.
-
-- 2012 -- Awarded "*Sardar Patel Outstanding ICAR Institution Award -- Endowment Gold medal of Kerala Agricultural University"* for securing highest O.G.P.A. for B.F.Sc. degree programme and for consistent achievement in academics.
-
-- 2010 -- University gold medal in the undergraduate course.
-
-- 2010 -- Awarded Best Fisheries Graduate of India 2010-11 by Professional Fisheries Graduate Forum of India.
-
-- 2010 -- Awarded Junior Research Fellowship (JRF-PGS) by Indian Council of Agricultural Research, New Delhi.
-
-- 2010 -- Received National Talent Scholarship by the Indian Council of Agricultural Research for the entire four year tenure of Bachelors' degree programme.
+- ICAR International Fellow — Ministry of Agriculture, Govt. of India, doctoral degree programme
+- MEXT Japanese Government Scholarship — doctoral programme on climate change effects on fish reproduction (declined)
+- Gold Medalist — M.F.Sc. and B.F.Sc. degree programmes, with "Best M.F.Sc. Graduate Researcher" and "Best Fisheries Graduate of India 2010–11" honours
+- Junior Research Fellowship (JRF-PGS) & National Talent Scholarship — Indian Council of Agricultural Research
 
 ### Publications
 
@@ -202,27 +212,12 @@ htmlTable::htmlTable(final)
 
 Updated: `r format(Sys.Date(), "%B, %d, %Y")`
 
-[Google Scholar](https://scholar.google.com/citations?user=ttKftqkAAAAJ&hl=en "Publications") \| [ResearchGate](https://www.researchgate.net/profile/Ankur-Jamwal-2)
+### Teaching & Training
 
-### **Workshops and Training**
+**Certificate workshops:** [Basic Statistics in Environmental and Agricultural Sciences using R](https://azimpremjiuniversity.edu.in/certificate-courses/basic-statistics-using-r-2023) · [Introduction to Environmental Analytics using R](https://azimpremjiuniversity.edu.in/certificate-courses/environmental-data-analytics-using-r)
 
-I conduct following workshops
+**University courses designed:** Environmental Pollution (Air, Water and Soil) I & II · Environmental Microbiology, Biotechnology and Ecology
 
-- Basic Statistics in Environmental and Agricultural Sciences using R: for more details [click here.](https://azimpremjiuniversity.edu.in/certificate-courses/basic-statistics-using-r-2023)
+## Get in Touch
 
-- Introduction to Environmental Analytics using R: for more details [click here.](https://azimpremjiuniversity.edu.in/certificate-courses/environmental-data-analytics-using-r)
-
-### **Courses designed**
-
-- Environmental pollution 1: Air, Water and Soil (general introduction to air, water and soil pollution)
-
-- Environmental pollution 2: Air, Water and Soil (transportation and fate of air, water and soil pollutants)
-
-- Environmental Microbiology, Biotechnology and Ecology
-
-### **Ongoing research projects**
-
-- Assessment of dietary exposure to arsenic in human population inhabiting the Buxar region of Bihar
-- Environmental Impact of intensive aquaculture
-
-### **Contact for R workshops and training on statistics, data visualization, document editing and writing using Quarto, website and blog writing.**
+Interested in a consultancy project, an R/data-analytics training, or a collaboration? [Message me on LinkedIn](https://www.linkedin.com/in/ankurjamwal/) — I also take on Quarto website and blog-writing support requests.
