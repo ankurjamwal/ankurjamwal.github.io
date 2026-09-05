@@ -199,7 +199,6 @@ NITI Aayog's 2021 roadmap predicted annual saving from a fully successful E20 pr
 
 So, with blending ethanol, India prevented about US\$ 7 billion from flowing out of the country. Since [India's oil import bill](https://www.financialexpress.com/policy/economy-crude-oil-imports-bill-up-2-7-to-137-billion-in-fy25-3814138/) in FY 2024-25 was roughly US\$137 billion, the saving may just appear `r round((7/137)*100, 2)` % of the total crude oil import bill. However, this amount is massive for India: it matches individual annual allocations for various programs like Jal Jeevan Mission, PM Upskilling and Employability scheme, central government's annual share for all ongoing metro rail projects in tier-1 and tier-2 cities, or to complete about 5000 km of world class 4-lane national highways @fig-offset.
 
-
 ```{r}
 #| eval: false
 #| include: false
@@ -219,10 +218,7 @@ ggplot(data = import_offest, aes(x = "Total", y = amount, fill = item)) +
   
 ```
 
-
-
-
-![Indian can invest money saved from ethanol blending into infra or upskilling](/images/import_offset.webp){fig-align="center" #fig-offset}
+![Indian can invest money saved from ethanol blending into infra or upskilling](/images/import_offset.webp){#fig-offset fig-align="center"}
 
 But a saving of US\$ 7 billion is a very long way from the energy independence the programme is often described as delivering.
 
