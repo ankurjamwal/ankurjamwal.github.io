@@ -1,0 +1,16 @@
+---
+title: "Crosswords"
+description: "Interactive puzzles, built with the crosswordwidget R package"
+listing:
+  contents: crosswords/**/*.qmd
+  sort: "date desc"
+  type: grid
+  categories: true
+  sort-ui: true
+  filter-ui: true
+  fields: [title, date, categories, reading-time]
+  feed: true
+
+page-layout: full
+title-block-banner: true
+---

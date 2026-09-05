@@ -10,7 +10,7 @@
 <atom:link href="https://ankurjamwal.github.io/blog.xml" rel="self" type="application/rss+xml"/>
 <description>A discussion on climate change and our food systems</description>
 <generator>quarto-1.9.38</generator>
-<lastBuildDate>Fri, 07 Aug 2026 18:30:00 GMT</lastBuildDate>
+<lastBuildDate>Fri, 04 Sep 2026 18:30:00 GMT</lastBuildDate>
 <item>
   <title>Did India fill its petrol tank with food?</title>
   <dc:creator>Ankur Jamwal</dc:creator>
@@ -24,19 +24,19 @@
 
 <section id="background" class="level1">
 <h1>Background</h1>
-<p>I am a student of agricultural sciences and my fraternity had always dreamed of developing a plant-based fossil-fuel alternative — bio-fuels. In theory, the plants contributing to bio-fuel have to meet some criteria: they should not be derived from crops meant for human or animal consumption, ideally should be a by-product with little to no food value, the plants should not encroach upon cultivable fertile land, and plants should not have heavy water requirement. In summary, the bio-fuel production should not impact food security and strain freshwater sources.</p>
-<p>In early 2000s India began experimenting with <a href="https://en.wikipedia.org/wiki/Jatropha_biodiesel_in_India#" title="Wikipedia page"><em>Jatropha curcas</em> seed oil to produce biodiesel</a>. Jatropha isn’t consumed by humans and can grow in slightly arid and harsh conditions. It seemed to meet the basic requirements; however, the project failed. More about it towards the end of the blog. Let us jump straight to ethanol first.</p>
-<p>Recently ethanol is in news for replacing 20% petrol in our fuel tanks (E20). In 2025, two documents of the Government of India described the same ethanol policy.</p>
-<p>The first, <a href="https://www.pib.gov.in/PressReleasePage.aspx?PRID=2155558&amp;reg=48&amp;lang=2">a press release</a> from the Ministry of Petroleum and Natural Gas, announced that India had achieved 20 % ethanol blending in petrol — five years ahead of schedule — and tallied the winnings: lakhs of crores in foreign exchange saved, lakhs of crores paid to farmers, crores of tonnes of carbon dioxide avoided. A policy triumph.</p>
+<p>In theory, the plants contributing to bio-fuel have to meet some criteria: they should not be crops meant for human or animal consumption, ideally a by-product with little to no food value, should not encroach upon cultivable fertile land, and not have heavy water or energy requirement. In summary, the bio-fuel production should not impact food security and strain freshwater sources.</p>
+<p>In early 2000s India began experimenting with <a href="https://en.wikipedia.org/wiki/Jatropha_biodiesel_in_India#" title="Wikipedia page"><em>Jatropha curcas</em> seed oil to produce biodiesel</a>. Jatropha isn’t consumed by humans and can grow in slightly arid and harsh conditions. It seemed to meet the basic requirements; however, the project failed. More about it towards the end of the blog. Now, straight to ethanol first.</p>
+<p>Recently ethanol is in news in India for replacing 20% petrol in our fuel tanks (E20). In 2025, two documents of the Government of India described the same ethanol policy.</p>
+<p>The first, <a href="https://www.pib.gov.in/PressReleasePage.aspx?PRID=2155558&amp;reg=48&amp;lang=2">a press release</a> from the Ministry of Petroleum and Natural Gas announced that India had achieved 20 % ethanol blending in petrol — five years ahead of schedule — and tallied the winnings as lakhs of crores in foreign exchange saved, lakhs of crores paid to farmers, crores of tonnes of carbon dioxide avoided. A policy triumph.</p>
 <p>The second, NITIAayog’s <a href="https://www.indiabudget.gov.in/economicsurvey/doc/eschapter/echap06.pdf">the Economic Survey 2025-26</a>, described “an emerging tension between Aatmanirbharta in energy and Aatmanirbharta in food,” warned that farmers were abandoning pulses and oilseeds for maize, and called the trend an early warning signal.</p>
 <p>Both are true. This post is an attempt to hold them together.</p>
 <p>I want to be clear at the outset about what this is not. It is not an argument that ethanol blending was a mistake. India imports about 85 to 88 % of its crude oil, and a country in that position is entitled to try almost anything. Nor is it a repetition of the viral claim that a litre of ethanol costs ten thousand litres of water — a number that is true for one feedstock and badly misleading for the others, as we will see.</p>
-<p>It is an attempt to do the accounting properly. Every litre of ethanol in an Indian petrol tank came from somewhere: from cane, from maize, from rice out of the Food Corporation of India’s godowns. This blog dwells on the question of what our food system can and cannot absorb. E20 is a very large withdrawal from that system, and it deserves a balance sheet rather than a press release. Though this blog doesn’t guarantee to be a detailed balance sheet, it is an attempt to clear some haze and contribute to the sane discussion over the topic.</p>
+<p>It is an attempt to do the accounting properly. Every litre of ethanol in an Indian petrol tank came from somewhere: from cane, from maize, from rice out of the Food Corporation of India’s godowns. This blog dwells on the question of what our food system can and cannot absorb. E20 is a very large withdrawal from that system, and it deserves a balance sheet rather than just a press release. Though this blog doesn’t guarantee to be a detailed balance sheet, it is an attempt to clear some haze and contribute to the sane discussion over the topic.</p>
 <p>Let’s dive into some data.</p>
 </section>
 <section id="what-india-actually-achieved" class="level1">
 <h1>What India actually achieved</h1>
-<p>The scale of the india’s ethanol blending ramp-up is genuinely remarkable, and it would be dishonest to open with the negative criticisms.</p>
+<p>The scale of the india’s ethanol blending ramp-up is genuinely remarkable, and lets open with the positives.</p>
 <div id="fig-blending" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-blending-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -75,7 +75,7 @@ Figure&nbsp;2: Ethanol Volume (in crore litres) used in blending of petrol, 2013
 </div>
 </div>
 </div>
-<p>The official ledger, as of the <a href="https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/jul/doc202675912001.pdf">most recent government factsheets</a>, reads roughly as follows. About ₹1.90 lakh crore in foreign exchange saved between 2014-15 and May 2026, by substituting some 310 lakh metric tonnes of imported crude. Over ₹1.6 lakh crore paid to farmers. Somewhere between 790 and 930 lakh metric tonnes of carbon dioxide avoided. Sugar mills, chronically unable to pay cane arrears, got a second revenue stream. Distilleries created rural jobs in Uttar Pradesh, Maharashtra and Bihar Figure&nbsp;3.</p>
+<p>The official ledger, as of the <a href="https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/jul/doc202675912001.pdf">most recent government factsheets</a>, reads roughly as follows (Figure&nbsp;3). About ₹1.90 lakh crore in foreign exchange saved between 2014-15 and May 2026, by substituting some 310 lakh metric tonnes of imported crude. Over ₹1.6 lakh crore paid to farmers. Somewhere between 790 and 930 lakh metric tonnes of carbon dioxide avoided. Sugar mills, chronically unable to pay cane arrears, got a second revenue stream. Distilleries created rural jobs in Uttar Pradesh, Maharashtra and Bihar.</p>
 <div id="fig-ledge" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-ledge-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -86,32 +86,44 @@ Figure&nbsp;3: Government’s data to justify E20
 </figcaption>
 </figure>
 </div>
-<p>These are real achievements and I do not want to explain them away. But each of the three big claims — forex, carbon, and the implicit claim that this was all costless to the food system — is smaller or more complicated than it first appears.</p>
+<p>These are real achievements. But each of the three big claims — forex, carbon, and the implicit claim that this was all costless to the food system — is more nuanced than it first appears.</p>
 </section>
 <section id="claim-one-the-import-bill" class="level1">
 <h1>Claim one: the import bill</h1>
-<p>Here is the first thing that gets lost. Ethanol displaces petrol. India’s oil consumption is dominated by diesel.</p>
-<p>NITI Aayog’s own 2021 roadmap put the annual saving from a fully successful E20 programme at about four billion US dollars. Based on multiple PIB reports, and replies in Lok Sabha the cumulative savings from ethanol blending can be pegged at ₹1.98 lakh crores. For ESY 2023-24 (Nov 2023–Oct 2024), the government reported a single-year forex saving of ₹28,400 crore, per Minister of State Suresh Gopi’s written reply in the Rajya Sabha. Considering ₹ 83 per USD in ESY 2023-24, the savings amount to approx US$ 3.4 billion. As per the latest data and an exchange rate of about ₹ 90, the savings are approx US$ 6-7 billion – much above NITI aayog’s estimates. But that is just because of depreciating Indian rupee.</p>
-<p>In terms of ethanol volume, NITI aayog’s report predicted a demand of ~1,350 crore litres of ethanol per year for blending. In contrast, the demand current has surpassed 1,400 crore litres.</p>
-<p>So, if one were to just to look into petrol (gasolene), enforcement of ethanol blending seems profitable for India. However, <a href="https://www.financialexpress.com/policy/economy-crude-oil-imports-bill-up-2-7-to-137-billion-in-fy25-3814138/">India’s oil import bill</a> in FY 2024-25 was roughly US$137 billion.</p>
-<p>Thus, India saves a meager 5.11 %</p>
-<div id="fig-offset" class="quarto-float quarto-figure quarto-figure-center anchored">
+<p>Critics often dismiss petrol blending because diesel dominates India’s transport sector. However, analyzing the hard data reveals a compelling story.</p>
+<p>NITI Aayog’s 2021 roadmap predicted annual saving from a fully successful E20 programme at about US$ 4 billion. Based on multiple PIB reports, and replies in Lok Sabha, the cumulative savings from ethanol blending can be pegged at ₹1.98 lakh crores. For ESY 2023-24 (Nov 2023–Oct 2024), the government reported a single-year forex saving of ₹28,400 crore, per Minister of State Suresh Gopi’s written reply in the Rajya Sabha. Considering ₹ 83 per USD in ESY 2023-24, the savings amount to approx US$ 3.4 billion. As per the latest data and an exchange rate of about ₹ 90, the savings are approx US$ 6-7 billion — much above NITI aayog’s estimates.</p>
+<p>So, with blending ethanol, India prevented about US$ 7 billion from flowing out of the country. Since <a href="https://www.financialexpress.com/policy/economy-crude-oil-imports-bill-up-2-7-to-137-billion-in-fy25-3814138/">India’s oil import bill</a> in FY 2024-25 was roughly US$137 billion, the saving may just appear 5.11 % of the total crude oil import bill. However, this amount is massive for India: it matches individual annual allocations for various programs like Jal Jeevan Mission, PM Upskilling and Employability scheme, central government’s annual share for all ongoing metro rail projects in tier-1 and tier-2 cities, or to complete about 5000 km of world class 4-lane national highways Figure&nbsp;4.</p>
+<div id="fig-offset" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-offset-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<p>Annual forex saving from E20 against India’s total oil import bill</p>
+<img src="https://ankurjamwal.github.io/images/import_offset.webp" class="img-fluid quarto-figure quarto-figure-center figure-img">
 </div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig quarto-uncaptioned" id="fig-offset-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;4
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-offset-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;4: Indian can invest money saved from ethanol blending into infra or upskilling
 </figcaption>
 </figure>
 </div>
-<p>Four billion against one hundred and thirty-seven is about three per cent. That is not nothing — three per cent of an import bill that size is real money, and it is money that does not leave the country. But it is a very long way from the energy independence the programme is often described as delivering. If the objective is to stop being at the mercy of the crude market, E20 moves the needle by roughly the width of a month’s price volatility.</p>
-<p>There is a sharper version of this problem. As sugarcane and rice surpluses tightened, the government raised the administered price for maize-based ethanol to pull maize into distilleries. It worked. It also helped push India from being a maize exporter to a <strong>net importer of maize in 2024</strong>, with exports collapsing from about 1.9 million tonnes a year to around 0.5 million. Analysts at the Observer Research Foundation have called this a self-goal, and the phrase is hard to argue with: a programme justified by import substitution has generated a new import dependency, and by nudging farmers away from oilseeds it risks deepening an old one. India already imports well over half its edible oil.</p>
+<p>But a saving of US$ 7 billion is a very long way from the energy independence the programme is often described as delivering.</p>
+<p>There is a another side to this problem. As the supply of rice and sugarcane, crops primarily used to make ethanol, tightened, the government raised the administered price for maize-based ethanol to pull maize into distilleries. It worked. It also helped push India from being a maize exporter to a <strong>net importer of maize in 2024</strong>, with exports collapsing from about 1.9 million tonnes a year to around 0.5 million. Exports since then have recovered as the record production in 2024-25 eased supplies. However, this still implies that fuel policies can now have direct implications on food-grain trade balance.</p>
+<p>Recently (August - September, 2026) India observed steep rise in sugar costs. Though the government says that this has nothing to do with ethanol policy because only a minor volume of India’s sugarcane production is diverted to produce ethanol. However, the government also said that the prices have increased because of poor sugarcane production linked to monsoon deficit, and increased demand for sugar due to festive season.Nonethless, <a href="https://www.chinimandi.com/karnataka-farmers-seek-permission-to-produce-ethanol-at-jaggery-units-amid-sugar-price-surge/">more sugarcane farmers are now seeking permission</a> to divert their crop for ethanol than for human consumption because of better pricing. To curb the prices of sugar, the government has completely removed the import duty on import of raw sugar. Which means, revenue loss. It would not be incorrect to say that in an event of distress, even a small of fraction of sugarcane diversion to ethanol can upset domestic budgets, especially during the festive season.</p>
+<p>A programme justified by import substitution has generated a new import dependency: nudged farmers away from oilseeds. India is the world’s largest importer of edible oils, and the data suggests that India’s import bill is growing: edible oil imports rose 22 % in value to Rs 1.61 lakh crore in the 2024-25 marketing year, even as import volumes remained flat. In Madhya Pradesh and Maharashtra, India’s soybean belt, farmers have swapped soybean for maize, drawn by steadier returns and lower weather risk; soybean area nationally fell 4 percent between 2024 and 2025 as a result. The national oilseed area hasn’t collapsed — a record mustard harvest in Rajasthan and the north has kept the aggregate numbers looking healthy — but that masks a quieter substitution happening one season and one state at a time, in exactly the crop most exposed to the ethanol programme’s pull on land.</p>
+<div class="cell">
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "C:/R projects/blog/posts/ethanol"</code></pre>
+</div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="https://ankurjamwal.github.io/posts/ethanol/ethanol_blog_draft_files/figure-html/unnamed-chunk-2-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
 </section>
 <section id="claim-two-the-carbon" class="level1">
 <h1>Claim two: the carbon</h1>
 <p>This is where I expected, before doing the reading, to find the strongest case for the programme. The picture is more equivocal.</p>
-<p>Lifecycle or “well-to-wheel” analyses generally put grain and sugar ethanol at 30 to 50 per cent lower greenhouse gas emissions than petrol. Argonne National Laboratory’s much-cited figure for US corn ethanol is around 40 per cent. So the direction of the effect is not in doubt.</p>
+<p>Lifecycle or “well-to-wheel” analyses generally put grain and sugar ethanol at 30 to 50% lower greenhouse gas emissions than petrol. Argonne National Laboratory’s much-cited figure for US corn ethanol is around 40%. So the direction of the effect is not in doubt.</p>
 <p>Three things shrink it in the Indian case.</p>
 <p><strong>First, the distillery’s own energy.</strong> Estimates for India put ethanol’s carbon intensity at roughly 50 gCO₂e per megajoule where the distillery runs on biomass, and around 70 where it runs on coal. A great many Indian distilleries run on coal. A programme whose climate benefit is advertised as a headline is quietly being delivered at the bottom of its own range.</p>
 <div id="fig-ghg" class="quarto-float quarto-figure quarto-figure-center anchored">
@@ -301,7 +313,7 @@ Figure&nbsp;8
   <category>ethanol</category>
   <category>food security</category>
   <guid>https://ankurjamwal.github.io/posts/ethanol/ethanol_blog_draft.html</guid>
-  <pubDate>Fri, 07 Aug 2026 18:30:00 GMT</pubDate>
+  <pubDate>Fri, 04 Sep 2026 18:30:00 GMT</pubDate>
 </item>
 <item>
   <title>Understanding Skepticism Behind Climate Change</title>

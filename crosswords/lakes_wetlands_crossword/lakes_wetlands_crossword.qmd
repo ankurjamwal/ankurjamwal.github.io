@@ -1,0 +1,41 @@
+---
+title: "Lakes & Wetlands Crossword"
+subtitle: "Twelve terms from limnology and wetland ecology -- built with the crosswordwidget R package"
+author: "Ankur Jamwal"
+date: "2026-09-05"
+categories: [interactive, crossword]
+draft: false
+format: html
+---
+
+An interactive crossword on lakes and wetlands rebuilt here with a custom made R package [`crosswordwidget`](https://github.com/ankurjamwal/crosswordwidget). Click a cell, type an answer, use the arrow keys to move around, and use Check or Reveal when you're ready. Happy crosswording!
+
+```{r}
+#| echo: false
+#| message: false
+devtools::load_all("C:/R projects/crosswordwidget")
+
+clues <- data.frame(
+  answer = c(
+    "BENTHIC", "THERMOCLINE", "PROFUNDAL", "MANGROVE", "MARSH",
+    "EUTROPHIC", "PHUMDI", "HYPOLIMNION", "LITTORAL", "EPILIMNION",
+    "RAMSAR", "SWAMP"
+  ),
+  clue = c(
+    "Term for organisms or processes at the lake or wetland bottom",
+    "Zone of rapid temperature change separating a lake's warm and cold layers",
+    "Deep lake zone below the compensation depth, too dark for photosynthesis",
+    "Salt-tolerant coastal wetland tree with prop roots and pneumatophores",
+    "Continuously inundated wetland dominated by soft-stemmed plants",
+    "Nutrient-rich water body prone to algal blooms and oxygen depletion",
+    "Meitei word for the floating vegetation mats of Loktak Lake",
+    "Cold, dense, often oxygen-poor bottom layer of a stratified lake",
+    "Shallow, near-shore lake zone where rooted plants grow",
+    "Warm, sunlit, wind-mixed surface layer of a stratified lake",
+    "Iranian city that gave its name to the global wetlands treaty",
+    "Wetland dominated by woody vegetation such as trees and shrubs"
+  )
+)
+
+crossword(clues)
+```

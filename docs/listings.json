@@ -7,5 +7,11 @@
       "/posts/wheat_heat/wheat_heat.html",
       "/posts/AR6/ar6.html"
     ]
+  },
+  {
+    "listing": "/crosswords.html",
+    "items": [
+      "/crosswords/lakes_wetlands_crossword/lakes_wetlands_crossword.html"
+    ]
   }
 ]

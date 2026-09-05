@@ -88,7 +88,7 @@
     "href": "blog.html",
     "title": "Ankur Jamwal",
     "section": "",
-    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\nDid India fill its petrol tank with food?\n\n30 min\n\n\nethanol\n\nfood security\n\n\n\n\nAug 8, 2026\n\n\n\n\n\n\n\n\n\n\nUnderstanding Skepticism Behind Climate Change\n\n25 min\n\n\nClimate Change\n\n\n\n\nMay 13, 2023\n\n\n\n\n\n\n\n\n\n\nClimate change has already started to challenge India’s wheat production\n\n17 min\n\n\nClimate Change\n\nFood Security\n\n\n\n\nApr 28, 2023\n\n\n\n\n\n\n\n\n\n\nWhat the latest IPCC report (AR6) has to say about the effects of climate change on global food production?\n\n17 min\n\n\nClimate Change\n\nFood Security\n\n\n\n\nMar 30, 2023\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\nDid India fill its petrol tank with food?\n\n31 min\n\n\nethanol\n\nfood security\n\n\n\n\nSep 5, 2026\n\n\n\n\n\n\n\n\n\n\nUnderstanding Skepticism Behind Climate Change\n\n25 min\n\n\nClimate Change\n\n\n\n\nMay 13, 2023\n\n\n\n\n\n\n\n\n\n\nClimate change has already started to challenge India’s wheat production\n\n17 min\n\n\nClimate Change\n\nFood Security\n\n\n\n\nApr 28, 2023\n\n\n\n\n\n\n\n\n\n\nWhat the latest IPCC report (AR6) has to say about the effects of climate change on global food production?\n\n17 min\n\n\nClimate Change\n\nFood Security\n\n\n\n\nMar 30, 2023\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",
@@ -116,7 +116,7 @@
     "href": "posts/ethanol/ethanol_blog_draft.html",
     "title": "Did India fill its petrol tank with food?",
     "section": "",
-    "text": "I am a student of agricultural sciences and my fraternity had always dreamed of developing a plant-based fossil-fuel alternative — bio-fuels. In theory, the plants contributing to bio-fuel have to meet some criteria: they should not be derived from crops meant for human or animal consumption, ideally should be a by-product with little to no food value, the plants should not encroach upon cultivable fertile land, and plants should not have heavy water requirement. In summary, the bio-fuel production should not impact food security and strain freshwater sources.\nIn early 2000s India began experimenting with Jatropha curcas seed oil to produce biodiesel. Jatropha isn’t consumed by humans and can grow in slightly arid and harsh conditions. It seemed to meet the basic requirements; however, the project failed. More about it towards the end of the blog. Let us jump straight to ethanol first.\nRecently ethanol is in news for replacing 20% petrol in our fuel tanks (E20). In 2025, two documents of the Government of India described the same ethanol policy.\nThe first, a press release from the Ministry of Petroleum and Natural Gas, announced that India had achieved 20 % ethanol blending in petrol — five years ahead of schedule — and tallied the winnings: lakhs of crores in foreign exchange saved, lakhs of crores paid to farmers, crores of tonnes of carbon dioxide avoided. A policy triumph.\nThe second, NITIAayog’s the Economic Survey 2025-26, described “an emerging tension between Aatmanirbharta in energy and Aatmanirbharta in food,” warned that farmers were abandoning pulses and oilseeds for maize, and called the trend an early warning signal.\nBoth are true. This post is an attempt to hold them together.\nI want to be clear at the outset about what this is not. It is not an argument that ethanol blending was a mistake. India imports about 85 to 88 % of its crude oil, and a country in that position is entitled to try almost anything. Nor is it a repetition of the viral claim that a litre of ethanol costs ten thousand litres of water — a number that is true for one feedstock and badly misleading for the others, as we will see.\nIt is an attempt to do the accounting properly. Every litre of ethanol in an Indian petrol tank came from somewhere: from cane, from maize, from rice out of the Food Corporation of India’s godowns. This blog dwells on the question of what our food system can and cannot absorb. E20 is a very large withdrawal from that system, and it deserves a balance sheet rather than a press release. Though this blog doesn’t guarantee to be a detailed balance sheet, it is an attempt to clear some haze and contribute to the sane discussion over the topic.\nLet’s dive into some data."
+    "text": "In theory, the plants contributing to bio-fuel have to meet some criteria: they should not be crops meant for human or animal consumption, ideally a by-product with little to no food value, should not encroach upon cultivable fertile land, and not have heavy water or energy requirement. In summary, the bio-fuel production should not impact food security and strain freshwater sources.\nIn early 2000s India began experimenting with Jatropha curcas seed oil to produce biodiesel. Jatropha isn’t consumed by humans and can grow in slightly arid and harsh conditions. It seemed to meet the basic requirements; however, the project failed. More about it towards the end of the blog. Now, straight to ethanol first.\nRecently ethanol is in news in India for replacing 20% petrol in our fuel tanks (E20). In 2025, two documents of the Government of India described the same ethanol policy.\nThe first, a press release from the Ministry of Petroleum and Natural Gas announced that India had achieved 20 % ethanol blending in petrol — five years ahead of schedule — and tallied the winnings as lakhs of crores in foreign exchange saved, lakhs of crores paid to farmers, crores of tonnes of carbon dioxide avoided. A policy triumph.\nThe second, NITIAayog’s the Economic Survey 2025-26, described “an emerging tension between Aatmanirbharta in energy and Aatmanirbharta in food,” warned that farmers were abandoning pulses and oilseeds for maize, and called the trend an early warning signal.\nBoth are true. This post is an attempt to hold them together.\nI want to be clear at the outset about what this is not. It is not an argument that ethanol blending was a mistake. India imports about 85 to 88 % of its crude oil, and a country in that position is entitled to try almost anything. Nor is it a repetition of the viral claim that a litre of ethanol costs ten thousand litres of water — a number that is true for one feedstock and badly misleading for the others, as we will see.\nIt is an attempt to do the accounting properly. Every litre of ethanol in an Indian petrol tank came from somewhere: from cane, from maize, from rice out of the Food Corporation of India’s godowns. This blog dwells on the question of what our food system can and cannot absorb. E20 is a very large withdrawal from that system, and it deserves a balance sheet rather than just a press release. Though this blog doesn’t guarantee to be a detailed balance sheet, it is an attempt to clear some haze and contribute to the sane discussion over the topic.\nLet’s dive into some data."
   },
   {
     "objectID": "posts/ethanol/ethanol_blog_draft.html#a-ladder-not-a-binary",
@@ -180,5 +180,40 @@
     "title": "Ankur Jamwal",
     "section": "Get in Touch",
     "text": "Get in Touch\nInterested in a consultancy project, an R/data-analytics training, or a collaboration? Message me on LinkedIn — I also take on Quarto website and blog-writing support requests."
+  },
+  {
+    "objectID": "posts/crossword_demo/crossword_demo.html",
+    "href": "posts/crossword_demo/crossword_demo.html",
+    "title": "Climate & Food Security Crossword (Prototype)",
+    "section": "",
+    "text": "This is a hand-built prototype: five words, clues written by hand, grid positions worked out by hand — no R package yet. The goal is just to test whether the interaction (typing, checking, revealing) feels right before investing in the layout algorithm that will place words automatically. See the crossword-package-plan.md note for the roadmap this fits into.\n\n  \n    \n  \n  \n    \n      Check\n      Reveal\n      Clear\n      \n    \n    \n      \n        Across\n        \n      \n      \n        Down"
+  },
+  {
+    "objectID": "posts/crossword/lakes_wetlands_crossword.html",
+    "href": "posts/crossword/lakes_wetlands_crossword.html",
+    "title": "Lakes & Wetlands Crossword",
+    "section": "",
+    "text": "An interactive crossword on lakes and wetlands – originally put together for a class event, now rebuilt here with crosswordwidget, the R package we’ve been building. Click a cell, type an answer, use the arrow keys to move around, and use Check or Reveal when you’re ready."
+  },
+  {
+    "objectID": "crosswords.html",
+    "href": "crosswords.html",
+    "title": "Crosswords",
+    "section": "",
+    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\nLakes & Wetlands Crossword\n\n2 min\n\n\ninteractive\n\ncrossword\n\n\n\n\nSep 5, 2026\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "crosswords/crossword_demo/crossword_demo.html",
+    "href": "crosswords/crossword_demo/crossword_demo.html",
+    "title": "Climate & Food Security Crossword (Prototype)",
+    "section": "",
+    "text": "This is a hand-built prototype: five words, clues written by hand, grid positions worked out by hand — no R package yet. The goal is just to test whether the interaction (typing, checking, revealing) feels right before investing in the layout algorithm that will place words automatically. See the crossword-package-plan.md note for the roadmap this fits into.\n\n  \n    \n  \n  \n    \n      Check\n      Reveal\n      Clear\n      \n    \n    \n      \n        Across\n        \n      \n      \n        Down"
+  },
+  {
+    "objectID": "crosswords/lakes_wetlands_crossword/lakes_wetlands_crossword.html",
+    "href": "crosswords/lakes_wetlands_crossword/lakes_wetlands_crossword.html",
+    "title": "Lakes & Wetlands Crossword",
+    "section": "",
+    "text": "An interactive crossword on lakes and wetlands rebuilt here with a custom made R package crosswordwidget. Click a cell, type an answer, use the arrow keys to move around, and use Check or Reveal when you’re ready. Happy crosswording!"
   }
 ]

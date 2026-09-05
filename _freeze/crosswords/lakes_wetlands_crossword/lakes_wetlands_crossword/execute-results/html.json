@@ -1,0 +1,19 @@
+{
+  "hash": "ce406ec61cbcc393d095186761a7028d",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Lakes & Wetlands Crossword\"\nsubtitle: \"Twelve terms from limnology and wetland ecology -- built with the crosswordwidget R package\"\nauthor: \"Ankur Jamwal\"\ndate: \"2026-09-05\"\ncategories: [interactive, crossword]\ndraft: false\nformat: html\n---\n\nAn interactive crossword on lakes and wetlands rebuilt here with a custom made R package [`crosswordwidget`](https://github.com/ankurjamwal/crosswordwidget). Click a cell, type an answer, use the arrow keys to move around, and use Check or Reveal when you're ready. Happy crosswording!\n\n\n::: {.cell}\n::: {.cell-output-display}\n\n```{=html}\n<div class=\"crossword html-widget html-fill-item\" id=\"htmlwidget-550cf0ae999529e22ffb\" style=\"width:auto;height:auto;\"></div>\n<script type=\"application/json\" data-for=\"htmlwidget-550cf0ae999529e22ffb\">{\"x\":{\"words\":[{\"number\":1,\"direction\":\"down\",\"answer\":\"PHUMDI\",\"clue\":\"Meitei word for the floating vegetation mats of Loktak Lake\",\"row\":1,\"col\":12,\"connected\":true},{\"number\":2,\"direction\":\"across\",\"answer\":\"BENTHIC\",\"clue\":\"Term for organisms or processes at the lake or wetland bottom\",\"row\":2,\"col\":8,\"connected\":true},{\"number\":3,\"direction\":\"down\",\"answer\":\"EUTROPHIC\",\"clue\":\"Nutrient-rich water body prone to algal blooms and oxygen depletion\",\"row\":2,\"col\":9,\"connected\":true},{\"number\":4,\"direction\":\"down\",\"answer\":\"PROFUNDAL\",\"clue\":\"Deep lake zone below the compensation depth, too dark for photosynthesis\",\"row\":5,\"col\":7,\"connected\":true},{\"number\":5,\"direction\":\"across\",\"answer\":\"THERMOCLINE\",\"clue\":\"Zone of rapid temperature change separating a lake's warm and cold layers\",\"row\":6,\"col\":4,\"connected\":true},{\"number\":6,\"direction\":\"down\",\"answer\":\"HYPOLIMNION\",\"clue\":\"Cold, dense, often oxygen-poor bottom layer of a stratified lake\",\"row\":6,\"col\":5,\"connected\":true},{\"number\":7,\"direction\":\"down\",\"answer\":\"LITTORAL\",\"clue\":\"Shallow, near-shore lake zone where rooted plants grow\",\"row\":6,\"col\":11,\"connected\":true},{\"number\":8,\"direction\":\"down\",\"answer\":\"EPILIMNION\",\"clue\":\"Warm, sunlit, wind-mixed surface layer of a stratified lake\",\"row\":6,\"col\":14,\"connected\":true},{\"number\":9,\"direction\":\"across\",\"answer\":\"SWAMP\",\"clue\":\"Wetland dominated by woody vegetation such as trees and shrubs\",\"row\":8,\"col\":1,\"connected\":true},{\"number\":10,\"direction\":\"down\",\"answer\":\"MARSH\",\"clue\":\"Continuously inundated wetland dominated by soft-stemmed plants\",\"row\":10,\"col\":3,\"connected\":true},{\"number\":11,\"direction\":\"across\",\"answer\":\"RAMSAR\",\"clue\":\"Iranian city that gave its name to the global wetlands treaty\",\"row\":12,\"col\":3,\"connected\":true},{\"number\":12,\"direction\":\"across\",\"answer\":\"MANGROVE\",\"clue\":\"Salt-tolerant coastal wetland tree with prop roots and pneumatophores\",\"row\":16,\"col\":3,\"connected\":true}],\"nrow\":16,\"ncol\":14,\"cellSize\":32},\"evals\":[],\"jsHooks\":[]}</script>\n```\n\n:::\n:::\n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {
+      "include-in-header": [
+        "<link href=\"../../site_libs/htmltools-fill-0.5.9/fill.css\" rel=\"stylesheet\" />\n<script src=\"../../site_libs/htmlwidgets-1.6.4/htmlwidgets.js\"></script>\n<script src=\"../../site_libs/crossword-binding-0.0.0.9000/crossword.js\"></script>\n"
+      ]
+    },
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

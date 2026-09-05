@@ -14,15 +14,21 @@ website:
     left: 
       - text: '<span class="navbar-tagline">Blog: Climate Change X Food Security</span>'
         href: blog.qmd
-        
+     
+
     right: 
       - text: '---'
       - text: 'Academic advising (APU students only)'
         href: https://calendar.app.google/tjACKiReouT5s3MQ8
-      - text: 'Bengaluru Gone Thirsty'
-        href: https://ankurjamwal.quarto.pub/bengaluru/
-      - icon: rss
-        href: index.xml
+      - text: "More"
+        menu: 
+          - text: 'Crosswords'
+            href: crosswords.qmd
+          - text: 'Bengaluru Gone Thirsty'
+            href: https://ankurjamwal.quarto.pub/bengaluru/
+          - icon: rss
+            href: index.xml
+            
       - text: '---'
       
   google-analytics: "G-YEV355G40S"
