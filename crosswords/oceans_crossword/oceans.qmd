@@ -1,0 +1,39 @@
+---
+title: "Oceanic Realm"
+author: "Ankur Jamwal"
+date: "2026-09-12"
+categories: [interactive, crossword, oceans]
+draft: false
+format: html
+---
+
+An interactive crossword on oceans rebuilt here with a custom made R package [`crosswordwidget`](https://github.com/ankurjamwal/crosswordwidget). Click a cell, type an answer, use the arrow keys to move around, and use Check or Reveal when you're ready. Happy crosswording!
+
+```{r}
+#| echo: false
+#| message: false
+devtools::load_all("C:/R projects/crosswordwidget")
+
+clues <- data.frame(
+  answer = c(
+    "MARIANA", "CORAL", "CHALLENGER", "PNEUMATOPHORE", "TIDE", "ZOOXANTHELLAE", "AGAR", "ARAL", "UNCLOS", "KNOT", "BAY", "COAST"
+    
+  ),
+  clue = c(
+    "From Roman God of war and will require to dive very deep",
+    "Jellyfish cousin but tougher and immobile. Do not be fooled by its pretty colours, it stings",
+    "A test and a quest of the heavens and the deep",
+    "I gasp for breath in a marsh sweet and salt. Find me, I am rooting for you",
+    "I rise to the moon, like a werevolf. Sailors fear my temper not my fangs",
+    "Name translates to 'little yellow animal' but is a plant", "Out of the red (algae), to thicken a bacterial bed",
+    "Once the fourth largest lake, but now almost gone",
+    "Laws of the Sea",
+    "I am tied to the oceans but I never drown",
+    "I am a peninsula of water, not land. If you don't know me yet, keep me at a distance",
+    "I have no feet, yet I walk beside the sea"
+    
+  )
+)
+
+crossword(clues)
+```

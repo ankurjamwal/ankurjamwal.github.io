@@ -1,0 +1,19 @@
+{
+  "hash": "cf79df172cb30cb9df18f65810d93c15",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Oceanic Realm\"\nauthor: \"Ankur Jamwal\"\ndate: \"2026-09-12\"\ncategories: [interactive, crossword, oceans]\ndraft: false\nformat: html\n---\n\nAn interactive crossword on oceans rebuilt here with a custom made R package [`crosswordwidget`](https://github.com/ankurjamwal/crosswordwidget). Click a cell, type an answer, use the arrow keys to move around, and use Check or Reveal when you're ready. Happy crosswording!\n\n\n::: {.cell}\n::: {.cell-output-display}\n\n```{=html}\n<div class=\"crossword html-widget html-fill-item\" id=\"htmlwidget-3ed4296ade855b56d5a1\" style=\"width:auto;height:auto;\"></div>\n<script type=\"application/json\" data-for=\"htmlwidget-3ed4296ade855b56d5a1\">{\"x\":{\"words\":[{\"number\":1,\"direction\":\"down\",\"answer\":\"UNCLOS\",\"clue\":\"Laws of the Sea\",\"row\":1,\"col\":2,\"connected\":true},{\"number\":2,\"direction\":\"down\",\"answer\":\"ZOOXANTHELLAE\",\"clue\":\"Name translates to 'little yellow animal' but is a plant\",\"row\":1,\"col\":8,\"connected\":true},{\"number\":3,\"direction\":\"down\",\"answer\":\"CHALLENGER\",\"clue\":\"A test and a quest of the heavens and the deep\",\"row\":1,\"col\":10,\"connected\":true},{\"number\":4,\"direction\":\"down\",\"answer\":\"ARAL\",\"clue\":\"Once the fourth largest lake, but now almost gone\",\"row\":1,\"col\":12,\"connected\":true},{\"number\":5,\"direction\":\"across\",\"answer\":\"PNEUMATOPHORE\",\"clue\":\"I gasp for breath in a marsh sweet and salt. Find me, I am rooting for you\",\"row\":2,\"col\":1,\"connected\":true},{\"number\":6,\"direction\":\"down\",\"answer\":\"MARIANA\",\"clue\":\"From Roman God of war and will require to dive very deep\",\"row\":2,\"col\":5,\"connected\":true},{\"number\":7,\"direction\":\"across\",\"answer\":\"BAY\",\"clue\":\"I am a peninsula of water, not land. If you don't know me yet, keep me at a distance\",\"row\":6,\"col\":4,\"connected\":true},{\"number\":8,\"direction\":\"across\",\"answer\":\"CORAL\",\"clue\":\"Jellyfish cousin but tougher and immobile. Do not be fooled by its pretty colours, it stings\",\"row\":8,\"col\":2,\"connected\":true},{\"number\":8,\"direction\":\"down\",\"answer\":\"COAST\",\"clue\":\"I have no feet, yet I walk beside the sea\",\"row\":8,\"col\":2,\"connected\":true},{\"number\":9,\"direction\":\"down\",\"answer\":\"KNOT\",\"clue\":\"I am tied to the oceans but I never drown\",\"row\":10,\"col\":5,\"connected\":true},{\"number\":10,\"direction\":\"across\",\"answer\":\"AGAR\",\"clue\":\"Out of the red (algae), to thicken a bacterial bed\",\"row\":12,\"col\":8,\"connected\":true},{\"number\":11,\"direction\":\"across\",\"answer\":\"TIDE\",\"clue\":\"I rise to the moon, like a werevolf. Sailors fear my temper not my fangs\",\"row\":13,\"col\":5,\"connected\":true}],\"nrow\":13,\"ncol\":13,\"cellSize\":32},\"evals\":[],\"jsHooks\":[]}</script>\n```\n\n:::\n:::\n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {
+      "include-in-header": [
+        "<link href=\"../../site_libs/htmltools-fill-0.5.9/fill.css\" rel=\"stylesheet\" />\n<script src=\"../../site_libs/htmlwidgets-1.6.4/htmlwidgets.js\"></script>\n<script src=\"../../site_libs/crossword-binding-0.0.0.9000/crossword.js\"></script>\n"
+      ]
+    },
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

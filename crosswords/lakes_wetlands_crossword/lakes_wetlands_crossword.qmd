@@ -3,7 +3,7 @@ title: "Lakes & Wetlands Crossword"
 subtitle: "Twelve terms from limnology and wetland ecology -- built with the crosswordwidget R package"
 author: "Ankur Jamwal"
 date: "2026-09-05"
-categories: [interactive, crossword]
+categories: [interactive, crossword, wetlands, lakes]
 draft: false
 format: html
 ---

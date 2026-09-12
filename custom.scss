@@ -286,6 +286,73 @@ h1, h2, h3, h4, h5, h6,
   color: $teal;
 }
 
+// Table-type listing (crosswords.qmd) — a flat row list instead of cards.
+// !important beats Quarto's own injected listing stylesheet, same as the
+// category-chip override above.
+.quarto-listing-table.table {
+  border: none !important;
+  border-collapse: collapse;
+  width: 100%;
+}
+.quarto-listing-table.table thead th {
+  background-color: transparent !important;
+  color: $graphite !important;
+  font-family: $font-mono;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  border: none !important;
+  border-bottom: 2px solid $graphite !important;
+  padding: 0.5rem 0.75rem 0.6rem;
+}
+.quarto-listing-table.table thead th a {
+  color: inherit;
+  text-decoration: none;
+}
+.quarto-listing-table.table tbody td {
+  border: none !important;
+  border-bottom: 1px solid $grid-gray !important;
+  padding: 0.9rem 0.75rem;
+  vertical-align: middle;
+}
+.quarto-listing-table.table tbody tr:last-child td {
+  border-bottom: none !important;
+}
+.quarto-listing-table.table tbody tr:hover {
+  background-color: rgba($teal, 0.06);
+}
+.quarto-listing-table .listing-title {
+  font-family: $font-sans;
+  font-weight: 600;
+  color: $graphite !important;
+  text-decoration: none;
+}
+.quarto-listing-table .listing-title:hover {
+  color: $teal !important;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.quarto-listing-table .listing-date {
+  font-family: $font-mono;
+  font-size: 0.85em;
+  color: $teal;
+  white-space: nowrap;
+}
+.quarto-listing-table .listing-categories {
+  font-family: $font-mono;
+  font-size: 0.75em;
+  color: lighten($graphite, 20%);
+  letter-spacing: 0.02em;
+}
+
+// Intro/outro copy placed around a table listing (crosswords.qmd)
+.listing-blurb {
+  margin: 0.5rem 0 1.5rem;
+  font-size: 0.95em;
+  color: lighten($graphite, 15%);
+}
+
 // Data tables — including the live ORCID/htmlTable output on about.qmd —
 // get a gridded, monospace, lab-readout treatment
 table {

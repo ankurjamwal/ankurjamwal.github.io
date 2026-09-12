@@ -10,7 +10,35 @@
 <atom:link href="https://ankurjamwal.github.io/crosswords.xml" rel="self" type="application/rss+xml"/>
 <description>Interactive puzzles, built with the crosswordwidget R package</description>
 <generator>quarto-1.9.38</generator>
-<lastBuildDate>Fri, 04 Sep 2026 18:30:00 GMT</lastBuildDate>
+<lastBuildDate>Fri, 11 Sep 2026 18:30:00 GMT</lastBuildDate>
+<item>
+  <title>Oceanic Realm</title>
+  <dc:creator>Ankur Jamwal</dc:creator>
+  <link>https://ankurjamwal.github.io/crosswords/oceans_crossword/oceans.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+
+<p>An interactive crossword on oceans rebuilt here with a custom made R package <a href="https://github.com/ankurjamwal/crosswordwidget"><code>crosswordwidget</code></a>. Click a cell, type an answer, use the arrow keys to move around, and use Check or Reveal when you’re ready. Happy crosswording!</p>
+<div class="cell">
+<div class="cell-output-display">
+<div class="crossword html-widget html-fill-item" id="htmlwidget-3ed4296ade855b56d5a1" style="width:auto;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-3ed4296ade855b56d5a1">{"x":{"words":[{"number":1,"direction":"down","answer":"UNCLOS","clue":"Laws of the Sea","row":1,"col":2,"connected":true},{"number":2,"direction":"down","answer":"ZOOXANTHELLAE","clue":"Name translates to 'little yellow animal' but is a plant","row":1,"col":8,"connected":true},{"number":3,"direction":"down","answer":"CHALLENGER","clue":"A test and a quest of the heavens and the deep","row":1,"col":10,"connected":true},{"number":4,"direction":"down","answer":"ARAL","clue":"Once the fourth largest lake, but now almost gone","row":1,"col":12,"connected":true},{"number":5,"direction":"across","answer":"PNEUMATOPHORE","clue":"I gasp for breath in a marsh sweet and salt. Find me, I am rooting for you","row":2,"col":1,"connected":true},{"number":6,"direction":"down","answer":"MARIANA","clue":"From Roman God of war and will require to dive very deep","row":2,"col":5,"connected":true},{"number":7,"direction":"across","answer":"BAY","clue":"I am a peninsula of water, not land. If you don't know me yet, keep me at a distance","row":6,"col":4,"connected":true},{"number":8,"direction":"across","answer":"CORAL","clue":"Jellyfish cousin but tougher and immobile. Do not be fooled by its pretty colours, it stings","row":8,"col":2,"connected":true},{"number":8,"direction":"down","answer":"COAST","clue":"I have no feet, yet I walk beside the sea","row":8,"col":2,"connected":true},{"number":9,"direction":"down","answer":"KNOT","clue":"I am tied to the oceans but I never drown","row":10,"col":5,"connected":true},{"number":10,"direction":"across","answer":"AGAR","clue":"Out of the red (algae), to thicken a bacterial bed","row":12,"col":8,"connected":true},{"number":11,"direction":"across","answer":"TIDE","clue":"I rise to the moon, like a werevolf. Sailors fear my temper not my fangs","row":13,"col":5,"connected":true}],"nrow":13,"ncol":13,"cellSize":32},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+
+
+
+ ]]></description>
+  <category>interactive</category>
+  <category>crossword</category>
+  <category>oceans</category>
+  <guid>https://ankurjamwal.github.io/crosswords/oceans_crossword/oceans.html</guid>
+  <pubDate>Fri, 11 Sep 2026 18:30:00 GMT</pubDate>
+</item>
 <item>
   <title>Lakes &amp; Wetlands Crossword</title>
   <dc:creator>Ankur Jamwal</dc:creator>
@@ -25,8 +53,8 @@
 <p>An interactive crossword on lakes and wetlands rebuilt here with a custom made R package <a href="https://github.com/ankurjamwal/crosswordwidget"><code>crosswordwidget</code></a>. Click a cell, type an answer, use the arrow keys to move around, and use Check or Reveal when you’re ready. Happy crosswording!</p>
 <div class="cell">
 <div class="cell-output-display">
-<div class="crossword html-widget html-fill-item" id="htmlwidget-550cf0ae999529e22ffb" style="width:auto;height:auto;"></div>
-<script type="application/json" data-for="htmlwidget-550cf0ae999529e22ffb">{"x":{"words":[{"number":1,"direction":"down","answer":"PHUMDI","clue":"Meitei word for the floating vegetation mats of Loktak Lake","row":1,"col":12,"connected":true},{"number":2,"direction":"across","answer":"BENTHIC","clue":"Term for organisms or processes at the lake or wetland bottom","row":2,"col":8,"connected":true},{"number":3,"direction":"down","answer":"EUTROPHIC","clue":"Nutrient-rich water body prone to algal blooms and oxygen depletion","row":2,"col":9,"connected":true},{"number":4,"direction":"down","answer":"PROFUNDAL","clue":"Deep lake zone below the compensation depth, too dark for photosynthesis","row":5,"col":7,"connected":true},{"number":5,"direction":"across","answer":"THERMOCLINE","clue":"Zone of rapid temperature change separating a lake's warm and cold layers","row":6,"col":4,"connected":true},{"number":6,"direction":"down","answer":"HYPOLIMNION","clue":"Cold, dense, often oxygen-poor bottom layer of a stratified lake","row":6,"col":5,"connected":true},{"number":7,"direction":"down","answer":"LITTORAL","clue":"Shallow, near-shore lake zone where rooted plants grow","row":6,"col":11,"connected":true},{"number":8,"direction":"down","answer":"EPILIMNION","clue":"Warm, sunlit, wind-mixed surface layer of a stratified lake","row":6,"col":14,"connected":true},{"number":9,"direction":"across","answer":"SWAMP","clue":"Wetland dominated by woody vegetation such as trees and shrubs","row":8,"col":1,"connected":true},{"number":10,"direction":"down","answer":"MARSH","clue":"Continuously inundated wetland dominated by soft-stemmed plants","row":10,"col":3,"connected":true},{"number":11,"direction":"across","answer":"RAMSAR","clue":"Iranian city that gave its name to the global wetlands treaty","row":12,"col":3,"connected":true},{"number":12,"direction":"across","answer":"MANGROVE","clue":"Salt-tolerant coastal wetland tree with prop roots and pneumatophores","row":16,"col":3,"connected":true}],"nrow":16,"ncol":14,"cellSize":32},"evals":[],"jsHooks":[]}</script>
+<div class="crossword html-widget html-fill-item" id="htmlwidget-f6aae28e1f004f2948bd" style="width:auto;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-f6aae28e1f004f2948bd">{"x":{"words":[{"number":1,"direction":"down","answer":"PHUMDI","clue":"Meitei word for the floating vegetation mats of Loktak Lake","row":1,"col":12,"connected":true},{"number":2,"direction":"across","answer":"BENTHIC","clue":"Term for organisms or processes at the lake or wetland bottom","row":2,"col":8,"connected":true},{"number":3,"direction":"down","answer":"EUTROPHIC","clue":"Nutrient-rich water body prone to algal blooms and oxygen depletion","row":2,"col":9,"connected":true},{"number":4,"direction":"down","answer":"PROFUNDAL","clue":"Deep lake zone below the compensation depth, too dark for photosynthesis","row":5,"col":7,"connected":true},{"number":5,"direction":"across","answer":"THERMOCLINE","clue":"Zone of rapid temperature change separating a lake's warm and cold layers","row":6,"col":4,"connected":true},{"number":6,"direction":"down","answer":"HYPOLIMNION","clue":"Cold, dense, often oxygen-poor bottom layer of a stratified lake","row":6,"col":5,"connected":true},{"number":7,"direction":"down","answer":"LITTORAL","clue":"Shallow, near-shore lake zone where rooted plants grow","row":6,"col":11,"connected":true},{"number":8,"direction":"down","answer":"EPILIMNION","clue":"Warm, sunlit, wind-mixed surface layer of a stratified lake","row":6,"col":14,"connected":true},{"number":9,"direction":"across","answer":"SWAMP","clue":"Wetland dominated by woody vegetation such as trees and shrubs","row":8,"col":1,"connected":true},{"number":10,"direction":"down","answer":"MARSH","clue":"Continuously inundated wetland dominated by soft-stemmed plants","row":10,"col":3,"connected":true},{"number":11,"direction":"across","answer":"RAMSAR","clue":"Iranian city that gave its name to the global wetlands treaty","row":12,"col":3,"connected":true},{"number":12,"direction":"across","answer":"MANGROVE","clue":"Salt-tolerant coastal wetland tree with prop roots and pneumatophores","row":16,"col":3,"connected":true}],"nrow":16,"ncol":14,"cellSize":32},"evals":[],"jsHooks":[]}</script>
 </div>
 </div>
 
@@ -35,6 +63,8 @@
  ]]></description>
   <category>interactive</category>
   <category>crossword</category>
+  <category>wetlands</category>
+  <category>lakes</category>
   <guid>https://ankurjamwal.github.io/crosswords/lakes_wetlands_crossword/lakes_wetlands_crossword.html</guid>
   <pubDate>Fri, 04 Sep 2026 18:30:00 GMT</pubDate>
 </item>

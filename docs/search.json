@@ -88,7 +88,7 @@
     "href": "crosswords.html",
     "title": "Crosswords",
     "section": "",
-    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\nLakes & Wetlands Crossword\n\n2 min\n\n\ninteractive\n\ncrossword\n\n\n\n\nSep 5, 2026\n\n\n\n\n\n\nNo matching items"
+    "text": "A new interactive crossword goes up here every week, each one built around terms from climate, food systems, or ecology. Click a title below to open it and start solving — answers can be checked or revealed right in the puzzle.\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\nDate\n\n\n\nCategories\n\n\n\n\n\n\n\n\nOceanic Realm\n\n\nSep 12, 2026\n\n\ninteractive, crossword, oceans\n\n\n\n\n\n\nLakes & Wetlands Crossword\n\n\nSep 5, 2026\n\n\ninteractive, crossword, wetlands, lakes\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/AR6/ar6.html",
@@ -145,5 +145,12 @@
     "title": "Understanding Skepticism Behind Climate Change",
     "section": "Conclusion",
     "text": "Conclusion\nThe data, that the climate scientists use to prove climate change and global warming, itself sometimes shows that our Earth is warming up not because of anthropogenic CO2, but due to some other unknown reasons. It could be solar activity, cloud behaviour or just an unknown entity that we are chosing to ignore because of our obsession to shut the fossil fuel industry. Whether we like it or not, the fossil fuel industry is here to stay for some time because we still haven’t found proper alternatives for it. People are against wind energy because it kills birds. People do not want nuclear energy because we fear incidences like Chernobyl and Fukushima. Solar is just not dependable; especially during rainy days. Now is the time for new blog on why scientists think that anthropogenic climate change is real. I hope you enjoyed this blog. If yes then please share it with your friends and drop a comment below. I would love to hear from you. Just be nice though 😊."
+  },
+  {
+    "objectID": "crosswords/oceans_crossword/oceans.html",
+    "href": "crosswords/oceans_crossword/oceans.html",
+    "title": "Oceanic Realm",
+    "section": "",
+    "text": "An interactive crossword on oceans rebuilt here with a custom made R package crosswordwidget. Click a cell, type an answer, use the arrow keys to move around, and use Check or Reveal when you’re ready. Happy crosswording!"
   }
 ]

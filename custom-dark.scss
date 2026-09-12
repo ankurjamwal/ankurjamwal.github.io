@@ -255,6 +255,69 @@ h1, h2, h3, h4, h5, h6,
   color: $teal;
 }
 
+.quarto-listing-table.table {
+  border: none !important;
+  border-collapse: collapse;
+  width: 100%;
+}
+.quarto-listing-table.table thead th {
+  background-color: transparent !important;
+  color: $ink-light !important;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  border: none !important;
+  border-bottom: 2px solid $ink-light !important;
+  padding: 0.5rem 0.75rem 0.6rem;
+}
+.quarto-listing-table.table thead th a {
+  color: inherit;
+  text-decoration: none;
+}
+.quarto-listing-table.table tbody td {
+  border: none !important;
+  border-bottom: 1px solid $grid-gray !important;
+  padding: 0.9rem 0.75rem;
+  vertical-align: middle;
+}
+.quarto-listing-table.table tbody tr:last-child td {
+  border-bottom: none !important;
+}
+.quarto-listing-table.table tbody tr:hover {
+  background-color: rgba($teal, 0.1);
+}
+.quarto-listing-table .listing-title {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 600;
+  color: $ink-light !important;
+  text-decoration: none;
+}
+.quarto-listing-table .listing-title:hover {
+  color: $teal !important;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.quarto-listing-table .listing-date {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.85em;
+  color: $teal;
+  white-space: nowrap;
+}
+.quarto-listing-table .listing-categories {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.75em;
+  color: rgba($ink-light, 0.7);
+  letter-spacing: 0.02em;
+}
+
+.listing-blurb {
+  margin: 0.5rem 0 1.5rem;
+  font-size: 0.95em;
+  color: rgba($ink-light, 0.85);
+}
+
 table {
   font-family: "IBM Plex Mono", monospace;
   font-size: 0.9em;

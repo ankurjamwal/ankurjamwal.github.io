@@ -10,6 +10,7 @@
   {
     "listing": "/crosswords.html",
     "items": [
+      "/crosswords/oceans_crossword/oceans.html",
       "/crosswords/lakes_wetlands_crossword/lakes_wetlands_crossword.html"
     ]
   }

@@ -2,15 +2,23 @@
 title: "Crosswords"
 description: "Interactive puzzles, built with the crosswordwidget R package"
 listing:
+  id: crossword-listing
   contents: crosswords/**/*.qmd
   sort: "date desc"
-  type: grid
+  type: table
   categories: true
   sort-ui: true
   filter-ui: true
-  fields: [title, date, categories, reading-time]
+  fields: [title, date, categories]
   feed: true
 
 page-layout: full
 title-block-banner: true
 ---
+
+::: listing-blurb
+A new interactive crossword goes up here every week, each one built around terms from climate, food systems, or ecology. Click a title below to open it and start solving — answers can be checked or revealed right in the puzzle.
+:::
+
+::: {#crossword-listing}
+:::
